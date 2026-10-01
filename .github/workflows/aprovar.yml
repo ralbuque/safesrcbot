@@ -1,0 +1,73 @@
+name: Publicar rascunho aprovado
+
+# Dispara quando a label "aprovado" é adicionada a uma issue de rascunho.
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: safesrcbot-historico
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    # Só o dono do repositório pode aprovar.
+    if: >-
+      github.event.label.name == 'aprovado' &&
+      contains(github.event.issue.labels.*.name, 'rascunho') &&
+      github.event.sender.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Publicar no X
+        env:
+          # Passado por env (nunca interpolado no script) para evitar injeção.
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python -m bot publicar-rascunho
+
+      - name: Fechar issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          N: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$N" --body-file saida/comentario.md
+          gh issue edit "$N" --remove-label rascunho --remove-label aprovado --add-label publicado
+          gh issue close "$N"
+
+      - name: Salvar histórico
+        run: |
+          git config user.name "safesrcbot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/historico.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "historico: rascunho #${{ github.event.issue.number }} publicado [skip ci]"
+          git pull --rebase
+          git push
+
+      - name: Avisar falha
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          N: ${{ github.event.issue.number }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue comment "$N" --body "❌ Falha ao publicar. Veja o log: $RUN_URL — corrija e adicione a label \`aprovado\` de novo."
+          gh issue edit "$N" --remove-label aprovado
