@@ -14,13 +14,15 @@
     },
     {
       "id": "b4409a570832e0f9",
-      "data": "2026-10-01T17:20:25+00:00",
+      "data": "2026-10-01T22:15:59+00:00",
       "categoria": "incidente",
       "titulo": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
       "fonte_url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
       "cves": [],
       "texto": "Bitget confirmou que o roubo de US$ 387,5 mi explorou um zero-day em produtos de segurança de terceiros. Segundo a SlowMist, o invasor leu a senha do banco numa variável de ambiente. Lição: cofre de segredos, credenciais curtas e gestão isolada.\n\nhttps://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2105783815255826901",
+      "issue": 2
     },
     {
       "id": "346b23ad75b1b976",
