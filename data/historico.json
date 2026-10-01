@@ -21,6 +21,18 @@
       "cves": [],
       "texto": "Bitget confirmou que o roubo de US$ 387,5 mi explorou um zero-day em produtos de segurança de terceiros. Segundo a SlowMist, o invasor leu a senha do banco numa variável de ambiente. Lição: cofre de segredos, credenciais curtas e gestão isolada.\n\nhttps://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
       "status": "rascunho"
+    },
+    {
+      "id": "346b23ad75b1b976",
+      "data": "2026-10-01T20:19:35+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+      "fonte_url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+      "cves": [
+        "CVE-2026-76504"
+      ],
+      "texto": "CISA incluiu no KEV a CVE-2026-76504 (CVSS 9.8) no Cisco Catalyst SD-WAN Manager: URI encoding mal tratado permite bypass de auth e acesso admin à API. Lição: normalize a URL antes de decidir autorização. Atualizem e chequem os IoCs da Cisco.\n\nhttps://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+      "status": "rascunho"
     }
   ]
 }
