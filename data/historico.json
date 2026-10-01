@@ -1,3 +1,14 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": "a748e8f0fd47be44",
+      "data": "2026-10-01T00:56:02+00:00",
+      "categoria": "supply-chain",
+      "titulo": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+      "fonte_url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+      "cves": [],
+      "texto": "PhantomSub: a OX Security achou 101 pacotes npm, forks/mods do Baileys, que inscrevem a conta WhatsApp do dev em canais de spam. ~490 mil downloads, e a maioria segue no ar. Desconfie de pacote que pede login de conta pessoal e audite seus lockfiles.\n\nhttps://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+      "status": "rascunho"
+    }
+  ]
 }
