@@ -49,6 +49,18 @@
       "status": "publicado",
       "post_id": "2105834624354025649",
       "issue": 4
+    },
+    {
+      "id": "da984ff8e8ff4eb9",
+      "data": "2026-10-02T16:35:41+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+      "fonte_url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+      "cves": [
+        "CVE-2026-104286"
+      ],
+      "texto": "CISA incluiu no KEV a CVE-2026-104286 (CVSS 9.8) no Fortinet FortiMail: requisições HTTP forjadas permitem gravar arquivos arbitrários sem autenticação. Há exploração ativa. Aplique o patch da Fortinet e tire a interface de gestão da internet.\n\nhttps://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+      "status": "rascunho"
     }
   ]
 }
