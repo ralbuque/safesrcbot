@@ -40,13 +40,15 @@
     },
     {
       "id": "1607ec8054fdfa90",
-      "data": "2026-10-01T23:51:36+00:00",
+      "data": "2026-10-02T01:37:53+00:00",
       "categoria": "supply-chain",
       "titulo": "Re-Enabled GitHub Actions Expose Thousands of Repositories to Mini Shai-Hulud",
       "fonte_url": "https://socket.dev/blog/mini-shai-hulud-actions",
       "cves": [],
       "texto": "As actions actions-cool/issues-helper e actions-cool/maintain-one-comment, comprometidas em maio (Mini Shai-Hulud), foram reativadas no GitHub com as tags maliciosas intactas. Fixe actions por SHA de commit e rotacione segredos se usou alguma.\n\nhttps://socket.dev/blog/mini-shai-hulud-actions",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2105834624354025649",
+      "issue": 4
     }
   ]
 }
