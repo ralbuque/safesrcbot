@@ -66,13 +66,15 @@
     },
     {
       "id": "96dff7badeaa03a0",
-      "data": "2026-10-02T23:43:57+00:00",
+      "data": "2026-10-03T11:23:37+00:00",
       "categoria": "pesquisa",
       "titulo": "Exposed GitHub Credentials: 543,699 Live Secrets Found",
       "fonte_url": "https://cybernews.com/security/github-exposed-credentials-contain-thousands-gemini-keys/",
       "cves": [],
       "texto": "Estudo da Truffle Security analisou 224,6 milhões de repositórios públicos do GitHub e confirmou 543.699 credenciais ainda ativas (Gemini, AWS, bancos). Segredo commitado não some: revogue e rotacione, e ative secret scanning no CI.\n\nhttps://cybernews.com/security/github-exposed-credentials-contain-thousands-gemini-keys/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2106344416738750781",
+      "issue": 6
     },
     {
       "id": "5ef20bc514671882",
