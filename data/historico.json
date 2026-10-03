@@ -76,7 +76,7 @@
     },
     {
       "id": "5ef20bc514671882",
-      "data": "2026-10-03T05:10:55+00:00",
+      "data": "2026-10-03T11:22:54+00:00",
       "categoria": "ia-llm",
       "titulo": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
       "fonte_url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
@@ -84,7 +84,9 @@
         "CVE-2026-90970"
       ],
       "texto": "GitLab corrigiu a CVE-2026-90970 (CVSS 9.9) no AI Gateway self-hosted: usuário com acesso ao Duo Agent Platform escapa do sandbox de templates e executa comandos. Atualize para 19.2.4, 19.3.2 ou 19.4.1; o gateway tem imagem/Helm próprios.\n\nhttps://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2106344234014101998",
+      "issue": 7
     }
   ]
 }
