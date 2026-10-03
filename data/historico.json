@@ -99,6 +99,19 @@
       "cves": [],
       "texto": "Unsloth Studio: só selecionar um modelo na interface já executava código Python do repositório Hugging Face, antes de qualquer load. Corrigido na 2026.6.9. Atualize e trate repositórios de modelos como código não confiável.\n\nhttps://www.pillar.security/blog/look-dont-load-model-inspection-in-unsloth-studio-leads-to-critical-arbitrary-code-execution",
       "status": "rascunho"
+    },
+    {
+      "id": "9e6c7c1fe6e53c79",
+      "data": "2026-10-03T18:39:53+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "DIVD says Zammad zero-days enabled AI-driven network breach",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+      "cves": [
+        "CVE-2026-102489",
+        "CVE-2026-102490"
+      ],
+      "texto": "Dois zero-days no Zammad (helpdesk open source), CVE-2026-102489 e CVE-2026-102490, foram encadeados por um agente de IA contra o DIVD: sessão sequestrada, RCE e root em segundos. Quem roda Zammad deve atualizar para a versão 7 ou tirar a instância do ar.\n\nhttps://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+      "status": "rascunho"
     }
   ]
 }
