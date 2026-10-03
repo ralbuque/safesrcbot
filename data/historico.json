@@ -89,6 +89,16 @@
       "status": "publicado",
       "post_id": "2106344234014101998",
       "issue": 7
+    },
+    {
+      "id": "47b09b725eb306f1",
+      "data": "2026-10-03T15:07:26+00:00",
+      "categoria": "ia-llm",
+      "titulo": "Look, Don't Load: Model Inspection in Unsloth Studio Leads to Critical Arbitrary Code Execution",
+      "fonte_url": "https://www.pillar.security/blog/look-dont-load-model-inspection-in-unsloth-studio-leads-to-critical-arbitrary-code-execution",
+      "cves": [],
+      "texto": "Unsloth Studio: só selecionar um modelo na interface já executava código Python do repositório Hugging Face, antes de qualquer load. Corrigido na 2026.6.9. Atualize e trate repositórios de modelos como código não confiável.\n\nhttps://www.pillar.security/blog/look-dont-load-model-inspection-in-unsloth-studio-leads-to-critical-arbitrary-code-execution",
+      "status": "rascunho"
     }
   ]
 }
