@@ -116,6 +116,18 @@
       "status": "publicado",
       "post_id": "2106471886242619589",
       "issue": 9
+    },
+    {
+      "id": "dcd4b62c704ac0a9",
+      "data": "2026-10-04T05:43:55+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "fonte_url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "cves": [
+        "CVE-2026-1581"
+      ],
+      "texto": "SQL injection sem autenticação no plugin wpForo Forum (WordPress) está sendo explorada: CVE-2026-1581, CVSS 7.5, versões até 2.4.14. Atualize o plugin. E o backdoor \"SC\" se recria a partir de arquivos, banco e memória: limpar só os arquivos não basta.\n\nhttps://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "status": "rascunho"
     }
   ]
 }
