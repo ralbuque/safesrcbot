@@ -133,7 +133,7 @@
     },
     {
       "id": "d47f287039294d5d",
-      "data": "2026-10-05T19:45:09+00:00",
+      "data": "2026-10-05T22:59:53+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Citrix patches NetScaler SAML zero-day exploited in attacks",
       "fonte_url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
@@ -141,7 +141,9 @@
         "CVE-2026-88779"
       ],
       "texto": "Citrix lançou updates emergenciais para NetScaler ADC e Gateway: a CVE-2026-88779 (CVSS 8.7), falha de memória na autenticação SAML, é explorada como zero-day para DoS. Há investigação sobre RCE. Aplique o patch do aviso da Citrix.\n\nhttps://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2107244414028353778",
+      "issue": 11
     }
   ]
 }
