@@ -158,6 +158,18 @@
       "status": "publicado",
       "post_id": "2107419061915361659",
       "issue": 12
+    },
+    {
+      "id": "f57b4be0b51a470e",
+      "data": "2026-10-06T17:08:36+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+      "fonte_url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+      "cves": [
+        "CVE-2026-21589"
+      ],
+      "texto": "Atlassian corrigiu o CVE-2026-21589 (CVSS 4.0: 9.3): path traversal sem autenticação em 8 produtos Data Center, como Jira, Confluence, Bitbucket e Bamboo. Lê arquivos do web root se o caminho for conhecido. Atualize; sem patch, bloqueie via WAF.\n\nhttps://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+      "status": "rascunho"
     }
   ]
 }
