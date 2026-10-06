@@ -144,6 +144,18 @@
       "status": "publicado",
       "post_id": "2107244414028353778",
       "issue": 11
+    },
+    {
+      "id": "00cd8ad7dcd1558b",
+      "data": "2026-10-06T06:12:38+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+      "fonte_url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+      "cves": [
+        "CVE-2026-61500"
+      ],
+      "texto": "Rejetto HFS 3.0.0 a 3.2.0 gera a chave de assinatura de sessão com Math.random(). Dá para forjar cookie de admin e chegar a RCE (CVE-2026-61500, CVSS 9.3), já explorado. Atualize para 3.2.1+. Lição: segredo se gera com CSPRNG, nunca com Math.random().\n\nhttps://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+      "status": "rascunho"
     }
   ]
 }
