@@ -172,6 +172,16 @@
       "status": "publicado",
       "post_id": "2107519383190794352",
       "issue": 13
+    },
+    {
+      "id": "66a8e352cb8ae856",
+      "data": "2026-10-06T20:13:03+00:00",
+      "categoria": "ia-llm",
+      "titulo": "GitHub Copilot CLI vulnerability: Cryptographic Context Injection steals developer secrets",
+      "fonte_url": "https://adversa.ai/blog/cryptographic-context-injection-github-copilot/",
+      "cves": [],
+      "texto": "Adversa AI: o Copilot CLI em autopilot leu um .env.prod e enviou o conteúdo ao atacante em 28 s, ao abrir uma página com instruções cifradas (Cryptographic Context Injection). Evite autopilot com URLs externas e mantenha segredos fora do projeto.\n\nhttps://adversa.ai/blog/cryptographic-context-injection-github-copilot/",
+      "status": "rascunho"
     }
   ]
 }
