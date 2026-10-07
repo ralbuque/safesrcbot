@@ -184,6 +184,18 @@
       "status": "publicado",
       "post_id": "2107600043020882068",
       "issue": 14
+    },
+    {
+      "id": "4d160aba1a13f600",
+      "data": "2026-10-07T20:34:51+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "fonte_url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+      "cves": [
+        "CVE-2026-105192"
+      ],
+      "texto": "LMCache (cache p/ servidores LLM como vLLM) tem RCE sem autenticação, CVE-2026-105192 (9.8), nas versões 0.3.9 a 0.5.5. Sem correção. Só afeta o modo multiprocess em endereço roteável. Mitigação: manter na localhost e restringir a porta.\n\nhttps://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+      "status": "rascunho"
     }
   ]
 }
