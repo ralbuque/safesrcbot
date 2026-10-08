@@ -198,6 +198,16 @@
       "status": "publicado",
       "post_id": "2107950498775175642",
       "issue": 15
+    },
+    {
+      "id": "39f490a9561dabbd",
+      "data": "2026-10-08T00:08:32+00:00",
+      "categoria": "supply-chain",
+      "titulo": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "fonte_url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "cves": [],
+      "texto": "Campanha MALFEX no npm: 8 pacotes maliciosos (40.767 downloads) entregam Overlord RAT e stealer no Windows via scripts de install, como tlxbnhd, tldriver, mxdriver e img-to-native. Revise lockfiles e use --ignore-scripts no CI.\n\nhttps://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "status": "rascunho"
     }
   ]
 }
