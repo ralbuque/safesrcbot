@@ -210,6 +210,16 @@
       "status": "publicado",
       "post_id": "2108090283313287170",
       "issue": 16
+    },
+    {
+      "id": "8c2789085563f082",
+      "data": "2026-10-08T17:49:52+00:00",
+      "categoria": "supply-chain",
+      "titulo": "Tensorlake npm Package Compromised to Spread Shai-Hulud Worm and Steal Developer Secrets",
+      "fonte_url": "https://cybersecuritynews.com/tensorlake-npm-package/",
+      "cves": [],
+      "texto": "O pacote npm tensorlake@0.5.144 saiu com uma nova variante do worm Shai-Hulud, após commits no GitHub com identidade de mantenedor. Rouba tokens npm/GitHub, chaves cloud e SSH. Se instalou: remova, rotacione segredos e revise o CI.\n\nhttps://cybersecuritynews.com/tensorlake-npm-package/",
+      "status": "rascunho"
     }
   ]
 }
