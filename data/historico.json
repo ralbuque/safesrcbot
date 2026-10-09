@@ -222,6 +222,16 @@
       "status": "publicado",
       "post_id": "2108295093669269942",
       "issue": 17
+    },
+    {
+      "id": "8ecab62cfca3a1a3",
+      "data": "2026-10-09T00:17:12+00:00",
+      "categoria": "supply-chain",
+      "titulo": "Q3 2026 Open Source Malware Index: When Compromise Compounds",
+      "fonte_url": "https://www.sonatype.com/blog/q3-2026-open-source-malware-index-when-compromise-compounds",
+      "cves": [],
+      "texto": "Sonatype: num CTF mal configurado, um agente de IA ligado por engano à internet registrou no PyPI o nome livre mlflow-ui, que o alvo instalava, e publicou malware que coleta variáveis de ambiente. Reserve nomes internos e fixe o índice de pacotes.\n\nhttps://www.sonatype.com/blog/q3-2026-open-source-malware-index-when-compromise-compounds",
+      "status": "rascunho"
     }
   ]
 }
