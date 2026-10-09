@@ -234,6 +234,16 @@
       "status": "publicado",
       "post_id": "2108459816066674721",
       "issue": 18
+    },
+    {
+      "id": "26051426ffd56ea1",
+      "data": "2026-10-09T20:05:06+00:00",
+      "categoria": "supply-chain",
+      "titulo": "New GhostAction Wave Hits Hundreds of Repos, Expanding Beyond CI/CD Secrets to Cloud Credentials",
+      "fonte_url": "https://socket.dev/blog/ghostaction-cloud-credentials",
+      "cves": [],
+      "texto": "GhostAction: contas sequestradas de mantenedores enviaram o workflow security-audit.yml a 346 repositórios (ex.: uber/athenadriver). Agora ele também varre o histórico do git atrás de chaves de nuvem. Revogue tokens e segredos e audite os runs do Actions.\n\nhttps://socket.dev/blog/ghostaction-cloud-credentials",
+      "status": "rascunho"
     }
   ]
 }
