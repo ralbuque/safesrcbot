@@ -244,6 +244,19 @@
       "cves": [],
       "texto": "GhostAction: contas sequestradas de mantenedores enviaram o workflow security-audit.yml a 346 repositórios (ex.: uber/athenadriver). Agora ele também varre o histórico do git atrás de chaves de nuvem. Revogue tokens e segredos e audite os runs do Actions.\n\nhttps://socket.dev/blog/ghostaction-cloud-credentials",
       "status": "rascunho"
+    },
+    {
+      "id": "d96e6fa992364d21",
+      "data": "2026-10-09T23:58:57+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+      "fonte_url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+      "cves": [
+        "CVE-2016-3081",
+        "CVE-2023-22894"
+      ],
+      "texto": "CISA incluiu no KEV falhas antigas exploradas pelo Flax Typhoon, como Apache Struts (CVE-2016-3081, RCE com Dynamic Method Invocation ativo) e Strapi (CVE-2023-22894; corrigido na 4.8.0). Audite dependências legadas e atualize.\n\nhttps://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+      "status": "rascunho"
     }
   ]
 }
