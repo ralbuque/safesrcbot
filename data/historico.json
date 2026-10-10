@@ -261,6 +261,16 @@
       "status": "publicado",
       "post_id": "2108793829348544667",
       "issue": 20
+    },
+    {
+      "id": "b8e2f39fd1297ab6",
+      "data": "2026-10-10T05:43:32+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "fonte_url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "cves": [],
+      "texto": "Exploit público (AnyPwn) para o AnyDesk Linux 8.0.2 dá execução de comando como root sem autenticação, via heap overflow na porta TCP 7070. Sem CVE nem advisory; o fix saiu na 8.0.3 em junho. Atualize para 8.0.3+ e restrinja a porta 7070.\n\nhttps://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "status": "rascunho"
     }
   ]
 }
