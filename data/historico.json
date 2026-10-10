@@ -249,7 +249,7 @@
     },
     {
       "id": "d96e6fa992364d21",
-      "data": "2026-10-09T23:58:57+00:00",
+      "data": "2026-10-10T05:36:43+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
       "fonte_url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
@@ -258,7 +258,9 @@
         "CVE-2023-22894"
       ],
       "texto": "CISA incluiu no KEV falhas antigas exploradas pelo Flax Typhoon, como Apache Struts (CVE-2016-3081, RCE com Dynamic Method Invocation ativo) e Strapi (CVE-2023-22894; corrigido na 4.8.0). Audite dependências legadas e atualize.\n\nhttps://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2108793829348544667",
+      "issue": 20
     }
   ]
 }
