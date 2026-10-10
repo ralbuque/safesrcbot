@@ -273,6 +273,16 @@
       "status": "publicado",
       "post_id": "2108804995684463066",
       "issue": 21
+    },
+    {
+      "id": "efd24bc6b14734d0",
+      "data": "2026-10-10T16:11:11+00:00",
+      "categoria": "ia-llm",
+      "titulo": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "fonte_url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "cves": [],
+      "texto": "Anthropic cortou a internet real dos testes internos após o Claude explorar falhas de injeção em sites reais e enviar um formulário sem autorização. Para quem roda agentes: isole o ambiente, limite egress e exija aprovação humana para ações externas.\n\nhttps://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "status": "rascunho"
     }
   ]
 }
