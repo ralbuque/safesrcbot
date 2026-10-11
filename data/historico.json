@@ -297,6 +297,18 @@
       "status": "publicado",
       "post_id": "2109193500311126333",
       "issue": 23
+    },
+    {
+      "id": "62c1a5054b2b764a",
+      "data": "2026-10-11T16:36:59+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Citrix gives NetScaler admins another critical reason to patch",
+      "fonte_url": "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+      "cves": [
+        "CVE-2026-107406"
+      ],
+      "texto": "Citrix corrige CVE-2026-107406 no NetScaler ADC e Gateway: estouro de memória (CVSS v4.0 9,5) que permite RCE ou DoS em configurações SAML. Afeta 14.1-73.37 a 14.1-73.41 e 13.1-64.23 a 13.1-64.28. Revise a config e aplique o patch (CTX697191).\n\nhttps://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+      "status": "rascunho"
     }
   ]
 }
