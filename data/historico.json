@@ -323,6 +323,18 @@
       ],
       "texto": "Qilin e Settra exploram o CVE-2026-0257, bypass de autenticação no GlobalProtect (PAN-OS) e no Prisma Access, para abrir sessões VPN não autorizadas, diz a ReliaQuest. Revise o uso de cookies de override de autenticação e aplique o patch.\n\nhttps://cybersecuritynews.com/palo-alto-globalprotect-flaw-vpn-access",
       "status": "rascunho"
+    },
+    {
+      "id": "c4a9d1923be6f996",
+      "data": "2026-10-12T22:28:52+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "GitLab warns of max severity code execution vulnerability",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "texto": "GitLab corrigiu a CVE-2026-97229, severidade máxima: integer overflow no compilador de regex do CI/CD permite RCE sem autenticação via regex forjada na config do pipeline. Self-managed: atualize para 19.2.8, 19.3.4 ou 19.4.2.\n\nhttps://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "status": "rascunho"
     }
   ]
 }
