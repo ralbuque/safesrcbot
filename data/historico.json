@@ -328,7 +328,7 @@
     },
     {
       "id": "c4a9d1923be6f996",
-      "data": "2026-10-12T22:28:52+00:00",
+      "data": "2026-10-13T01:22:38+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "GitLab warns of max severity code execution vulnerability",
       "fonte_url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
@@ -336,7 +336,9 @@
         "CVE-2026-97229"
       ],
       "texto": "GitLab corrigiu a CVE-2026-97229, severidade máxima: integer overflow no compilador de regex do CI/CD permite RCE sem autenticação via regex forjada na config do pipeline. Self-managed: atualize para 19.2.8, 19.3.4 ou 19.4.2.\n\nhttps://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2109817051179348438",
+      "issue": 26
     }
   ]
 }
