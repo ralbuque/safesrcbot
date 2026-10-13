@@ -339,6 +339,16 @@
       "status": "publicado",
       "post_id": "2109817051179348438",
       "issue": 26
+    },
+    {
+      "id": "60f6b4ed50af3dc8",
+      "data": "2026-10-13T18:06:59+00:00",
+      "categoria": "supply-chain",
+      "titulo": "npm Trusted Publishing flaw exposed 1,500+ npm packages to takeover",
+      "fonte_url": "https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/",
+      "cves": [],
+      "texto": "SlugFest: o Trusted Publishing do npm confiava no nome do repo GitHub, não no ID numérico. Quem registrasse um nome abandonado publicava em 1.500+ pacotes, com provenance válida. GitHub diz ter corrigido. Revise seus vínculos de publisher.\n\nhttps://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/",
+      "status": "rascunho"
     }
   ]
 }
