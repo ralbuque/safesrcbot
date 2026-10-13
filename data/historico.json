@@ -351,6 +351,18 @@
       "status": "publicado",
       "post_id": "2110085678235320822",
       "issue": 27
+    },
+    {
+      "id": "3e1be4608ce99e8e",
+      "data": "2026-10-13T20:37:55+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "SAP warns of maximum severity OAuth2 SSRF security flaw",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
+      "cves": [
+        "CVE-2026-89111"
+      ],
+      "texto": "SAP Cloud SDK for Python (< 0.45.2) tem SSRF crítico no OAuth2 (CVE-2026-89111, CVSS 10). Um tenant_subdomain controlado pelo atacante redireciona o pedido de token e vaza client credentials. Atualize para 0.45.2+ e use allowlist de subdomínios.\n\nhttps://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
+      "status": "rascunho"
     }
   ]
 }
