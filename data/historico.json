@@ -314,7 +314,7 @@
     },
     {
       "id": "50d3900652532023",
-      "data": "2026-10-11T23:37:29+00:00",
+      "data": "2026-10-13T01:22:13+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Ransomware Actors Exploiting Palo Alto GlobalProtect Flaw for Stealthy VPN Access",
       "fonte_url": "https://cybersecuritynews.com/palo-alto-globalprotect-flaw-vpn-access",
@@ -322,7 +322,9 @@
         "CVE-2026-0257"
       ],
       "texto": "Qilin e Settra exploram o CVE-2026-0257, bypass de autenticação no GlobalProtect (PAN-OS) e no Prisma Access, para abrir sessões VPN não autorizadas, diz a ReliaQuest. Revise o uso de cookies de override de autenticação e aplique o patch.\n\nhttps://cybersecuritynews.com/palo-alto-globalprotect-flaw-vpn-access",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2109816947777151328",
+      "issue": 25
     },
     {
       "id": "c4a9d1923be6f996",
