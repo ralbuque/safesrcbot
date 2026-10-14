@@ -363,6 +363,19 @@
       ],
       "texto": "SAP Cloud SDK for Python (< 0.45.2) tem SSRF crítico no OAuth2 (CVE-2026-89111, CVSS 10). Um tenant_subdomain controlado pelo atacante redireciona o pedido de token e vaza client credentials. Atualize para 0.45.2+ e use allowlist de subdomínios.\n\nhttps://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
       "status": "rascunho"
+    },
+    {
+      "id": "0dd6c306a985f25e",
+      "data": "2026-10-14T19:19:00+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Security update available for Adobe ColdFusion (APSB26-144)",
+      "fonte_url": "https://www.adobe.com/trust/security/products/coldfusion/apsb26-144.html",
+      "cves": [
+        "CVE-2026-105899",
+        "CVE-2026-106622"
+      ],
+      "texto": "Adobe publicou o boletim APSB26-144 do ColdFusion com várias falhas críticas, entre elas CVE-2026-105899 (upload de arquivo perigoso, execução de código) e CVE-2026-106622 (SSRF), ambas CVSS 10.0. Aplique as atualizações de outubro.\n\nhttps://www.adobe.com/trust/security/products/coldfusion/apsb26-144.html",
+      "status": "rascunho"
     }
   ]
 }
