@@ -383,7 +383,7 @@
     },
     {
       "id": "494354fb8ea0cd02",
-      "data": "2026-10-14T23:09:02+00:00",
+      "data": "2026-10-15T06:18:29+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
       "fonte_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
@@ -392,7 +392,9 @@
         "CVE-2026-92707"
       ],
       "texto": "Patch Tuesday de outubro corrigiu 1.411 falhas. Para quem usa .NET: CVE-2026-108398 (bypass de recurso de segurança no .NET Framework) e CVE-2026-92707 (DoS na MessagePack-CSharp) já eram públicas. Atualize e revise o que desserializa dados da rede.\n\nhttps://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2110616280646680900",
+      "issue": 30
     }
   ]
 }
