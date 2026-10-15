@@ -398,7 +398,7 @@
     },
     {
       "id": "5263188b31ce2c93",
-      "data": "2026-10-15T19:05:11+00:00",
+      "data": "2026-10-15T19:14:13+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
       "fonte_url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
@@ -406,7 +406,9 @@
         "CVE-2026-96889"
       ],
       "texto": "Next.js 16.4.1 e 15.5.28 corrigem duas falhas críticas de RCE (CVSS 9.5): uma em \"use cache\" com typed arrays e outra no processamento de SVG via librsvg/sharp (CVE-2026-96889). Também há um DoS em Server Actions. Atualize, mesmo sem usar esses recursos.\n\nhttps://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2110811500923289973",
+      "issue": 31
     }
   ]
 }
