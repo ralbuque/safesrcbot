@@ -368,7 +368,7 @@
     },
     {
       "id": "0dd6c306a985f25e",
-      "data": "2026-10-14T19:19:00+00:00",
+      "data": "2026-10-15T06:18:04+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Security update available for Adobe ColdFusion (APSB26-144)",
       "fonte_url": "https://www.adobe.com/trust/security/products/coldfusion/apsb26-144.html",
@@ -377,7 +377,9 @@
         "CVE-2026-106622"
       ],
       "texto": "Adobe publicou o boletim APSB26-144 do ColdFusion com várias falhas críticas, entre elas CVE-2026-105899 (upload de arquivo perigoso, execução de código) e CVE-2026-106622 (SSRF), ambas CVSS 10.0. Aplique as atualizações de outubro.\n\nhttps://www.adobe.com/trust/security/products/coldfusion/apsb26-144.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2110616175591760260",
+      "issue": 29
     },
     {
       "id": "494354fb8ea0cd02",
