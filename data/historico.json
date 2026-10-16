@@ -433,6 +433,16 @@
       ],
       "texto": "Drupal corrigiu RCE crítico no módulo Field UI (CVE-2026-108097). O core sozinho não é explorável, mas módulos contrib e código custom abrem caminhos, ao menos um sem autenticação. Atualize para 11.4.10, 11.3.19 ou 10.6.19; ou desinstale field_ui.\n\nhttps://www.drupal.org/sa-core-2026-014",
       "status": "rascunho"
+    },
+    {
+      "id": "871699ef85217136",
+      "data": "2026-10-16T22:46:19+00:00",
+      "categoria": "supply-chain",
+      "titulo": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "fonte_url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "cves": [],
+      "texto": "GhostAction escalou: em 8 e 9/10, ~1.900 contas do GitHub comprometidas e mais de 30 mil repositórios alvo, com tentativa de extrair 3.174 secrets do CI (GitGuardian). Procure workflows como security-audit.yml, revogue PATs e rotacione secrets de CI.\n\nhttps://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "status": "rascunho"
     }
   ]
 }
