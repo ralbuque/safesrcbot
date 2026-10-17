@@ -424,7 +424,7 @@
     },
     {
       "id": "461b659e72090619",
-      "data": "2026-10-16T18:46:36+00:00",
+      "data": "2026-10-17T03:58:59+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Drupal core - Critical - Remote code execution - SA-CORE-2026-014",
       "fonte_url": "https://www.drupal.org/sa-core-2026-014",
@@ -432,7 +432,9 @@
         "CVE-2026-108097"
       ],
       "texto": "Drupal corrigiu RCE crítico no módulo Field UI (CVE-2026-108097). O core sozinho não é explorável, mas módulos contrib e código custom abrem caminhos, ao menos um sem autenticação. Atualize para 11.4.10, 11.3.19 ou 10.6.19; ou desinstale field_ui.\n\nhttps://www.drupal.org/sa-core-2026-014",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2111305950577463374",
+      "issue": 33
     },
     {
       "id": "871699ef85217136",
