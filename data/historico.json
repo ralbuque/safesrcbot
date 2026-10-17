@@ -412,7 +412,7 @@
     },
     {
       "id": "43828a09caae0630",
-      "data": "2026-10-16T04:23:26+00:00",
+      "data": "2026-10-17T03:59:20+00:00",
       "categoria": "ia-llm",
       "titulo": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "fonte_url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
@@ -420,7 +420,9 @@
         "CVE-2026-105740"
       ],
       "texto": "Langflow: CVE-2026-105740 (CVSS 9.9), RCE autenticado em versões anteriores à 1.9.0, está sendo explorado (1.423 tentativas em honeypots). O vetor é uma config de servidor MCP maliciosa que persiste. Atualize para 1.9.0+ e revise as configs MCP.\n\nhttps://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2111306039941374308",
+      "issue": 32
     },
     {
       "id": "461b659e72090619",
