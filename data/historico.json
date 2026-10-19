@@ -452,13 +452,15 @@
     },
     {
       "id": "219fd9eab491daf6",
-      "data": "2026-10-18T18:02:53+00:00",
+      "data": "2026-10-19T09:00:41+00:00",
       "categoria": "supply-chain",
       "titulo": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "fonte_url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "cves": [],
       "texto": "Pacote npm imgdecode (1.0.0 a 1.0.3), da campanha MALFEX, esconde loader em addon nativo do Node.js. Sem install script: roda no require(), só em console Windows interativo, fugindo de CI. --ignore-scripts não protege. Revise suas dependências.\n\nhttps://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2112106651734188200",
+      "issue": 35
     }
   ]
 }
