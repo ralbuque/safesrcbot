@@ -464,13 +464,15 @@
     },
     {
       "id": "f499d4974f148f6a",
-      "data": "2026-10-19T23:34:04+00:00",
+      "data": "2026-10-20T20:01:58+00:00",
       "categoria": "incidente",
       "titulo": "ConnectWise suspends Cloud Backup service after attackers abuse its Microsoft 365 access",
       "fonte_url": "https://helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident",
       "cves": [],
       "texto": "ConnectWise suspendeu o Cloud Backup após uma credencial roubada do app ser usada para acessar ao menos 162 tenants Microsoft 365, segundo a Huntress. Quem mantém apps multi-tenant: reduza permissões, rotacione segredos e monitore sign-ins do app.\n\nhttps://helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2112635455988511033",
+      "issue": 36
     },
     {
       "id": "2b433345de9bc12f",
