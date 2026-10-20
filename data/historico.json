@@ -476,7 +476,7 @@
     },
     {
       "id": "2b433345de9bc12f",
-      "data": "2026-10-20T04:41:13+00:00",
+      "data": "2026-10-20T20:03:06+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
       "fonte_url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
@@ -486,7 +486,9 @@
         "CVE-2026-96651"
       ],
       "texto": "Plex2Shell, cadeia de 4 falhas no Plex Media Server (inclui CVE-2026-96656), já é explorada para instalar miners e proxy reverso, um dia após o PoC público. A correção saiu em 3/ago (1.43.3.10861). PoC público + patch antigo = alvo fácil. Atualize.\n\nhttps://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2112635740987207699",
+      "issue": 37
     },
     {
       "id": "ed940cd024f67276",
