@@ -492,13 +492,15 @@
     },
     {
       "id": "ed940cd024f67276",
-      "data": "2026-10-20T19:10:51+00:00",
+      "data": "2026-10-20T20:03:29+00:00",
       "categoria": "incidente",
       "titulo": "Hackers hit AI coding tool OpenCode, running up charges on users' AI accounts",
       "fonte_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
       "cves": [],
       "texto": "OpenCode confirmou invasão de um sistema legado do Console: chaves de API de provedores de IA salvas em workspaces vazaram e geraram cobranças indevidas. App e CLI não foram afetados. Se usou o Console, revogue e rotacione as chaves.\n\nhttps://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2112635838295162904",
+      "issue": 38
     }
   ]
 }
