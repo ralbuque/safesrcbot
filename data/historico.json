@@ -471,6 +471,20 @@
       "cves": [],
       "texto": "ConnectWise suspendeu o Cloud Backup após uma credencial roubada do app ser usada para acessar ao menos 162 tenants Microsoft 365, segundo a Huntress. Quem mantém apps multi-tenant: reduza permissões, rotacione segredos e monitore sign-ins do app.\n\nhttps://helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident",
       "status": "rascunho"
+    },
+    {
+      "id": "2b433345de9bc12f",
+      "data": "2026-10-20T04:41:13+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "fonte_url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "cves": [
+        "CVE-2026-96656",
+        "CVE-2026-96654",
+        "CVE-2026-96651"
+      ],
+      "texto": "Plex2Shell, cadeia de 4 falhas no Plex Media Server (inclui CVE-2026-96656), já é explorada para instalar miners e proxy reverso, um dia após o PoC público. A correção saiu em 3/ago (1.43.3.10861). PoC público + patch antigo = alvo fácil. Atualize.\n\nhttps://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "status": "rascunho"
     }
   ]
 }
