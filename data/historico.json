@@ -485,6 +485,16 @@
       ],
       "texto": "Plex2Shell, cadeia de 4 falhas no Plex Media Server (inclui CVE-2026-96656), já é explorada para instalar miners e proxy reverso, um dia após o PoC público. A correção saiu em 3/ago (1.43.3.10861). PoC público + patch antigo = alvo fácil. Atualize.\n\nhttps://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
       "status": "rascunho"
+    },
+    {
+      "id": "ed940cd024f67276",
+      "data": "2026-10-20T19:10:51+00:00",
+      "categoria": "incidente",
+      "titulo": "Hackers hit AI coding tool OpenCode, running up charges on users' AI accounts",
+      "fonte_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "cves": [],
+      "texto": "OpenCode confirmou invasão de um sistema legado do Console: chaves de API de provedores de IA salvas em workspaces vazaram e geraram cobranças indevidas. App e CLI não foram afetados. Se usou o Console, revogue e rotacione as chaves.\n\nhttps://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "status": "rascunho"
     }
   ]
 }
