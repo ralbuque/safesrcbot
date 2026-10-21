@@ -504,13 +504,15 @@
     },
     {
       "id": "96ee34b97c13119c",
-      "data": "2026-10-20T23:08:44+00:00",
+      "data": "2026-10-21T07:39:25+00:00",
       "categoria": "supply-chain",
       "titulo": "WordPress SEO plugin Rank Math compromised to backdoor websites",
       "fonte_url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
       "cves": [],
       "texto": "Rank Math PRO 3.0.123, baixado do site oficial entre 15/10 20:02 UTC e 16/10 07:12 UTC, veio com malware/backdoor. Se instalou nessa janela: apague a pasta do plugin, use a 3.0.124, procure admins novos e rotacione credenciais do banco e API keys.\n\nhttps://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2112810974323355714",
+      "issue": 39
     }
   ]
 }
