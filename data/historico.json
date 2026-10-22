@@ -540,6 +540,16 @@
       "status": "publicado",
       "post_id": "2113073554694512650",
       "issue": 41
+    },
+    {
+      "id": "bbf97f325e360f67",
+      "data": "2026-10-22T04:34:21+00:00",
+      "categoria": "ia-llm",
+      "titulo": "Open and Shut: Remote Code Execution in opencode via MCP OAuth",
+      "fonte_url": "https://www.pillar.security/blog/open-and-shut-remote-code-execution-in-opencode-via-mcp-oauth",
+      "cves": [],
+      "texto": "OpenCode (agente de código com IA) tinha RCE crítico no Windows/WSL: servidor MCP remoto malicioso executa código durante o OAuth. Afeta 1.0.137 a 1.18.32; corrigido na 1.18.33, sem CVE nem advisory. Atualize: scanners não vão alertar.\n\nhttps://www.pillar.security/blog/open-and-shut-remote-code-execution-in-opencode-via-mcp-oauth",
+      "status": "rascunho"
     }
   ]
 }
