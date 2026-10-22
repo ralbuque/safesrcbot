@@ -531,13 +531,15 @@
     },
     {
       "id": "19cbeb31af6c20c7",
-      "data": "2026-10-21T19:16:31+00:00",
+      "data": "2026-10-22T01:02:49+00:00",
       "categoria": "supply-chain",
       "titulo": "Compromised LiteLLM 1.107.0 on PyPI Ships a Credential Stealer and Code Loader",
       "fonte_url": "https://www.mend.io/blog/litellm-1-107-0-compromised/",
       "cves": [],
       "texto": "litellm 1.107.0 foi comprometido no PyPI: os 7 wheels trazem um .pth que roda um stealer a cada início do Python e um loader remoto. Versão removida, mas quem instalou deve rotacionar SSH, cloud e API keys. Cheque CI e imagens Docker.\n\nhttps://www.mend.io/blog/litellm-1-107-0-compromised/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2113073554694512650",
+      "issue": 41
     }
   ]
 }
