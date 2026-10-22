@@ -516,7 +516,7 @@
     },
     {
       "id": "f0af01c82990758a",
-      "data": "2026-10-21T15:54:42+00:00",
+      "data": "2026-10-22T01:02:27+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "PHP ships emergency patches for critical PHP2Shell flaws",
       "fonte_url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
@@ -525,7 +525,9 @@
         "CVE-2026-109619"
       ],
       "texto": "PHP lançou correções emergenciais para CVE-2026-109618 e CVE-2026-109619 (PHP2Shell): RCE sem autenticação, CVSS v4 9.2. Maior risco com mod_php. Atualize para 8.5.12, 8.4.27, 8.3.36 ou 8.2.35 e cheque imagens Docker e pacotes da distro.\n\nhttps://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2113073461535092833",
+      "issue": 40
     },
     {
       "id": "19cbeb31af6c20c7",
