@@ -550,6 +550,18 @@
       "cves": [],
       "texto": "OpenCode (agente de código com IA) tinha RCE crítico no Windows/WSL: servidor MCP remoto malicioso executa código durante o OAuth. Afeta 1.0.137 a 1.18.32; corrigido na 1.18.33, sem CVE nem advisory. Atualize: scanners não vão alertar.\n\nhttps://www.pillar.security/blog/open-and-shut-remote-code-execution-in-opencode-via-mcp-oauth",
       "status": "rascunho"
+    },
+    {
+      "id": "4681e139a804e148",
+      "data": "2026-10-22T23:16:24+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+      "fonte_url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "texto": "Node.js corrigiu 10 falhas. A mais grave, CVE-2026-111497, é uma escrita fora dos limites no decoder Brotli embutido (RCE). Atualize para 22.23.4, 24.22.1 ou 26.12.1. Outros softwares que embarcam Brotli também precisam de 1.2.1, 1.1.1 ou 1.0.10.\n\nhttps://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "status": "rascunho"
     }
   ]
 }
