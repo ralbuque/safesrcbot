@@ -562,6 +562,16 @@
       ],
       "texto": "Node.js corrigiu 10 falhas. A mais grave, CVE-2026-111497, é uma escrita fora dos limites no decoder Brotli embutido (RCE). Atualize para 22.23.4, 24.22.1 ou 26.12.1. Outros softwares que embarcam Brotli também precisam de 1.2.1, 1.1.1 ou 1.0.10.\n\nhttps://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
       "status": "rascunho"
+    },
+    {
+      "id": "bed56c13d48af73f",
+      "data": "2026-10-23T15:42:22+00:00",
+      "categoria": "incidente",
+      "titulo": "Railway warns devs to rotate secrets after potential breach",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "cves": [],
+      "texto": "A Railway detectou acesso suspeito ao sistema que guarda variáveis de ambiente: um terceiro pode ter obtido o conteúdo decifrado de algumas. A empresa pede que todos os usuários rotacionem API keys e credenciais de banco/registry. Revogue, não só troque.\n\nhttps://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "status": "rascunho"
     }
   ]
 }
