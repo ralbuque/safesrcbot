@@ -567,13 +567,15 @@
     },
     {
       "id": "bed56c13d48af73f",
-      "data": "2026-10-23T15:42:22+00:00",
+      "data": "2026-10-23T19:58:09+00:00",
       "categoria": "incidente",
       "titulo": "Railway warns devs to rotate secrets after potential breach",
       "fonte_url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
       "cves": [],
       "texto": "A Railway detectou acesso suspeito ao sistema que guarda variáveis de ambiente: um terceiro pode ter obtido o conteúdo decifrado de algumas. A empresa pede que todos os usuários rotacionem API keys e credenciais de banco/registry. Revogue, não só troque.\n\nhttps://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2113721658980647255",
+      "issue": 44
     }
   ]
 }
