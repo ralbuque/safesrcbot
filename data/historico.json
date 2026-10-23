@@ -553,7 +553,7 @@
     },
     {
       "id": "4681e139a804e148",
-      "data": "2026-10-22T23:16:24+00:00",
+      "data": "2026-10-23T19:57:46+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
       "fonte_url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
@@ -561,7 +561,9 @@
         "CVE-2026-111497"
       ],
       "texto": "Node.js corrigiu 10 falhas. A mais grave, CVE-2026-111497, é uma escrita fora dos limites no decoder Brotli embutido (RCE). Atualize para 22.23.4, 24.22.1 ou 26.12.1. Outros softwares que embarcam Brotli também precisam de 1.2.1, 1.1.1 ou 1.0.10.\n\nhttps://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2113721561484333125",
+      "issue": 43
     },
     {
       "id": "bed56c13d48af73f",
