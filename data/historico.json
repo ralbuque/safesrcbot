@@ -598,6 +598,16 @@
       "cves": [],
       "texto": "8 CAs intermediárias da eMudhra tinham chaves privadas triviais de derivar; navegadores já bloquearam. O pip usa o certifi embutido, então distrust do SO não basta. Atualize: pip 26.2.2, certifi 2026.10.19, uv 0.13.4, sigstore 4.5.1.\n\nhttps://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
       "status": "rascunho"
+    },
+    {
+      "id": "43513002b0c380e9",
+      "data": "2026-10-24T22:25:32+00:00",
+      "categoria": "ia-llm",
+      "titulo": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents' Token Balances",
+      "fonte_url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "cves": [],
+      "texto": "SDKs x402 corrigiram 3 falhas: o client padrão não tinha limite de gasto, e uma API maliciosa podia fazer o agente de IA assinar pagamento do saldo inteiro. Sem advisory, npm audit e PyPI não avisam. Atualize o SDK e defina limites de valor.\n\nhttps://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "status": "rascunho"
     }
   ]
 }
