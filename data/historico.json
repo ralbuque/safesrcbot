@@ -593,13 +593,15 @@
     },
     {
       "id": "df88cf6105694381",
-      "data": "2026-10-24T14:25:26+00:00",
+      "data": "2026-10-24T23:02:09+00:00",
       "categoria": "supply-chain",
       "titulo": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
       "fonte_url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
       "cves": [],
       "texto": "8 CAs intermediárias da eMudhra tinham chaves privadas triviais de derivar; navegadores já bloquearam. O pip usa o certifi embutido, então distrust do SO não basta. Atualize: pip 26.2.2, certifi 2026.10.19, uv 0.13.4, sigstore 4.5.1.\n\nhttps://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2114130353082290634",
+      "issue": 46
     },
     {
       "id": "43513002b0c380e9",
