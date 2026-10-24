@@ -579,7 +579,7 @@
     },
     {
       "id": "bf05eaf5932d4d76",
-      "data": "2026-10-23T23:05:12+00:00",
+      "data": "2026-10-24T23:01:51+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "CISA KEV Flags CVE-2026-110447: Patch Nextcloud Built-in Collabora CODE Command Injection",
       "fonte_url": "https://windowsforum.com/news/cisa-kev-flags-cve-2026-110447-patch-nextcloud-built-in-collabora-code-command-injection.449798",
@@ -587,7 +587,9 @@
         "CVE-2026-110447"
       ],
       "texto": "CISA adicionou ao KEV a CVE-2026-110447: command injection (CWE-78) no Built-in CODE Server do Nextcloud/Collabora, RCE sem autenticação, explorada desde setembro. Corrigido na 26.4.303. Atualize e procure web shells, principalmente via proxy.php.\n\nhttps://windowsforum.com/news/cisa-kev-flags-cve-2026-110447-patch-nextcloud-built-in-collabora-code-command-injection.449798",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2114130276099965402",
+      "issue": 45
     },
     {
       "id": "df88cf6105694381",
