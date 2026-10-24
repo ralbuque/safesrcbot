@@ -605,13 +605,15 @@
     },
     {
       "id": "43513002b0c380e9",
-      "data": "2026-10-24T22:25:32+00:00",
+      "data": "2026-10-24T23:02:30+00:00",
       "categoria": "ia-llm",
       "titulo": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents' Token Balances",
       "fonte_url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
       "cves": [],
       "texto": "SDKs x402 corrigiram 3 falhas: o client padrão não tinha limite de gasto, e uma API maliciosa podia fazer o agente de IA assinar pagamento do saldo inteiro. Sem advisory, npm audit e PyPI não avisam. Atualize o SDK e defina limites de valor.\n\nhttps://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2114130441410146307",
+      "issue": 47
     }
   ]
 }
