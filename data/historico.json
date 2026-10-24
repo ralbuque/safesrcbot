@@ -588,6 +588,16 @@
       ],
       "texto": "CISA adicionou ao KEV a CVE-2026-110447: command injection (CWE-78) no Built-in CODE Server do Nextcloud/Collabora, RCE sem autenticação, explorada desde setembro. Corrigido na 26.4.303. Atualize e procure web shells, principalmente via proxy.php.\n\nhttps://windowsforum.com/news/cisa-kev-flags-cve-2026-110447-patch-nextcloud-built-in-collabora-code-command-injection.449798",
       "status": "rascunho"
+    },
+    {
+      "id": "df88cf6105694381",
+      "data": "2026-10-24T14:25:26+00:00",
+      "categoria": "supply-chain",
+      "titulo": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+      "cves": [],
+      "texto": "8 CAs intermediárias da eMudhra tinham chaves privadas triviais de derivar; navegadores já bloquearam. O pip usa o certifi embutido, então distrust do SO não basta. Atualize: pip 26.2.2, certifi 2026.10.19, uv 0.13.4, sigstore 4.5.1.\n\nhttps://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+      "status": "rascunho"
     }
   ]
 }
