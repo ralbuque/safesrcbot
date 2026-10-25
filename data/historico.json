@@ -616,6 +616,18 @@
       "status": "publicado",
       "post_id": "2114130441410146307",
       "issue": 47
+    },
+    {
+      "id": "d3e6fb1a3911b1e6",
+      "data": "2026-10-25T04:32:01+00:00",
+      "categoria": "vulnerabilidade",
+      "titulo": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+      "fonte_url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "cves": [
+        "CVE-2026-115560"
+      ],
+      "texto": "PHP alerta para outro RCE, CVE-2026-115560, não corrigido pelos releases 8.5.12/8.4.27/8.3.36/8.2.35. Afeta apps que trocam session.serialize_handler via ini_set() antes do session_start(). Mitigação: session.upload_progress.enabled=0.\n\nhttps://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "status": "rascunho"
     }
   ]
 }
