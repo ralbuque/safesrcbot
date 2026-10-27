@@ -16,7 +16,7 @@
     },
     {
       "id": "f977c283038e2014",
-      "data": "2026-10-27T19:42:21+00:00",
+      "data": "2026-10-27T19:45:51+00:00",
       "categoria": "era-vargas",
       "tema_chave": "deposicao-vargas-1945",
       "titulo": "29 de outubro de 1945: o fim do Estado Novo",
@@ -24,7 +24,9 @@
       "cves": [],
       "texto": "1945: Getúlio convoca eleições, os queremistas gritam \"Queremos Getúlio\" e ele nomeia o irmão Benjamim chefe de polícia do Distrito Federal. Os generais acharam suspeito e o depuseram em 29 de outubro. Quem assumiu? O presidente do STF. Democracia à brasileira.",
       "ano_evento": 1945,
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2115168113587106128",
+      "issue": 55
     }
   ]
 }
