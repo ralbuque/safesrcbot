@@ -2,14 +2,16 @@
   "posts": [
     {
       "id": "70ca017881d699d8",
-      "data": "2026-10-27T01:51:22+00:00",
+      "data": "2026-10-27T01:54:50+00:00",
       "categoria": "stf-judiciario",
       "tema_chave": "moraes-passaporte-flavio-bolsonaro",
       "titulo": "Flávio diz ter sido intimado pela PF a entregar passaportes por ordem de Moraes",
       "fonte_url": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
       "cves": [],
       "texto": "Segundo Flávio, Moraes mandou recolher o passaporte dele e o proibiu de sair do país, citando fala do irmão Eduardo. Flávio é investigado, não condenado. Cautelar por declaração de terceiro, assinada na noite da eleição, tem cara de recado político, não de Justiça.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2114898585263198426",
+      "issue": 50
     }
   ]
 }
