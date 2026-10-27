@@ -1,5 +1,5 @@
 {
-  "_comentario": "Segurança no desenvolvimento de software. A pasta/Environment se chamam 'safesrc', mas o @ no X é @ralbuque. Pode ir para 'automatico' quando quiser.",
+  "_comentario": "Segurança no desenvolvimento de software. A pasta/Environment se chamam 'safesrc', mas o @ no X é @ralbuque. Publica sozinha (modo automatico); volte para 'revisao' se quiser aprovar antes.",
   "usuario_x": "ralbuque",
   "horarios": [
     8,
@@ -7,7 +7,7 @@
     17,
     21
   ],
-  "modo": "revisao",
+  "modo": "automatico",
   "revisao_obrigatoria": false,
   "link_no_post": true,
   "categorias": [

@@ -10,7 +10,7 @@ Bot que mantém ativas 4 contas do X do Ricardo. **Atenção:** o id interno de 
 
 | Conta (pasta) | @ no X | Assunto | Posts/dia | Link no post | Revisão |
 |---|---|---|---|---|---|
-| `safesrc` | @ralbuque | Segurança no desenvolvimento de software (AppSec, DevSecOps, supply chain) | 4 | sim (fonte) | opcional (pode ir para `automatico`) |
+| `safesrc` | @ralbuque | Segurança no desenvolvimento de software (AppSec, DevSecOps, supply chain) | 4 | sim (fonte) | **automática** desde 27/10/2026 (`modo: automatico`) |
 | `ancapsu` | @ancapsu | Política brasileira contemporânea, perspectiva de direita/bolsonarista | 4 | não | **obrigatória** |
 | `palacioassombra` | @palacioassombra | História política do Brasil (eventos com 10+ anos), humor, perspectiva de direita | 2 | não | **obrigatória** |
 | `mundoemrevo` | @mundoemrevo | Guerras/conflitos (prioridade Ucrânia; Israel, Irã...), pró-Ucrânia e pró-Israel | 4 | não | **obrigatória** |
@@ -138,3 +138,4 @@ Para reduzir: diminuir `sinais_x.max_posts`, desativar sinais numa conta (`"ativ
 - 2026-09-30: Projeto criado para @safesrc. Opção "GitHub Actions + API do Claude + API do X". Começa em `MODO=revisao` (aprovação por issue). Engajamento automatizado descartado por causa das regras do X.
 - 2026-10-26: Multi-contas, com @ancapsu, @palacioassombra e @mundoemrevo. Contas políticas com revisão humana obrigatória, fatos ancorados em fonte (post sem link) e viés assumido como opinião. Leitura de tendências/posts do X (Bearer token). Um Environment por conta + trava de identidade antes de publicar. Histórico movido para `contas/<id>/historico.json`. Horários (Brasília): safesrc 8/12/17/21, ancapsu 7/11/16/20, palacioassombra 10/19, mundoemrevo 6/10/14/18.
 - 2026-10-26: A conta `safesrc` publica no X como **@ralbuque** (`usuario_x: ralbuque`); o id interno continua `safesrc` para não mexer em Environment, histórico e labels.
+- 2026-10-27: Geração agendada ligada para as 4 contas. `safesrc` (@ralbuque) passou para `modo: automatico`; as contas políticas seguem com revisão obrigatória.
