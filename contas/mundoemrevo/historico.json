@@ -2,14 +2,16 @@
   "posts": [
     {
       "id": "2abd3b5205757026",
-      "data": "2026-10-27T01:51:23+00:00",
+      "data": "2026-10-27T02:09:30+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "medvedev-pede-trump-eliminar-zelensky-out26",
       "titulo": "Former Russian President Calls on Trump to 'Remove' Zelensky",
       "fonte_url": "https://www.kyivpost.com/post/88171",
       "cves": [],
       "texto": "Medvedev, vice-chefe do Conselho de Segurança russo, publicou no mensageiro Max um apelo para Trump usar a CIA e os militares dos EUA para \"se livrar\" de Zelensky. Quem pede a eliminação do líder do país invadido não quer paz, quer capitulação.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2114902278171770949",
+      "issue": 53
     }
   ]
 }
