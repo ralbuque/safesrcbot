@@ -633,7 +633,7 @@
     },
     {
       "id": "009ad7638ebba9b8",
-      "data": "2026-10-26T17:16:02+00:00",
+      "data": "2026-10-27T00:00:19+00:00",
       "categoria": "vulnerabilidade",
       "titulo": "CVE-2026-115893: Wasmtime is a runtime for WebAssembly…",
       "fonte_url": "https://www.strix.ai/cve/CVE-2026-115893",
@@ -641,7 +641,9 @@
         "CVE-2026-115893"
       ],
       "texto": "Wasmtime corrige falhas críticas que permitem a um módulo WebAssembly malicioso escapar do sandbox. A CVE-2026-115893 (CVSS 9.9) afeta aarch64 com o backend Cranelift padrão. Se você roda Wasm de terceiros, atualize para 36.0.19, 48.0.7 ou 49.0.4.\n\nhttps://www.strix.ai/cve/CVE-2026-115893",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2114869768045908033",
+      "issue": 49
     }
   ]
 }
