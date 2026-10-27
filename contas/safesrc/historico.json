@@ -644,6 +644,17 @@
       "status": "publicado",
       "post_id": "2114869768045908033",
       "issue": 49
+    },
+    {
+      "id": "63f16ca1b1ad1c49",
+      "data": "2026-10-27T01:51:21+00:00",
+      "categoria": "ia-llm",
+      "tema_chave": "agents-md-downloads-codex-function-color",
+      "titulo": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "fonte_url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "cves": [],
+      "texto": "Um AGENTS.md plantado em Downloads tentou fazer um agente de código instalar o pacote npm malicioso function-color (MALFEX). Em testes da Forever Security, o Codex obedeceu em mais de 90% das vezes. Não rode agentes em Downloads.\n\nhttps://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "status": "rascunho"
     }
   ]
 }
