@@ -9,19 +9,32 @@ permissions:
   contents: write
   issues: write
 
-concurrency:
-  group: safesrcbot-historico
-  cancel-in-progress: false
-
 jobs:
-  publicar:
+  ler:
     # Só o dono do repositório pode aprovar.
     if: >-
       github.event.label.name == 'aprovado' &&
       contains(github.event.issue.labels.*.name, 'rascunho') &&
       github.event.sender.login == github.repository_owner
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    outputs:
+      conta: ${{ steps.l.outputs.conta }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - id: l
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }} # via env, nunca interpolado no script
+        run: python3 -m bot ler-issue
+
+  publicar:
+    needs: ler
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
+    environment: ${{ needs.ler.outputs.conta }}
+    concurrency:
+      group: historico-${{ needs.ler.outputs.conta }}
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
@@ -34,14 +47,14 @@ jobs:
 
       - name: Publicar no X
         env:
-          # Passado por env (nunca interpolado no script) para evitar injeção.
+          CONTA: ${{ needs.ler.outputs.conta }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: python -m bot publicar-rascunho
+        run: python -m bot publicar-rascunho --conta "$CONTA"
 
       - name: Fechar issue
         env:
@@ -53,21 +66,32 @@ jobs:
           gh issue close "$N"
 
       - name: Salvar histórico
+        env:
+          CONTA: ${{ needs.ler.outputs.conta }}
+          N: ${{ github.event.issue.number }}
         run: |
           git config user.name "safesrcbot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/historico.json
+          git add "contas/$CONTA/historico.json"
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "historico: rascunho #${{ github.event.issue.number }} publicado [skip ci]"
-          git pull --rebase
-          git push
+          git commit -m "historico($CONTA): rascunho #$N publicado [skip ci]"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
 
-      - name: Avisar falha
-        if: failure()
-        env:
+  avisar-falha:
+    needs: [ler, publicar]
+    if: failure()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
           N: ${{ github.event.issue.number }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          gh issue comment "$N" --body "❌ Falha ao publicar. Veja o log: $RUN_URL — corrija e adicione a label \`aprovado\` de novo."
+          gh issue comment "$N" --body "❌ Falha ao publicar. Veja o log: $RUN_URL. Corrija e adicione a label \`aprovado\` de novo."
           gh issue edit "$N" --remove-label aprovado

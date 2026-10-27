@@ -1,0 +1,29 @@
+{
+  "_comentario": "Guerras e conflitos (prioridade Ucrânia), perspectiva pró-Ucrânia e pró-Israel. Revisão humana obrigatória.",
+  "usuario_x": "mundoemrevo",
+  "horarios": [
+    6,
+    10,
+    14,
+    18
+  ],
+  "modo": "revisao",
+  "revisao_obrigatoria": true,
+  "link_no_post": false,
+  "categorias": [
+    "ucrania-russia",
+    "israel-oriente-medio",
+    "ira",
+    "outros-conflitos"
+  ],
+  "janela_tema_dias": 2,
+  "sinais_x": {
+    "ativo": true,
+    "tendencias_woeid": 23424768,
+    "max_posts": 40,
+    "consultas": [
+      "(Ucrânia OR Zelensky OR Putin OR Rússia OR Israel OR Irã OR Hamas OR Hezbollah OR Gaza) lang:pt -is:retweet -is:reply",
+      "(Ukraine OR Zelensky OR Russia OR Israel OR Iran OR Hamas OR Hezbollah) lang:en -is:retweet -is:reply"
+    ]
+  }
+}

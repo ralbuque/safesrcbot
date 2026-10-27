@@ -13,10 +13,22 @@ _RE_TEXTO = re.compile(r"^~~~text\n(.*?)\n~~~$", re.DOTALL | re.MULTILINE)
 
 def montar_corpo(texto_final: str, meta: dict) -> str:
     meta_b64 = base64.b64encode(json.dumps(meta, ensure_ascii=False).encode()).decode()
-    cves = ", ".join(meta.get("cves") or []) or "—"
+    linhas_extra = []
+    if meta.get("cves"):
+        linhas_extra.append(f"**CVEs:** {', '.join(meta['cves'])}")
+    if meta.get("ano_evento"):
+        linhas_extra.append(f"**Ano do evento:** {meta['ano_evento']}")
+    if meta.get("fontes_extras"):
+        linhas_extra.append("**Outras fontes:** " + " · ".join(f"<{u}>" for u in meta["fontes_extras"][:5]))
+    extra = "\n".join(linhas_extra)
+    aviso = (
+        "\n> ⚠️ Conta com revisão obrigatória: confira os fatos na fonte antes de aprovar.\n"
+        if meta.get("revisao_obrigatoria")
+        else ""
+    )
     return f"""<!-- {_MARCADOR} {meta_b64} -->
-## Texto do post
-
+## @{meta.get('usuario_x', '?')}: texto do post
+{aviso}
 Pode editar o texto dentro do bloco abaixo antes de aprovar (mantenha as linhas `~~~`).
 
 ~~~text
@@ -24,9 +36,10 @@ Pode editar o texto dentro do bloco abaixo antes de aprovar (mantenha as linhas 
 ~~~
 
 **Tamanho:** {contar(texto_final)}/{LIMITE_X}
-**Fonte:** [{meta.get('fonte_nome', 'fonte')}]({meta.get('fonte_url', '')}) — {meta.get('data_publicacao') or 'data não informada'}
-**Título original:** {meta.get('titulo', '')}
-**Categoria:** {meta.get('categoria', '')} · **CVEs:** {cves}
+**Fonte:** [{meta.get('fonte_nome') or 'fonte'}]({meta.get('fonte_url', '')}) ({meta.get('data_publicacao') or 'data não informada'})
+**Título da fonte:** {meta.get('titulo', '')}
+**Categoria:** {meta.get('categoria', '')} · **Tema:** `{meta.get('tema_chave') or '-'}`
+{extra}
 
 **Por que este tema:** {meta.get('justificativa', '')}
 

@@ -1,0 +1,28 @@
+{
+  "_comentario": "Segurança no desenvolvimento de software. Pode ir para 'automatico' quando quiser.",
+  "usuario_x": "safesrc",
+  "horarios": [
+    8,
+    12,
+    17,
+    21
+  ],
+  "modo": "revisao",
+  "revisao_obrigatoria": false,
+  "link_no_post": true,
+  "categorias": [
+    "vulnerabilidade",
+    "supply-chain",
+    "pesquisa",
+    "ia-llm",
+    "ferramentas-padroes",
+    "incidente"
+  ],
+  "janela_tema_dias": 7,
+  "sinais_x": {
+    "ativo": false,
+    "tendencias_woeid": null,
+    "consultas": [],
+    "max_posts": 0
+  }
+}

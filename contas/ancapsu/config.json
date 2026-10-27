@@ -1,0 +1,31 @@
+{
+  "_comentario": "Política brasileira contemporânea, perspectiva de direita. Revisão humana obrigatória.",
+  "usuario_x": "ancapsu",
+  "horarios": [
+    7,
+    11,
+    16,
+    20
+  ],
+  "modo": "revisao",
+  "revisao_obrigatoria": true,
+  "link_no_post": false,
+  "categorias": [
+    "governo-federal",
+    "stf-judiciario",
+    "congresso",
+    "economia",
+    "eleicoes-partidos",
+    "seguranca-publica",
+    "liberdades"
+  ],
+  "janela_tema_dias": 2,
+  "sinais_x": {
+    "ativo": true,
+    "tendencias_woeid": 23424768,
+    "max_posts": 40,
+    "consultas": [
+      "(Lula OR STF OR Moraes OR Bolsonaro OR Congresso OR Câmara OR Senado OR Haddad OR \"governo Lula\") lang:pt -is:retweet -is:reply"
+    ]
+  }
+}

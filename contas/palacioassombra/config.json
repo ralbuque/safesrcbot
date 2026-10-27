@@ -1,0 +1,30 @@
+{
+  "_comentario": "História política do Brasil (eventos com 10+ anos), humor, perspectiva de direita. Revisão humana obrigatória.",
+  "usuario_x": "palacioassombra",
+  "horarios": [
+    10,
+    19
+  ],
+  "modo": "revisao",
+  "revisao_obrigatoria": true,
+  "link_no_post": false,
+  "categorias": [
+    "imperio",
+    "republica-velha",
+    "era-vargas",
+    "populismo-1946-1964",
+    "regime-militar",
+    "nova-republica",
+    "economia-historica"
+  ],
+  "idade_minima_anos": 10,
+  "janela_tema_dias": 45,
+  "sinais_x": {
+    "ativo": true,
+    "tendencias_woeid": 23424768,
+    "max_posts": 20,
+    "consultas": [
+      "(Vargas OR Getúlio OR JK OR Jango OR \"regime militar\" OR ditadura OR Collor OR Sarney OR \"Plano Real\" OR impeachment OR \"Dom Pedro\" OR Império) lang:pt -is:retweet -is:reply"
+    ]
+  }
+}
