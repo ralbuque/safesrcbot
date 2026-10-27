@@ -1,6 +1,6 @@
 # safesrcbot
 
-Bot que gera posts para 4 contas do X (@safesrc, @ancapsu, @palacioassombra e @mundoemrevo) usando a API do Claude. Roda no GitHub Actions e é aprovado por issues.
+Bot que gera posts para 4 contas do X (@ralbuque, que internamente é a conta `safesrc`, @ancapsu, @palacioassombra e @mundoemrevo) usando a API do Claude. Roda no GitHub Actions e é aprovado por issues.
 
 Arquitetura, configuração de cada conta e decisões estão no [CLAUDE.md](CLAUDE.md).
 
