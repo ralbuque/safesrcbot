@@ -39,14 +39,16 @@
     },
     {
       "id": "4ce9ab89c4afd46d",
-      "data": "2026-10-27T23:44:11+00:00",
+      "data": "2026-10-27T23:51:52+00:00",
       "categoria": "congresso",
       "tema_chave": "alcolumbre-48-votos-rejeita-impeachment-moraes",
       "titulo": "Alcolumbre diz ter maioria para se reeleger e rejeita impeachment de Moraes",
       "fonte_url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/alcolumbre-diz-ter-maioria-para-se-reeleger-e-rejeita-impeachment-de-moraes/",
       "cves": [],
-      "texto": "Alcolumbre disse a interlocutores, segundo a CNN, que tem 48 votos para se reeleger e não vai pautar impeachment de ministros do STF, em especial Moraes, de quem é próximo. Com o PL na maior bancada, a pergunta é se o Senado vai fiscalizar o Supremo ou continuar blindando.",
-      "status": "rascunho"
+      "texto": "Alcolumbre disse que tem 48 votos para se reeleger e não vai pautar impeachment de ministros do STF. Mas o PL tem a maior bancada e com Moraes fazendo lambanças até fevereiro, a pressão contra vai aumentar. #AlcolumbreNão",
+      "status": "publicado",
+      "post_id": "2115230025964478703",
+      "issue": 58
     }
   ]
 }
