@@ -25,6 +25,17 @@
       "status": "publicado",
       "post_id": "2115099852832932060",
       "issue": 54
+    },
+    {
+      "id": "d4cc94ed2bcd951e",
+      "data": "2026-10-27T19:42:20+00:00",
+      "categoria": "eleicoes-partidos",
+      "tema_chave": "flavio-suposta-fuga-pf-apura",
+      "titulo": "PF apura se Flávio Bolsonaro deixou o Brasil após relato de site argentino",
+      "fonte_url": "https://www.terra.com.br/noticias/brasil/policia/pf-apura-se-flavio-bolsonaro-deixou-o-brasil-apos-relato-de-site-argentino,c99f6a0890e385b6591e14f88937a02ct0f4g9a2.html",
+      "cves": [],
+      "texto": "A PF apura se Flávio deixou o país, sem confirmação até agora; a defesa diz não saber onde ele está. Se fugiu, é erro enorme e presente ao PT. Se não, quem já grita \"fugitivo\" age por torcida. E a ordem de Moraes, um dia após a eleição, continua sendo medida de intimidação.",
+      "status": "rascunho"
     }
   ]
 }
