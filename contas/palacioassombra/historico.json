@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "f2e56c2bbd6c0a6d",
+      "data": "2026-10-27T01:51:21+00:00",
+      "categoria": "regime-militar",
+      "tema_chave": "ai-2-1965-fim-dos-partidos",
+      "titulo": "Ato 2 fecha partidos e veta eleição direta",
+      "fonte_url": "https://memorialdademocracia.com.br/card/ato-2-fecha-partidos-e-veta-eleicao-direta",
+      "cves": [],
+      "texto": "Em 1965, candidatos da ditadura perderam em 5 dos 11 estados que elegeram governador. Três semanas depois, o AI-2 extinguiu os partidos e acabou com a eleição direta para presidente. Se o eleitor não colabora, cancela-se a eleição. Validade da fórmula: até 1985.",
+      "ano_evento": 1965,
+      "status": "rascunho"
+    }
+  ]
+}
