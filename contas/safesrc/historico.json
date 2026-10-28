@@ -657,6 +657,20 @@
       "status": "publicado",
       "post_id": "2114905500496113760",
       "issue": 52
+    },
+    {
+      "id": "90c1f80a927a5f9e",
+      "data": "2026-10-28T11:01:08+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "oracle-ebs-sqli-rce-cve-2026-101767",
+      "titulo": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
+      "fonte_url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+      "cves": [
+        "CVE-2026-101767"
+      ],
+      "texto": "Começaram tentativas de exploração do CVE-2026-101767 (CVSS 9.8) no Oracle E-Business Suite: SQL injection sem autenticação que leva a RCE. Já corrigido no CPU de outubro. Aplique o patch e restrinja o acesso externo.\n\nhttps://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+      "status": "publicado",
+      "post_id": "2115398998626590860"
     }
   ]
 }
