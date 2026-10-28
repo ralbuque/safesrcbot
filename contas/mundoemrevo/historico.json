@@ -38,6 +38,18 @@
       "status": "publicado",
       "post_id": "2115413897486410168",
       "issue": 61
+    },
+    {
+      "id": "352adf41500ef521",
+      "data": "2026-10-28T18:59:23+00:00",
+      "categoria": "israel-oriente-medio",
+      "tema_chave": "eleicao-israel-boca-de-urna-out26",
+      "titulo": "No clear winner in Israeli election, exit polls indicate, as Netanyahu's fate hangs in the balance",
+      "fonte_url": "https://www.pbs.org/newshour/world/no-clear-winner-in-israeli-election-exit-polls-indicate-as-netanyahu-fate-hangs-in-the-balance",
+      "cves": [],
+      "texto": "Primeira eleição em Israel desde 7 de outubro: boca de urna indica que nem Netanyahu nem o bloco de Eisenkot chegam a 61 cadeiras; partidos árabes teriam 17-19. Até as 20h, 74% já tinham votado, 8 pontos a mais que em 2022. Após guerras em três frentes, Israel vota. Democracia.",
+      "status": "rascunho"
     }
-  ]
+  ],
+  "ultima_execucao": "2026-10-28T18:59:23+00:00"
 }
