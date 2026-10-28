@@ -25,6 +25,17 @@
       "status": "publicado",
       "post_id": "2115168035103518839",
       "issue": 57
+    },
+    {
+      "id": "a39b6267063ba9d5",
+      "data": "2026-10-28T11:01:19+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "operacao-veles-kupiansk-gasodutos-out26",
+      "titulo": "Ukraine's Zelenskiy says territory recaptured, forces on the offensive (Reuters, via ThePrint)",
+      "fonte_url": "https://theprint.in/world/ukraines-zelenskiy-says-territory-recaptured-forces-on-the-offensive/3083520/",
+      "cves": [],
+      "texto": "Zelensky revelou a operação Veles, perto de Kupiansk: tropas ucranianas usaram gasodutos subterrâneos, tática que russos tentavam usar, e avançaram mais de 15 km. Segundo Kiev, 30+ russos foram presos. Outras duas operações somam mais de 1.000 km² retomados em 2026, diz Zelensky.",
+      "status": "rascunho"
     }
   ]
 }
