@@ -27,6 +27,18 @@
       "status": "publicado",
       "post_id": "2115168113587106128",
       "issue": 55
+    },
+    {
+      "id": "253da58da86fd96b",
+      "data": "2026-10-28T11:01:07+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "pt-colegio-eleitoral-1985-tancredo",
+      "titulo": "Vinte anos depois, PT quer reintegrar deputados que votaram em Tancredo (O Estado de S. Paulo, 15/01/2005, via Biblioteca do Senado)",
+      "fonte_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/314707/noticia.htm",
+      "cves": [],
+      "texto": "Janeiro de 1985: o PT proíbe seus deputados de votar em Tancredo no Colégio Eleitoral. Três dos oito votam mesmo assim e saem sob ameaça de expulsão. Em 2005, o partido quis chamá-los de volta, mas sustentou que a decisão fora correta. Pedido de desculpas em versão light.",
+      "ano_evento": 1985,
+      "status": "rascunho"
     }
   ]
 }
