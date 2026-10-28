@@ -41,6 +41,19 @@
       "status": "publicado",
       "post_id": "2115414042533875991",
       "issue": 60
+    },
+    {
+      "id": "e1e6bb5a69995f32",
+      "data": "2026-10-28T18:59:20+00:00",
+      "categoria": "populismo-1946-1964",
+      "tema_chave": "contragolpe-lott-cafe-filho-carlos-luz-1955",
+      "titulo": "Há 60 anos, crise fez Brasil ter 3 presidentes numa única semana — Senado Notícias",
+      "fonte_url": "https://www12.senado.leg.br/noticias/materias/2015/11/06/ha-60-anos-crise-fez-brasil-ter-3-presidentes-numa-unica-semana",
+      "cves": [],
+      "texto": "1955: Café Filho se afasta com um \"ligeiro distúrbio cardiovascular\". O substituto dura três dias e foge de navio. Café melhora, quer voltar ao Catete e encontra a casa cercada de blindados.\n\nPrimeiro atestado médico auditado por blindados.",
+      "ano_evento": 1955,
+      "status": "rascunho"
     }
-  ]
+  ],
+  "ultima_execucao": "2026-10-28T18:59:20+00:00"
 }
