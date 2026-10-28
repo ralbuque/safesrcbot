@@ -9,12 +9,16 @@ Cada conta tem:
 import json
 import re
 from dataclasses import dataclass, field
+from datetime import datetime, timedelta
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 DIR_CONTAS = RAIZ / "contas"
 RE_ID = re.compile(r"^[a-z0-9_]{1,30}$")
 MODOS = ("revisao", "automatico", "simulacao")
+# Quanto tempo depois do horário ainda vale a pena gerar o post atrasado.
+# O agendamento do GitHub Actions atrasa (e às vezes pula) execuções.
+TOLERANCIA_ATRASO = timedelta(hours=4)
 
 
 class ContaInvalida(ValueError):
@@ -87,3 +91,28 @@ def listar(dir_contas: Path | None = None) -> list[str]:
 
 def contas_do_horario(hora_brt: int, dir_contas: Path | None = None) -> list[str]:
     return [c for c in listar(dir_contas) if hora_brt in carregar(c, dir_contas or None).horarios]
+
+
+def ultimo_horario(horarios: list[int], agora: datetime) -> datetime | None:
+    """Último horário programado que já passou (hoje ou ontem), no fuso de `agora`."""
+    if not horarios:
+        return None
+    hoje = agora.replace(minute=0, second=0, microsecond=0)
+    candidatos = [hoje.replace(hour=h) for h in horarios if hoje.replace(hour=h) <= agora]
+    if candidatos:
+        return max(candidatos)
+    return (hoje - timedelta(days=1)).replace(hour=max(horarios))
+
+
+def horario_pendente(horarios: list[int], agora: datetime, ultima_execucao: datetime | None) -> datetime | None:
+    """Horário que ainda não foi atendido (e não está atrasado demais), ou None.
+
+    Não depende de a execução agendada cair exatamente na hora certa: qualquer
+    execução até TOLERANCIA_ATRASO depois do horário gera o post, uma vez só.
+    """
+    slot = ultimo_horario(horarios, agora)
+    if slot is None or agora - slot > TOLERANCIA_ATRASO:
+        return None
+    if ultima_execucao is not None and ultima_execucao >= slot:
+        return None
+    return slot

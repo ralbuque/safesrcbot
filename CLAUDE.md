@@ -26,8 +26,10 @@ Bot que mantém ativas 4 contas do X do Ricardo. **Atenção:** o id interno de 
 ## Como funciona
 
 ```
-cron toda hora (:07 UTC) ─► postar.yml
-   job planejar: python3 -m bot planejar ► contas cujo "horarios" (Brasília) inclui a hora atual
+cron a cada 20 min (:07, :27, :47 UTC) ─► postar.yml
+   job planejar: python3 -m bot planejar ► contas com horário PENDENTE: o último horário de
+                 "horarios" (Brasília) já passou há no máximo 4 h e ainda não foi atendido
+                 (historico.json → "ultima_execucao")
    job gerar (matriz, 1 job por conta, environment = id da conta):
        sinais_x.coletar  ► tendências do Brasil + busca recente (Bearer token; só se sinais_x.ativo)
        gerador.gerar     ► Claude + web_search; ferramenta registrar_post
@@ -47,7 +49,7 @@ label "aprovado" na issue ─► aprovar.yml
 
 **Trava de segurança:** antes de publicar, `publicador.publicar` chama `GET /2/users/me` e confere se o token é da conta esperada (`usuario_x`). Se um Environment estiver sem secrets e cair no secret do repositório, o post é bloqueado em vez de sair na conta errada.
 
-O cron do GitHub pode atrasar alguns minutos. O planejador usa a hora em que o job roda.
+**Agendamento do GitHub não é pontual:** execuções agendadas atrasam (vimos 30–60 min) e algumas são puladas. Por isso o planejador não compara com a hora exata. Ele gera para cada horário pendente, uma única vez, com até 4 h de atraso (`bot/conta.py: horario_pendente`, `TOLERANCIA_ATRASO`). `ultima_execucao` é gravado em `contas/<id>/historico.json` quando a geração termina (com post ou com `pular`; não em `simulacao`). Execuções agendadas (`AGENDADO=true`) conferem de novo antes de gerar, para não duplicar quando duas ficam na fila.
 
 ## Estrutura
 
@@ -139,3 +141,4 @@ Para reduzir: diminuir `sinais_x.max_posts`, desativar sinais numa conta (`"ativ
 - 2026-10-26: Multi-contas, com @ancapsu, @palacioassombra e @mundoemrevo. Contas políticas com revisão humana obrigatória, fatos ancorados em fonte (post sem link) e viés assumido como opinião. Leitura de tendências/posts do X (Bearer token). Um Environment por conta + trava de identidade antes de publicar. Histórico movido para `contas/<id>/historico.json`. Horários (Brasília): safesrc 8/12/17/21, ancapsu 7/11/16/20, palacioassombra 10/19, mundoemrevo 6/10/14/18.
 - 2026-10-26: A conta `safesrc` publica no X como **@ralbuque** (`usuario_x: ralbuque`); o id interno continua `safesrc` para não mexer em Environment, histórico e labels.
 - 2026-10-27: Geração agendada ligada para as 4 contas. `safesrc` (@ralbuque) passou para `modo: automatico`; as contas políticas seguem com revisão obrigatória.
+- 2026-10-28: Agendamento passou a tolerar atrasos. Execuções agendadas do GitHub chegavam com 30–60 min de atraso, ou nem rodavam, e o planejador antigo (hora exata) não gerava nada. Agora o cron roda a cada 20 min e gera para cada horário pendente (até 4 h de atraso), uma vez só.

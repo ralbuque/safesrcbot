@@ -42,6 +42,16 @@ def _resumo_actions(texto: str) -> None:
             f.write(texto + "\n")
 
 
+def _ultima_execucao(hist: dict) -> datetime | None:
+    valor = hist.get("ultima_execucao")
+    return datetime.fromisoformat(valor) if valor else None
+
+
+def _pendente(conta, agora: datetime) -> datetime | None:
+    hist = historico.carregar(conta.caminho_historico)
+    return contas.horario_pendente(conta.horarios, agora, _ultima_execucao(hist))
+
+
 def cmd_planejar(_args) -> int:
     manual = os.environ.get("CONTA_MANUAL", "").strip().lower()
     if manual == "todas":
@@ -49,9 +59,16 @@ def cmd_planejar(_args) -> int:
     elif manual:
         lista = [contas.validar_id(manual)]
     else:
-        hora = datetime.now(FUSO).hour
-        lista = contas.contas_do_horario(hora)
-        print(f"Hora em Brasília: {hora}h")
+        agora = datetime.now(FUSO)
+        print(f"Agora em Brasília: {agora:%Y-%m-%d %H:%M}")
+        lista = []
+        for cid in contas.listar():
+            slot = _pendente(contas.carregar(cid), agora)
+            if slot:
+                print(f"- {cid}: horário de {slot:%H}h pendente")
+                lista.append(cid)
+        if not lista:
+            print("Nenhuma conta com horário pendente.")
     _saida_actions("contas", json.dumps(lista))
     return 0
 
@@ -62,6 +79,11 @@ def cmd_gerar(args) -> int:
     from .gerador import gerar
 
     conta = contas.carregar(args.conta)
+    agendado = os.environ.get("AGENDADO", "").lower() == "true"
+    if agendado and not _pendente(conta, datetime.now(FUSO)):
+        # Outra execução agendada já atendeu este horário enquanto esta esperava na fila.
+        print(f"[{conta.id}] horário já atendido; nada a fazer.")
+        return 0
     modo = conta.modo_efetivo(os.environ.get("MODO"))
     modelo = os.environ.get("ANTHROPIC_MODEL", "").strip() or conta.modelo or MODELO_PADRAO
 
@@ -77,6 +99,9 @@ def cmd_gerar(args) -> int:
     if res.pular:
         print(f"[{conta.id}] nenhum post agora: {res.motivo}")
         _resumo_actions(f"### @{conta.usuario_x}: sem post nesta rodada\n\n{res.motivo}")
+        if modo != "simulacao":
+            hist["ultima_execucao"] = agora_utc.isoformat(timespec="seconds")
+            historico.salvar(hist, conta.caminho_historico)
         return 0
 
     d = res.dados
@@ -125,6 +150,7 @@ def cmd_gerar(args) -> int:
         entrada["status"] = "rascunho"
 
     historico.registrar(hist, entrada)
+    hist["ultima_execucao"] = agora_utc.isoformat(timespec="seconds")
     historico.salvar(hist, conta.caminho_historico)
     return 0
 

@@ -300,3 +300,36 @@ def test_regras_do_sistema_e_sinais_no_prompt():
     gerar(cli, "modelo", c, {"posts": []}, AGORA, "<sinais_do_x>X</sinais_do_x>")
     assert "<sinais_do_x>" in cli.chamadas[0]["messages"][0]["content"]
     assert "Regras fixas do sistema" in cli.chamadas[0]["system"]
+
+
+# ---------- agendamento tolerante a atrasos do GitHub ----------
+
+from zoneinfo import ZoneInfo  # noqa: E402
+
+BRT = ZoneInfo("America/Sao_Paulo")
+
+
+def _brt(dia, hora, minuto=0):
+    return datetime(2026, 10, dia, hora, minuto, tzinfo=BRT)
+
+
+def test_horario_pendente_aceita_execucao_atrasada():
+    hs = [7, 11, 16, 20]
+    # execução agendada caiu às 12:42 (deveria ser 11:07): ainda gera o post das 11h
+    assert contas.horario_pendente(hs, _brt(28, 12, 42), None) == _brt(28, 11)
+    # ...uma vez só
+    assert contas.horario_pendente(hs, _brt(28, 13, 2), _brt(28, 12, 43)) is None
+    # ultima_execucao gravada em UTC também funciona
+    assert contas.horario_pendente(hs, _brt(28, 13, 2), datetime(2026, 10, 28, 15, 43, tzinfo=timezone.utc)) is None
+    # atraso maior que a tolerância: espera o próximo horário
+    assert contas.horario_pendente(hs, _brt(28, 15, 30), None) is None
+
+
+def test_horario_pendente_vira_o_dia():
+    # 00:30, sem execução desde o meio-dia de ontem: ainda dá tempo do post das 21h
+    assert contas.horario_pendente([8, 21], _brt(28, 0, 30), _brt(27, 12)) == _brt(27, 21)
+    assert contas.horario_pendente([8, 21], _brt(28, 5, 30), _brt(27, 12)) is None  # passou de 4 h
+
+
+def test_horario_pendente_execucao_manual_antes_do_horario_nao_conta():
+    assert contas.horario_pendente([8], _brt(28, 8, 30), _brt(28, 7, 50)) == _brt(28, 8)

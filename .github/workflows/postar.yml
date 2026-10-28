@@ -2,9 +2,11 @@ name: Gerar post
 
 on:
   schedule:
-    # Roda toda hora no minuto 7 (UTC). O job "planejar" decide quais contas
-    # têm horário agora (campo "horarios" de contas/<id>/config.json, em Brasília).
-    - cron: "7 * * * *"
+    # Roda a cada 20 minutos. O GitHub atrasa e às vezes pula execuções agendadas,
+    # então o job "planejar" não depende da hora exata: gera para toda conta cujo
+    # último horário (contas/<id>/config.json, em Brasília) ainda não foi atendido,
+    # com até 4 h de atraso (ver bot/conta.py: horario_pendente).
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
     inputs:
       conta:
@@ -29,6 +31,8 @@ jobs:
       contas: ${{ steps.p.outputs.contas }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref }} # ponta do branch, com o histórico mais recente
       - id: p
         env:
           CONTA_MANUAL: ${{ inputs.conta }}
@@ -50,6 +54,8 @@ jobs:
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref }} # ponta do branch: vê o histórico de execuções anteriores
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
@@ -61,6 +67,7 @@ jobs:
       - name: Pesquisar e escrever
         env:
           CONTA: ${{ matrix.conta }}
+          AGENDADO: ${{ github.event_name == 'schedule' }}
           MODO: ${{ inputs.modo != 'padrao' && inputs.modo || '' }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
