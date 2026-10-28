@@ -671,7 +671,19 @@
       "texto": "Começaram tentativas de exploração do CVE-2026-101767 (CVSS 9.8) no Oracle E-Business Suite: SQL injection sem autenticação que leva a RCE. Já corrigido no CPU de outubro. Aplique o patch e restrinja o acesso externo.\n\nhttps://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
       "status": "publicado",
       "post_id": "2115398998626590860"
+    },
+    {
+      "id": "e3072f59757e8d50",
+      "data": "2026-10-28T23:08:40+00:00",
+      "categoria": "supply-chain",
+      "tema_chave": "42-repos-github-hooks-ia-npm-worm",
+      "titulo": "Attackers compromised 42 GitHub repositories by using files too large to be searched",
+      "fonte_url": "https://www.infoworld.com/article/4241474/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched.html",
+      "cves": [],
+      "texto": "Worm em npm roubou credenciais do GitHub e npm e armou 42 repositórios reais com hooks para Claude Code, Gemini, Cursor e VS Code: o código roda ao abrir o projeto. Rotacione tokens e audite .github/init.js, .claude/settings.json e .vscode/tasks.json.\n\nhttps://www.infoworld.com/article/4241474/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched.html",
+      "status": "publicado",
+      "post_id": "2115581712931467686"
     }
   ],
-  "ultima_execucao": "2026-10-28T18:59:22+00:00"
+  "ultima_execucao": "2026-10-28T23:08:40+00:00"
 }
