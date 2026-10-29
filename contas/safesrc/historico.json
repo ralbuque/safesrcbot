@@ -683,7 +683,19 @@
       "texto": "Worm em npm roubou credenciais do GitHub e npm e armou 42 repositórios reais com hooks para Claude Code, Gemini, Cursor e VS Code: o código roda ao abrir o projeto. Rotacione tokens e audite .github/init.js, .claude/settings.json e .vscode/tasks.json.\n\nhttps://www.infoworld.com/article/4241474/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched.html",
       "status": "publicado",
       "post_id": "2115581712931467686"
+    },
+    {
+      "id": "193f5a35878b3318",
+      "data": "2026-10-29T16:02:20+00:00",
+      "categoria": "ferramentas-padroes",
+      "tema_chave": "github-npm-package-firewall-preview",
+      "titulo": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+      "fonte_url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+      "cves": [],
+      "texto": "GitHub lançou em preview o package firewall para npm (Enterprise Cloud). Fica entre runners de CI, agentes de código e o registry e bloqueia malware conhecido, vulns críticas e versões recém-publicadas. Vale testar uma política de cooldown.\n\nhttps://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+      "status": "publicado",
+      "post_id": "2115836828905517298"
     }
   ],
-  "ultima_execucao": "2026-10-29T02:36:14+00:00"
+  "ultima_execucao": "2026-10-29T16:02:20+00:00"
 }
