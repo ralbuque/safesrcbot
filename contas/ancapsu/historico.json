@@ -75,7 +75,18 @@
       "status": "publicado",
       "post_id": "2115526946490638443",
       "issue": 64
+    },
+    {
+      "id": "bd45c3c26a862e63",
+      "data": "2026-10-29T16:02:13+00:00",
+      "categoria": "liberdades",
+      "tema_chave": "wsj-editorial-vinganca-politica-flavio",
+      "titulo": "Wall Street Journal acusa Brasil de vingança política contra Flávio Bolsonaro",
+      "fonte_url": "https://www.bra1.com.br/politica/id-717360/wall_street_journal_acusa_brasil_de_vinganca_politica_contra_flavio_bolsonaro",
+      "cves": [],
+      "texto": "O Wall Street Journal chamou de \"vingança política\" as medidas contra Flávio Bolsonaro após a reeleição de Lula e destacou a rapidez entre a eleição e a ordem de Moraes sobre os passaportes. Flávio é investigado, não condenado. Até a imprensa americana estranha a pressa.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-28T23:08:41+00:00"
+  "ultima_execucao": "2026-10-29T16:02:13+00:00"
 }
