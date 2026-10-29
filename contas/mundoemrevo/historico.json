@@ -78,14 +78,16 @@
     },
     {
       "id": "6d5842c3b9cc02ef",
-      "data": "2026-10-29T21:02:39+00:00",
+      "data": "2026-10-29T22:18:00+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "reino-unido-10-bi-libras-ucrania-out26",
       "titulo": "Ukraine News Today: Breaking Updates & Live Coverage - October 29, 2026 from Kyiv Post (UK Pledges £10 Billion to Ukraine, Including Urgent Air Defense Aid)",
       "fonte_url": "https://www.kyivpost.com/thread/88486",
       "cves": [],
       "texto": "Londres anunciou mais de £10 bi em apoio à Ucrânia, segundo Zelensky: £7 bi em ajuda econômica em 3 anos e £3 bi em financiamento à exportação, mais £500 mi urgentes para defesa aérea. Com o inverno chegando, é a defesa aérea que protege os civis ucranianos.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2115931181816721895",
+      "issue": 70
     }
   ],
   "ultima_execucao": "2026-10-29T21:02:39+00:00"
