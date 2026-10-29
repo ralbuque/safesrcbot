@@ -69,7 +69,19 @@
       "status": "publicado",
       "post_id": "2115600395061875130",
       "issue": 65
+    },
+    {
+      "id": "39436ec34dd30327",
+      "data": "2026-10-29T16:02:13+00:00",
+      "categoria": "imperio",
+      "tema_chave": "revolta-do-vintem-1880",
+      "titulo": "Revolta do Vintém: O Movimento Passe Livre do século 19",
+      "fonte_url": "https://aventurasnahistoria.com.br/noticias/reportagem/historia-brasil-revolta-vintem-seculo-19.phtml",
+      "cves": [],
+      "texto": "Império, 1880: o governo cria um imposto de um vintém na passagem do bonde. O Rio vira praça de guerra, o imposto cai e a Fazenda troca de time.\n\nHoje o imposto vem embutido no preço. O governo aprendeu que o erro foi deixar o vintém à vista.",
+      "ano_evento": 1880,
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-28T23:08:44+00:00"
+  "ultima_execucao": "2026-10-29T16:02:13+00:00"
 }
