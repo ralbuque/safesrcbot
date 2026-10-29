@@ -58,7 +58,7 @@
     },
     {
       "id": "cda24cb7b5925cd5",
-      "data": "2026-10-28T23:08:44+00:00",
+      "data": "2026-10-29T00:23:34+00:00",
       "categoria": "republica-velha",
       "tema_chave": "encilhamento-rui-barbosa-1890",
       "titulo": "Encilhamento (Atlas Histórico do Brasil, FGV)",
@@ -66,7 +66,9 @@
       "cves": [],
       "texto": "17 de janeiro de 1890: a República ainda nem tinha Constituição e Rui Barbosa já lançava o primeiro pacote econômico. Bancos autorizados a emitir dinheiro, empresas que só existiam no papel. Nascia o Encilhamento, ou a primeira startup brasileira: valuation alto, produto nenhum.",
       "ano_evento": 1890,
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2115600395061875130",
+      "issue": 65
     }
   ],
   "ultima_execucao": "2026-10-28T23:08:44+00:00"
