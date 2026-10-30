@@ -99,7 +99,18 @@
       "cves": [],
       "texto": "Edinho Silva, presidente do PT, diz que a prioridade de Lula até o fim do ano é a PEC da Segurança porque \"hoje a segurança pública não é uma atribuição do Governo Federal\". Quase quatro anos de mandato e a desculpa já está pronta. O ministério da área, só em 2027.",
       "status": "rascunho"
+    },
+    {
+      "id": "bc2f0f7c7af3cf53",
+      "data": "2026-10-30T00:52:15+00:00",
+      "categoria": "eleicoes-partidos",
+      "tema_chave": "flavio-fuga-eua-confirmada-critica-oposicao",
+      "titulo": "Flávio Bolsonaro chega aos EUA em operação que teria sido liderada por Rubio",
+      "fonte_url": "https://www.correiobraziliense.com.br/politica/2026/10/7528962-flavio-bolsonaro-chega-aos-eua-em-operacao-que-teria-sido-liderada-por-rubio.html",
+      "cves": [],
+      "texto": "Flávio Bolsonaro deixou o Brasil e chegou aos EUA depois de Moraes mandar entregar seus passaportes. Até ministros de Lula criticam, em off, a decisão de Moraes. Mas sair do país contra ordem judicial enfraquece a tese de perseguição e entrega a narrativa de bandeja ao PT.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-29T21:02:39+00:00"
+  "ultima_execucao": "2026-10-30T00:52:15+00:00"
 }
