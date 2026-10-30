@@ -86,15 +86,17 @@
     },
     {
       "id": "0e0ca5345fd5111a",
-      "data": "2026-10-30T00:52:16+00:00",
+      "data": "2026-10-30T02:10:51+00:00",
       "categoria": "nova-republica",
       "tema_chave": "cruzado-ii-pos-eleicao-1986",
       "titulo": "PLANO CRUZADO (Atlas Histórico do Brasil, FGV / CPDOC)",
       "fonte_url": "https://atlas.fgv.br/verbete/6297",
       "cves": [],
-      "texto": "1986: o governo segurou o congelamento de preços até a eleição de 15/11. O PMDB levou 22 dos 23 governadores. Seis dias depois veio o Cruzado II e os preços foram liberados. Plano com prazo de validade honesto: venceu logo depois da urna.",
+      "texto": "Estelionato eleitoral não é novidade. Em 1986 o governo Sarney segurou o congelamento de preços até a eleição de 15/11. O PMDB levou 22 dos 23 governadores. Seis dias depois veio o Cruzado II e os preços foram liberados.",
       "ano_evento": 1986,
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2115989779242197436",
+      "issue": 72
     }
   ],
   "ultima_execucao": "2026-10-30T00:52:16+00:00"
