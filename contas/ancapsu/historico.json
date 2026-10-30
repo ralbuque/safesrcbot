@@ -115,14 +115,16 @@
     },
     {
       "id": "c93d8fbd36ba23c7",
-      "data": "2026-10-30T14:02:38+00:00",
+      "data": "2026-10-30T16:57:02+00:00",
       "categoria": "congresso",
       "tema_chave": "motta-pec-voto-distrital-misto",
       "titulo": "Voto distrital misto: Entenda o sistema que deve ser votado na Câmara",
       "fonte_url": "https://www.congressoemfoco.com.br/noticia/129609/voto-distrital-misto-entenda-o-sistema-que-deve-ser-votado-na-camara",
       "cves": [],
-      "texto": "Motta quer votar ainda este ano a PEC do voto distrital misto, com vigência só em 2034. Aproximar eleitor e eleito é boa ideia. Mas a pressa do Centrão surge logo depois de o PL virar a maior bancada, com 121 cadeiras. Reforma é bem-vinda; casuísmo, não.",
-      "status": "rascunho"
+      "texto": "Motta quer votar ainda este ano a PEC do voto distrital misto, com vigência em 2034. Voto distrital com recall é boa ideia. Mas distrital misto só piora. E a pressa do Centrão surge logo depois de o PL virar a maior bancada, com 121 cadeiras. Reforma é bem-vinda; casuísmo, não.",
+      "status": "publicado",
+      "post_id": "2116212796211769813",
+      "issue": 74
     }
   ],
   "ultima_execucao": "2026-10-30T14:02:38+00:00"
