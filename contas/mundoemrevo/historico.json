@@ -112,7 +112,18 @@
       "cves": [],
       "texto": "Segundo o Kyiv Independent, o Kremlin propõe uma ligação entre Putin e Zelensky para evitar um encontro presencial, que Kiev pede há tempo. Moscou segue rejeitando cessar-fogo. Telefonema não substitui negociação real: o risco é só ganhar tempo.",
       "status": "rascunho"
+    },
+    {
+      "id": "c0ab7e5722b1ccf2",
+      "data": "2026-10-30T23:04:56+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "eua-aprovam-venda-patriot-ucrania-out26",
+      "titulo": "Ukraine war latest: Russia strikes Dnipro railway station again, day after attack killed 15",
+      "fonte_url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-dnipro-railway-station-again-day-after-attack-killed-15/",
+      "cves": [],
+      "texto": "Os EUA aprovaram a venda de US$ 2,1 bilhões em mísseis Patriot à Ucrânia, segundo o Kyiv Independent. Um comandante da Otan minimizou temores de atraso nas entregas. Após os ataques russos a Dnipro, Chernihiv e Kremenchuk, defesa antiaérea é o que protege vidas.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-30T19:15:40+00:00"
+  "ultima_execucao": "2026-10-30T23:04:56+00:00"
 }
