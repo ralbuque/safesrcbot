@@ -101,7 +101,18 @@
       "status": "publicado",
       "post_id": "2116212019959369823",
       "issue": 76
+    },
+    {
+      "id": "ce9e8c08ace440d7",
+      "data": "2026-10-30T19:15:40+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "putin-ligacao-zelensky-armadilha-kremlin-out26",
+      "titulo": "Putin open to phone call with Zelensky, Ukraine suspects a Kremlin trap",
+      "fonte_url": "https://kyivindependent.com/putin-open-to-phone-call-with-zelensky-ukraine-suspects-a-kremlin-trap/",
+      "cves": [],
+      "texto": "Segundo o Kyiv Independent, o Kremlin propõe uma ligação entre Putin e Zelensky para evitar um encontro presencial, que Kiev pede há tempo. Moscou segue rejeitando cessar-fogo. Telefonema não substitui negociação real: o risco é só ganhar tempo.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-30T14:02:37+00:00"
+  "ultima_execucao": "2026-10-30T19:15:40+00:00"
 }
