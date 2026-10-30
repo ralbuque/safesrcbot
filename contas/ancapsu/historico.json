@@ -136,7 +136,18 @@
       "cves": [],
       "texto": "Motta criou um grupo de trabalho com 15 dias para propor regras de propaganda eleitoral nas redes e quer aprovar tudo ainda em 2026. Diz que não é censura. Mexer na fala online às pressas, em fim de ano, pede lupa: quem vai definir o que é \"paridade de armas\"?",
       "status": "rascunho"
+    },
+    {
+      "id": "714f6fd57edc6c33",
+      "data": "2026-10-30T23:04:53+00:00",
+      "categoria": "eleicoes-partidos",
+      "tema_chave": "pl-rejeita-acordo-alcolumbre-lanca-marinho-senado",
+      "titulo": "PL rejeita acordo com Alcolumbre e lança Marinho como candidato",
+      "fonte_url": "https://www.tribunadosertao.com.br/poder-e-governo/2026/10/30/1010220-pl-rejeita-acordo-com-alcolumbre-e-lanca-marinho-como-candidato",
+      "cves": [],
+      "texto": "Segundo O Globo, o PL rejeitou o acordo de Alcolumbre, que ventilou indulto, anistia ou redução de penas a Bolsonaro, e lançará Marinho ao Senado. Em 2025 o apoio a Alcolumbre não entregou anistia. Promessa sem garantia não paga a conta duas vezes.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-30T19:15:40+00:00"
+  "ultima_execucao": "2026-10-30T23:04:53+00:00"
 }
