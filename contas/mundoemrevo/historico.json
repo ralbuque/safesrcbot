@@ -88,7 +88,18 @@
       "status": "publicado",
       "post_id": "2115931181816721895",
       "issue": 70
+    },
+    {
+      "id": "05fd998a65541d91",
+      "data": "2026-10-30T14:02:37+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "kremlin-rejeita-cessar-fogo-otan-1997-out26",
+      "titulo": "ISW Russian Offensive Campaign Assessment, October 29, 2026",
+      "fonte_url": "https://www.kyivpost.com/post/88624",
+      "cves": [],
+      "texto": "Segundo o ISW, Zelensky reiterou que aceita cessar-fogo total ou parcial, incluindo moratória de ataques à energia e no Mar Negro. O Kremlin segue recusando e mantém a exigência de a OTAN recuar às fronteiras de 1997. Quem quer paz aceita parar. Moscou quer reescrever a Europa.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-29T21:02:39+00:00"
+  "ultima_execucao": "2026-10-30T14:02:37+00:00"
 }
