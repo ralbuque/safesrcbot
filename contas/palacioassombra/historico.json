@@ -111,7 +111,19 @@
       "status": "publicado",
       "post_id": "2116211707332948159",
       "issue": 75
+    },
+    {
+      "id": "63741b5769de51b0",
+      "data": "2026-10-30T23:04:55+00:00",
+      "categoria": "regime-militar",
+      "tema_chave": "lei-falcao-1976",
+      "titulo": "Memorial da Democracia - Lei Falcão silencia a campanha eleitoral",
+      "fonte_url": "https://memorialdademocracia.com.br/card/lei-falcao-silencia-a-campanha-eleitoral",
+      "cves": [],
+      "texto": "1976, Lei Falcão: na TV, candidato só podia mostrar foto, nome, número e currículo. Falar, nem pensar. O governo chamou de “aperfeiçoamento democrático”.\n\nO primeiro LinkedIn do Brasil, só que sem textão motivacional. Talvez o único ponto positivo.",
+      "ano_evento": 1976,
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-30T14:02:36+00:00"
+  "ultima_execucao": "2026-10-30T23:04:55+00:00"
 }
