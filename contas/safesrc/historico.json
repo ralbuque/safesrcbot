@@ -695,7 +695,21 @@
       "texto": "GitHub lançou em preview o package firewall para npm (Enterprise Cloud). Fica entre runners de CI, agentes de código e o registry e bloqueia malware conhecido, vulns críticas e versões recém-publicadas. Vale testar uma política de cooldown.\n\nhttps://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
       "status": "publicado",
       "post_id": "2115836828905517298"
+    },
+    {
+      "id": "24f9ac3c822105c4",
+      "data": "2026-10-30T14:02:37+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "fragnesia-linux-kev-php2shell-chain",
+      "titulo": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+      "fonte_url": "https://bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks",
+      "cves": [
+        "CVE-2026-46300"
+      ],
+      "texto": "CISA incluiu no KEV a CVE-2026-46300 (Fragnesia), bug no XFRM ESP-in-TCP do kernel Linux que dá root a um atacante local. Foi encadeada com PHP2Shell: RCE na app vira root no host. Atualize PHP e kernel e isole os workloads web.\n\nhttps://bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks",
+      "status": "publicado",
+      "post_id": "2116169103635570896"
     }
   ],
-  "ultima_execucao": "2026-10-30T00:52:19+00:00"
+  "ultima_execucao": "2026-10-30T14:02:37+00:00"
 }
