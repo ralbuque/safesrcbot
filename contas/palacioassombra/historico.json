@@ -100,7 +100,7 @@
     },
     {
       "id": "a4087e436d27cbab",
-      "data": "2026-10-30T14:02:36+00:00",
+      "data": "2026-10-30T16:52:43+00:00",
       "categoria": "populismo-1946-1964",
       "tema_chave": "fechamento-cassinos-dutra-1946",
       "titulo": "Após 80 anos, o que aproxima (ou não) proibições de cassinos e bets? - Migalhas",
@@ -108,7 +108,9 @@
       "cves": [],
       "texto": "Janeiro de 1946: Dutra toma posse e os donos de cassino relaxam, achando que tinham escapado da proibição. Em 30 de abril, decreto-lei fecha tudo, em nome da \"tradição moral, jurídica e religiosa\". Apostaram contra o governo. A casa ganhou. No caso, o Catete.",
       "ano_evento": 1946,
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2116211707332948159",
+      "issue": 75
     }
   ],
   "ultima_execucao": "2026-10-30T14:02:36+00:00"
