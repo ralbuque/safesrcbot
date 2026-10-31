@@ -140,7 +140,18 @@
       "status": "publicado",
       "post_id": "2116562614104760414",
       "issue": 82
+    },
+    {
+      "id": "a137a406c6646321",
+      "data": "2026-10-31T19:14:43+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "refinarias-bashneft-ufa-rede-eletrica-out26",
+      "titulo": "Ukraine Strikes Bashneft Refineries as Russia Attacks Power Grid",
+      "fonte_url": "https://www.bloomberg.com/news/articles/2026-10-31/ukraine-strikes-bashneft-refineries-as-russia-attacks-power-grid",
+      "cves": [],
+      "texto": "Segundo a Bloomberg, que cita fonte anônima, drones ucranianos atingiram refinarias da Bashneft em Ufa, no interior da Rússia. Enquanto isso, Kyiv e outras regiões tentavam restabelecer a luz após ataques russos. Um lado mira a máquina de guerra; o outro, o inverno dos civis.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-31T14:48:02+00:00"
+  "ultima_execucao": "2026-10-31T19:14:43+00:00"
 }
