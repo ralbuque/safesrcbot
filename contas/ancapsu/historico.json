@@ -151,7 +151,18 @@
       "status": "publicado",
       "post_id": "2116318100295713014",
       "issue": 79
+    },
+    {
+      "id": "37e1dc461fe509dd",
+      "data": "2026-10-31T14:48:01+00:00",
+      "categoria": "congresso",
+      "tema_chave": "alcolumbre-indulto-anistia-bolsonaro-troca-reeleicao",
+      "titulo": "Alcolumbre planeja indulto ou anistia a Bolsonaro em busca de votos da direita para se reeleger",
+      "fonte_url": "https://www.otempo.com.br/politica/congresso/2026/10/28/alcolumbre-planeja-indulto-ou-anistia-a-bolsonaro-em-busca-de-votos-da-direita-para-se-reeleger",
+      "cves": [],
+      "texto": "Segundo a Folha, Alcolumbre quer oferecer indulto ou anistia a Bolsonaro em troca do apoio da direita à sua reeleição no Senado e de menos pressão por impeachment de ministros do STF. Liberdade de preso como ficha de barganha: o preço é deixar o Supremo em paz.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-30T23:04:53+00:00"
+  "ultima_execucao": "2026-10-31T14:48:01+00:00"
 }
