@@ -156,14 +156,16 @@
     },
     {
       "id": "ed62cd4afee2bc8b",
-      "data": "2026-10-31T22:40:03+00:00",
+      "data": "2026-10-31T23:23:17+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "economist-perdas-russas-770-mil-out26",
       "titulo": "The Economist Publishes New Estimates of Russia's Casualties in War Against Ukraine",
       "fonte_url": "https://english.nv.ua/nation/the-economist-publishes-new-estimates-of-russia-s-casualties-in-war-against-ukraine-50655106.html",
       "cves": [],
       "texto": "A Economist estima que a Rússia teve entre 1,4 e 2,1 milhões de soldados mortos e feridos, com 374 mil a 770 mil mortos. Em maio, a faixa era de 280 mil a 518 mil. Moscou não divulga dados confiáveis. É o preço que Putin cobra do próprio povo por ganhos territoriais limitados.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2116672385940169094",
+      "issue": 87
     }
   ],
   "ultima_execucao": "2026-10-31T22:40:03+00:00"
