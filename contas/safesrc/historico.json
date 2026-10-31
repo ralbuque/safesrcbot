@@ -709,7 +709,21 @@
       "texto": "CISA incluiu no KEV a CVE-2026-46300 (Fragnesia), bug no XFRM ESP-in-TCP do kernel Linux que dá root a um atacante local. Foi encadeada com PHP2Shell: RCE na app vira root no host. Atualize PHP e kernel e isole os workloads web.\n\nhttps://bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks",
       "status": "publicado",
       "post_id": "2116169103635570896"
+    },
+    {
+      "id": "31191d9e5f2a0c5d",
+      "data": "2026-10-31T02:18:38+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "gitlab-cicd-regex-cve-2026-97229-kev",
+      "titulo": "CISA says max severity GitLab flaw now exploited in the wild",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "texto": "GitLab CE/EE: CVE-2026-97229 (CVSS 10.0), falha na validação de regex em configs de CI/CD que permite executar código no servidor, entrou no CISA KEV com exploração ativa. Corrigido nas versões 19.4.2, 19.3.5 e 19.2.8. Atualize instâncias self-managed.\n\nhttps://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "status": "publicado",
+      "post_id": "2116354239412797612"
     }
   ],
-  "ultima_execucao": "2026-10-30T23:04:54+00:00"
+  "ultima_execucao": "2026-10-31T02:18:38+00:00"
 }
