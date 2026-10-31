@@ -127,7 +127,18 @@
       "status": "publicado",
       "post_id": "2116318833321369957",
       "issue": 81
+    },
+    {
+      "id": "a2661847d7f386dd",
+      "data": "2026-10-31T14:48:02+00:00",
+      "categoria": "israel-oriente-medio",
+      "tema_chave": "resultado-final-eleicao-israel-impasse-out26",
+      "titulo": "Israel final election results: Netanyahu's bloc maintains lead but does not secure majority",
+      "fonte_url": "https://abcnews.com/International/israel-election-partial-results-deadlock-netanyahu-alleges-fraud/story?id=137665276",
+      "cves": [],
+      "texto": "Resultado final em Israel: o bloco de Netanyahu ficou com 53 das 120 cadeiras, a oposição com 48; ninguém chega a 61. Árabes somam 19. A Comissão Eleitoral diz não haver base para alegação de fraude sistêmica. Impasse real, mas as instituições israelenses funcionam.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-30T23:04:56+00:00"
+  "ultima_execucao": "2026-10-31T14:48:02+00:00"
 }
