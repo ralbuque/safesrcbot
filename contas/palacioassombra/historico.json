@@ -125,7 +125,19 @@
       "status": "publicado",
       "post_id": "2116318998673379346",
       "issue": 80
+    },
+    {
+      "id": "832dae29d3140138",
+      "data": "2026-10-31T14:48:09+00:00",
+      "categoria": "republica-velha",
+      "tema_chave": "lei-vacina-obrigatoria-1904",
+      "titulo": "Revolta da Vacina",
+      "fonte_url": "https://atlas.fgv.br/verbetes/revolta-da-vacina",
+      "cves": [],
+      "texto": "31/10/1904: Congresso aprova a vacina obrigatória. A regulamentação exigia comprovante pra emprego, escola, viagem, hospedagem e casamento. Dia 10/11 o Rio se revoltou; dia 16, a obrigatoriedade caiu. Atualização compulsória desinstalada em 16 dias.",
+      "ano_evento": 1904,
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-30T23:04:55+00:00"
+  "ultima_execucao": "2026-10-31T14:48:09+00:00"
 }
