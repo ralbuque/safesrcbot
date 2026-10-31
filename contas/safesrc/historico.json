@@ -723,7 +723,19 @@
       "texto": "GitLab CE/EE: CVE-2026-97229 (CVSS 10.0), falha na validação de regex em configs de CI/CD que permite executar código no servidor, entrou no CISA KEV com exploração ativa. Corrigido nas versões 19.4.2, 19.3.5 e 19.2.8. Atualize instâncias self-managed.\n\nhttps://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
       "status": "publicado",
       "post_id": "2116354239412797612"
+    },
+    {
+      "id": "ca28b402f771f3f4",
+      "data": "2026-10-31T22:40:03+00:00",
+      "categoria": "incidente",
+      "tema_chave": "northflank-breach-ai-api-keys",
+      "titulo": "Northflank security breach leads to abuse of customers' AI API keys",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "cves": [],
+      "texto": "A Northflank, plataforma de hospedagem de apps, pediu que clientes rotacionem variáveis de ambiente e chaves após um incidente. Houve relatos de uso não autorizado de chaves de API de IA. Rotacione segredos, defina limites de gasto e revise logs de uso.\n\nhttps://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "status": "publicado",
+      "post_id": "2116661639236010473"
     }
   ],
-  "ultima_execucao": "2026-10-31T14:47:58+00:00"
+  "ultima_execucao": "2026-10-31T22:40:03+00:00"
 }
