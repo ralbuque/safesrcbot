@@ -139,7 +139,19 @@
       "status": "publicado",
       "post_id": "2116562325880619023",
       "issue": 84
+    },
+    {
+      "id": "11d0c55af39d1586",
+      "data": "2026-10-31T22:40:01+00:00",
+      "categoria": "imperio",
+      "tema_chave": "voto-distrital-lei-dos-circulos-1855",
+      "titulo": "Reforma eleitoral: Voto distrital foi adotado por 71 anos no Brasil",
+      "fonte_url": "https://www.congressoemfoco.com.br/noticia/129688/reforma-eleitoral-voto-distrital-foi-adotado-por-71-anos-no-brasil",
+      "cves": [],
+      "texto": "Notas de atualização do voto distrital no Império:\n\nv1.0 (1855): um deputado por distrito.\nv2.0 (1860): três por distrito.\nv3.0 (1881): volta pra um.\nv4.0 (1889): Império desinstalado. O voto distrital ficou, até 1932.",
+      "ano_evento": 1855,
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-31T14:48:09+00:00"
+  "ultima_execucao": "2026-10-31T22:40:01+00:00"
 }
