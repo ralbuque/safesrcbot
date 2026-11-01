@@ -188,7 +188,18 @@
       "status": "publicado",
       "post_id": "2116869003888996765",
       "issue": 89
+    },
+    {
+      "id": "dc31fdf09122a6cc",
+      "data": "2026-11-01T15:22:00+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "stf-lei-dosimetria-pautar-plenario-bolsonaro",
+      "titulo": "Ministros do STF querem votação que pode antecipar saída de Bolsonaro da prisão",
+      "fonte_url": "https://istoe.com.br/ministros-stf-votacao-reducao-pena-bolsonaro",
+      "cves": [],
+      "texto": "Ministros do STF, sob reserva, querem que Moraes leve ao plenário a Lei da Dosimetria, que pode reduzir o regime fechado de Bolsonaro de 7 anos para cerca de 2 anos e 3 meses. A lei é do Congresso e Moraes a suspendeu em maio. Curioso o timing: o novo Senado será mais à direita.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-01T01:30:11+00:00"
+  "ultima_execucao": "2026-11-01T15:22:00+00:00"
 }
