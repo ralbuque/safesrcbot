@@ -166,7 +166,18 @@
       "status": "publicado",
       "post_id": "2116672385940169094",
       "issue": 87
+    },
+    {
+      "id": "b0c537903b638b2a",
+      "data": "2026-11-01T15:21:57+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "oleshky-evacuacao-corredor-sybiha-nov26",
+      "titulo": "Oleshky Success Proves War Can Be Stopped Everywhere for Good, Sybiha Says",
+      "fonte_url": "https://kyivpost.com/post/88779",
+      "cves": [],
+      "texto": "Moradores de Oleshky, cidade ocupada na região de Kherson, chegaram ao território ucraniano no sábado (31) por um corredor de evacuação em várias etapas. Para o chanceler Sybiha, se dá para parar as hostilidades num lugar, dá para parar em todos. Kyiv topa; falta Moscou.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-31T22:40:03+00:00"
+  "ultima_execucao": "2026-11-01T15:21:57+00:00"
 }
