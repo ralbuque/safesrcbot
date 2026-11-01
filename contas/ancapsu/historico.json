@@ -204,14 +204,16 @@
     },
     {
       "id": "1fbafed9de285dd9",
-      "data": "2026-11-01T19:51:00+00:00",
+      "data": "2026-11-01T20:12:15+00:00",
       "categoria": "eleicoes-partidos",
       "tema_chave": "motta-reeleicao-338-deputados-pt-apoio",
       "titulo": "Partidos que apoiam reeleição de Motta terão 338 deputados",
       "fonte_url": "https://www.poder360.com.br/poder-congresso/hugo-motta-soma-apoio-de-338-deputados-para-reeleicao-na-camara/",
       "cves": [],
-      "texto": "Motta soma 12 partidos e 338 deputados para se reeleger na Câmara, 81 acima do necessário. O PT aderiu e negocia Mesa e comissões. PL e Novo, com 131, ainda não têm candidato. Adivinhe quem vai cobrar a conta dessa governabilidade.",
-      "status": "rascunho"
+      "texto": "Motta soma 12 partidos e 338 deputados para se reeleger na Câmara, 81 acima do necessário. PL desistiu da briga e vai apoiar Motta. Concordo que Senado é muito mais importante que Câmara nesse primeiro momento, mas ainda é triste ver isso. Impeachment do lula só em 2029.",
+      "status": "publicado",
+      "post_id": "2116986697317752856",
+      "issue": 94
     }
   ],
   "ultima_execucao": "2026-11-01T19:51:00+00:00"
