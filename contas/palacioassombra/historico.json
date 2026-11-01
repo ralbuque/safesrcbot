@@ -182,7 +182,20 @@
       "status": "publicado",
       "post_id": "2116989386885943434",
       "issue": 95
+    },
+    {
+      "id": "45041ea6c356c4e7",
+      "data": "2026-11-01T23:31:41+00:00",
+      "categoria": "era-vargas",
+      "tema_chave": "posse-vargas-governo-provisorio-1930",
+      "titulo": "Memorial da Democracia - A Revolução de 1930",
+      "fonte_url": "https://memorialdademocracia.com.br/card/a-revolucao-de-30",
+      "cves": [],
+      "texto": "3 de novembro de 1930: Getúlio assume o Governo Provisório e os gaúchos amarram os cavalos no Obelisco da Rio Branco. Era só um minutinho. Ficou 15 anos. A fila dupla mais longa da história do Rio.",
+      "ano_evento": 1930,
+      "charge": "contas/palacioassombra/charges/45041ea6c356c4e7.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-01T20:14:59+00:00"
+  "ultima_execucao": "2026-11-01T23:31:41+00:00"
 }
