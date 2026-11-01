@@ -333,3 +333,132 @@ def test_horario_pendente_vira_o_dia():
 
 def test_horario_pendente_execucao_manual_antes_do_horario_nao_conta():
     assert contas.horario_pendente([8], _brt(28, 8, 30), _brt(28, 7, 50)) == _brt(28, 8)
+
+
+# ---------- charge por IA ----------
+
+import base64 as _b64  # noqa: E402
+import io as _io  # noqa: E402
+
+from bot import charge as charge_mod  # noqa: E402
+from bot import publicador  # noqa: E402
+
+
+def _png(cor=(200, 220, 255), tam=(512, 512)):
+    from PIL import Image
+
+    buf = _io.BytesIO()
+    Image.new("RGB", tam, cor).save(buf, format="PNG")
+    return buf.getvalue()
+
+
+class SessaoImagem:
+    def __init__(self, status=200, corpo=None):
+        self.status, self.corpo, self.enviado = status, corpo, None
+
+    def post(self, url, headers, json, timeout):
+        self.enviado = json
+        corpo = self.corpo if self.corpo is not None else {"data": [{"b64_json": _b64.b64encode(_png()).decode()}]}
+        return SimpleNamespace(status_code=self.status, json=lambda: corpo, text=str(corpo))
+
+
+def test_prompt_da_charge_sempre_estilo_desenho():
+    p = charge_mod.montar_prompt("presidente de faixa segurando um cofre")
+    assert "NÃO fotográfica" in p and "Proibido" in p and "cofre" in p
+
+
+def test_gerar_imagem_ok_e_erros():
+    s = SessaoImagem()
+    dados = charge_mod.gerar_imagem("cena", {"modelo": "gpt-image-2", "qualidade": "low"}, "k", s)
+    assert dados.startswith(b"\x89PNG") and s.enviado["model"] == "gpt-image-2" and s.enviado["quality"] == "low"
+    with pytest.raises(charge_mod.ChargeErro, match="HTTP 400"):
+        charge_mod.gerar_imagem("cena", {}, "k", SessaoImagem(400, {"error": {"message": "safety system"}}))
+    with pytest.raises(charge_mod.ChargeErro, match="OPENAI_API_KEY"):
+        charge_mod.gerar_imagem("cena", {}, "", SessaoImagem())
+
+
+def test_carimbo_gera_jpeg_com_aviso_no_canto():
+    from PIL import Image
+
+    jpeg = charge_mod.carimbar(_png(tam=(2000, 1000)), "Charge gerada por IA")
+    img = Image.open(_io.BytesIO(jpeg))
+    assert img.format == "JPEG" and img.width == 1600
+    canto = img.crop((img.width - 60, img.height - 30, img.width - 20, img.height - 20)).getcolors(10000)
+    assert any(sum(c[1]) < 150 for c in canto)  # há texto/borda escura no canto (fundo era claro)
+
+
+class SessaoMidia:
+    def __init__(self, falhar_em=None):
+        self.chamadas, self.falhar_em = [], falhar_em
+
+    def post(self, url, timeout, json=None, data=None, files=None):
+        etapa = url.rsplit("/", 1)[-1]
+        self.chamadas.append(etapa)
+        status = 400 if etapa == self.falhar_em else 200
+        corpo = {"data": {"id": "777"}}
+        return SimpleNamespace(status_code=status, json=lambda: corpo, content=b"x", text="erro")
+
+
+def test_upload_de_imagem_em_tres_etapas():
+    s = SessaoMidia()
+    assert publicador.enviar_imagem(b"jpeg", sessao=s) == "777"
+    assert s.chamadas == ["initialize", "append", "finalize"]
+    with pytest.raises(publicador.MidiaErro, match="append"):
+        publicador.enviar_imagem(b"jpeg", sessao=SessaoMidia("append"))
+
+
+def test_publicar_com_imagem_confere_conta_antes_do_upload():
+    class Cli(ClienteXFalso):
+        def create_tweet(self, text, user_auth, media_ids=None):
+            self.postados.append((text, media_ids))
+            return SimpleNamespace(data={"id": "1"})
+
+    enviados = []
+    cli = Cli("palacioassombra")
+    publicar("piada", "palacioassombra", cli, imagem=b"img", enviar=lambda b: enviados.append(b) or "m1")
+    assert cli.postados == [("piada", ["m1"])]
+    with pytest.raises(ContaErrada):
+        publicar("piada", "palacioassombra", Cli("ancapsu"), imagem=b"img", enviar=lambda b: enviados.append(b) or "m2")
+    assert enviados == [b"img"]  # nada enviado para a conta errada
+
+
+def test_gerador_exige_descricao_da_charge_quando_ativa():
+    c = _conta(charge={"ativo": True})
+    assert "CHARGE" in regras_do_sistema(c, AGORA)
+    cli = ClienteFalso([
+        _resp("tool_use", _post("t1")),
+        _resp("tool_use", _post("t2", charge_descricao="Um presidente de faixa fugindo de um cofre")),
+    ])
+    res = gerar(cli, "modelo", c, {"posts": []}, AGORA)
+    assert res.dados["charge_descricao"].startswith("Um presidente")
+    assert "charge_descricao" in cli.chamadas[0]["tools"][1]["input_schema"]["properties"]
+
+
+def test_issue_mostra_charge_ou_aviso_de_falha():
+    com = issue.montar_corpo("t", {"charge_arquivo": "contas/x/charges/a.jpg", "charge_url": "https://u/a.jpg", "charge_descricao": "cena"})
+    assert "![charge](https://u/a.jpg)" in com and "sem-charge" in com
+    sem = issue.montar_corpo("t", {"charge_erro": "safety system", "charge_descricao": "cena"})
+    assert "Não foi possível gerar a charge" in sem and "safety system" in sem
+    assert "Charge" not in issue.montar_corpo("t", {})
+
+
+def test_ler_charge_so_dentro_da_pasta_da_conta(tmp_path, monkeypatch):
+    import bot.__main__ as cli_mod
+
+    monkeypatch.setattr(contas, "RAIZ", tmp_path)
+    c = _conta(dir=tmp_path / "contas" / "palacio")
+    (c.dir_charges).mkdir(parents=True)
+    (c.dir_charges / "a.jpg").write_bytes(b"jpg")
+    assert cli_mod._ler_charge(c, "contas/palacio/charges/a.jpg") == b"jpg"
+    assert cli_mod._ler_charge(c, None) is None
+    for ruim in ("contas/palacio/charges/../../segredo.jpg", "contas/outra/charges/a.jpg", "contas/palacio/charges/a.png"):
+        with pytest.raises(ValueError):
+            cli_mod._ler_charge(c, ruim)
+    with pytest.raises(FileNotFoundError, match="sem-charge"):
+        cli_mod._ler_charge(c, "contas/palacio/charges/nao_existe.jpg")
+
+
+def test_config_palacio_tem_charge_e_outras_nao():
+    assert contas.carregar("palacioassombra").charge_ativa
+    for cid in ("safesrc", "ancapsu", "mundoemrevo"):
+        assert not contas.carregar(cid).charge_ativa

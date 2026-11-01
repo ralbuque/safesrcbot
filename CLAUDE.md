@@ -12,7 +12,7 @@ Bot que mantém ativas 4 contas do X do Ricardo. **Atenção:** o id interno de 
 |---|---|---|---|---|---|
 | `safesrc` | @ralbuque | Segurança no desenvolvimento de software (AppSec, DevSecOps, supply chain) | 4 | sim (fonte) | **automática** desde 27/10/2026 (`modo: automatico`) |
 | `ancapsu` | @ancapsu | Política brasileira contemporânea, perspectiva de direita/bolsonarista | 4 | não | **obrigatória** |
-| `palacioassombra` | @palacioassombra | História política do Brasil (eventos com 10+ anos), humor, perspectiva de direita | 2 | não | **obrigatória** |
+| `palacioassombra` | @palacioassombra | História política do Brasil (eventos com 10+ anos), humor, perspectiva de direita. **Post com charge gerada por IA.** | 2 | não | **obrigatória** |
 | `mundoemrevo` | @mundoemrevo | Guerras/conflitos (prioridade Ucrânia; Israel, Irã...), pró-Ucrânia e pró-Israel | 4 | não | **obrigatória** |
 
 ## Limites (não mudar sem discutir com o dono)
@@ -35,14 +35,17 @@ cron a cada 20 min (:07, :27, :47 UTC) ─► postar.yml
        gerador.gerar     ► Claude + web_search; ferramenta registrar_post
                            ► verificar(): validador, categoria, ano_evento (palacio), duplicidade
                            (erro ► devolvido ao modelo para corrigir, até 10 rodadas)
-       modo revisao    ► issue "[@conta] ..." com labels rascunho + conta:<id>
+       charge (se config "charge.ativo") ► OpenAI Images (gpt-image-2) ► carimbo "Charge gerada por IA"
+                           ► contas/<id>/charges/<id_do_post>.jpg (falha na charge não derruba o post)
+       modo revisao    ► issue "[@conta] ..." com labels rascunho + conta:<id> (charge embutida na issue)
        modo automatico ► publica direto (só contas sem revisão obrigatória)
        modo simulacao  ► só imprime
-       commit de contas/<id>/historico.json (com retry de rebase/push)
+       commit de contas/<id>/historico.json + charges ANTES de criar a issue (com retry de rebase/push)
 
 label "aprovado" na issue ─► aprovar.yml
    job ler:      python3 -m bot ler-issue ► conta (dos metadados da issue; issues antigas = safesrc)
-   job publicar: environment = conta; lê o bloco ~~~text (pode ter sido editado), publica,
+   job publicar: environment = conta; lê o bloco ~~~text (pode ter sido editado), envia a charge
+                 (upload v2 em 3 etapas; label "sem-charge" publica só o texto), publica,
                  comenta o link, fecha a issue, commita o histórico
    job avisar-falha: comenta na issue e remove a label "aprovado" se algo falhar
 ```
@@ -55,7 +58,8 @@ label "aprovado" na issue ─► aprovar.yml
 
 | Caminho | O quê |
 |---|---|
-| `contas/<id>/config.json` | Comportamento da conta: `usuario_x`, `horarios` (horas cheias, Brasília), `modo`, `revisao_obrigatoria`, `link_no_post`, `categorias`, `idade_minima_anos`, `janela_tema_dias`, `modelo` (opcional), `sinais_x` |
+| `contas/<id>/config.json` | Comportamento da conta: `usuario_x`, `horarios` (horas cheias, Brasília), `modo`, `revisao_obrigatoria`, `link_no_post`, `categorias`, `idade_minima_anos`, `janela_tema_dias`, `modelo` (opcional), `sinais_x`, `charge` (`ativo`, `modelo`, `tamanho`, `qualidade`, `carimbo`) |
+| `contas/<id>/charges/` | Charges geradas (JPEG), versionadas para aparecerem na issue. |
 | `contas/<id>/prompt.md` | **Linha editorial** da conta. É o principal ponto de ajuste de conteúdo e tom. |
 | `contas/<id>/historico.json` | Posts já feitos, gerado pelo bot. Não editar à mão sem necessidade. |
 | `bot/conta.py` | Carrega e valida configs; `modo_efetivo`; `contas_do_horario`. |
@@ -64,7 +68,8 @@ label "aprovado" na issue ─► aprovar.yml
 | `bot/validador.py` | Regras determinísticas do texto (280 caracteres, link vale 23, sem URL, sem @, ≤2 hashtags, fonte https). |
 | `bot/historico.py` | Evita repetir fonte (URL normalizada), CVE (7 dias) e `tema_chave` (janela por conta). |
 | `bot/issue.py` | Formato da issue (metadados em base64 num comentário HTML + texto em bloco `~~~text`). |
-| `bot/publicador.py` | Publicação via tweepy (OAuth 1.0a) + trava de identidade. |
+| `bot/charge.py` | Charge por IA: estilo fixo de cartum (nunca foto) + proibições, chamada à API de imagens da OpenAI, carimbo "Charge gerada por IA". |
+| `bot/publicador.py` | Publicação via tweepy (OAuth 1.0a) + trava de identidade (antes de qualquer upload) + upload de imagem na API v2 (`/2/media/upload/initialize|append|finalize`). |
 | `bot/__main__.py` | CLI: `planejar`, `gerar --conta`, `ler-issue`, `publicar-rascunho --conta`. |
 | `scripts/autorizar_conta.py` | Gera os tokens de uma conta pelo fluxo PIN (rodar localmente). |
 | `.github/workflows/` | `postar.yml`, `aprovar.yml`, `testes.yml`. |
@@ -79,6 +84,7 @@ label "aprovado" na issue ─► aprovar.yml
 | `ANTHROPIC_API_KEY` | API do Claude |
 | `X_API_KEY`, `X_API_SECRET` | Consumer key/secret do app do X (um app para todas as contas) |
 | `X_BEARER_TOKEN` | Bearer token do app (leitura de tendências e busca) |
+| `OPENAI_API_KEY` | API de imagens da OpenAI (charges). Pode exigir "Organization Verification" na OpenAI para modelos GPT Image. |
 
 **Environments** (Settings → Environments), um por conta, com **o mesmo nome da pasta** (`safesrc`, `ancapsu`, `palacioassombra`, `mundoemrevo`). Cada um tem os secrets:
 
@@ -88,7 +94,7 @@ label "aprovado" na issue ─► aprovar.yml
 
 Não deixe `X_ACCESS_TOKEN` no nível do repositório: cada conta tem o seu no Environment.
 
-**Variables** (opcional): `ANTHROPIC_MODEL` (padrão `claude-sonnet-5-5`; `modelo` no config da conta tem prioridade menor que esta variável).
+**Variables** (opcional): `ANTHROPIC_MODEL` (padrão `claude-sonnet-5-5`; `modelo` no config da conta tem prioridade menor que esta variável) e `OPENAI_IMAGE_MODEL` (sobrepõe `charge.modelo`).
 
 ## Como adicionar uma conta nova
 
@@ -116,6 +122,7 @@ MODO=simulacao python -m bot gerar --conta ancapsu
 - Dados vindos de issues/eventos chegam aos scripts via `env:`, **nunca** interpolados com `${{ }}` dentro de `run:` (evita injeção de comando). IDs de conta são validados por regex e pela existência da pasta.
 - Todo comportamento novo vem com teste em `tests/`.
 - Ajuste de conteúdo/tom: editar `contas/<id>/prompt.md`, não o código.
+- Charges: o estilo "cartum, nunca foto" e as proibições ficam fixos em `bot/charge.py` (não dependem do modelo); o carimbo "Charge gerada por IA" é sempre aplicado. Não remover: é o que deixa claro que a imagem não é foto real.
 
 ## Custos estimados (out/2026, preços pay-per-use)
 
@@ -124,6 +131,7 @@ MODO=simulacao python -m bot gerar --conta ancapsu
 | Claude (Sonnet 5.5 + até 6 buscas web por execução, 14 execuções/dia) | US$ 35–70 |
 | X leituras (tendências US$ 0,01/req + busca US$ 0,005/post; ~10 execuções/dia com sinais) | até ~US$ 57 (há deduplicação em 24 h) |
 | X posts (safesrc com link US$ 0,20; demais sem link US$ 0,015) + `users/me` US$ 0,01 por publicação | ~US$ 33 |
+| Charges (gpt-image-2, qualidade média, ~US$ 0,05 cada, 2/dia) | ~US$ 3 |
 | GitHub Actions | grátis (repositório público) |
 
 Para reduzir: diminuir `sinais_x.max_posts`, desativar sinais numa conta (`"ativo": false`) ou reduzir `horarios`.
@@ -142,3 +150,4 @@ Para reduzir: diminuir `sinais_x.max_posts`, desativar sinais numa conta (`"ativ
 - 2026-10-26: A conta `safesrc` publica no X como **@ralbuque** (`usuario_x: ralbuque`); o id interno continua `safesrc` para não mexer em Environment, histórico e labels.
 - 2026-10-27: Geração agendada ligada para as 4 contas. `safesrc` (@ralbuque) passou para `modo: automatico`; as contas políticas seguem com revisão obrigatória.
 - 2026-10-28: Agendamento passou a tolerar atrasos. Execuções agendadas do GitHub chegavam com 30–60 min de atraso, ou nem rodavam, e o planejador antigo (hora exata) não gerava nada. Agora o cron roda a cada 20 min e gera para cada horário pendente (até 4 h de atraso), uma vez só.
+- 2026-11-01: @palacioassombra passa a publicar com charge gerada por IA (OpenAI gpt-image-2, escolha do dono). Estilo sempre de cartum e carimbo "Charge gerada por IA" para não parecer foto. Charge aparece na issue para revisão; label `sem-charge` publica só o texto; falha na geração não impede o post. Corrigido também `gerador.verificar` para usar a hora da execução na checagem de duplicidade.

@@ -21,6 +21,18 @@ def montar_corpo(texto_final: str, meta: dict) -> str:
     if meta.get("fontes_extras"):
         linhas_extra.append("**Outras fontes:** " + " · ".join(f"<{u}>" for u in meta["fontes_extras"][:5]))
     extra = "\n".join(linhas_extra)
+    charge = ""
+    if meta.get("charge_arquivo") or meta.get("charge_erro") or meta.get("charge_descricao"):
+        if meta.get("charge_url"):
+            charge = f"\n### Charge\n\n![charge]({meta['charge_url']})\n"
+        elif meta.get("charge_arquivo"):
+            charge = f"\n### Charge\n\nArquivo: `{meta['charge_arquivo']}`\n"
+        else:
+            charge = f"\n### Charge\n\n⚠️ Não foi possível gerar a charge: {meta.get('charge_erro') or 'motivo desconhecido'}. O post sai só com o texto.\n"
+        if meta.get("charge_descricao"):
+            charge += f"\n*Cena pedida:* {meta['charge_descricao']}\n"
+        if meta.get("charge_arquivo"):
+            charge += "\nPara publicar **sem** a charge, adicione a label `sem-charge` junto com `aprovado`.\n"
     aviso = (
         "\n> ⚠️ Conta com revisão obrigatória: confira os fatos na fonte antes de aprovar.\n"
         if meta.get("revisao_obrigatoria")
@@ -35,6 +47,7 @@ Pode editar o texto dentro do bloco abaixo antes de aprovar (mantenha as linhas 
 {texto_final}
 ~~~
 
+{charge}
 **Tamanho:** {contar(texto_final)}/{LIMITE_X}
 **Fonte:** [{meta.get('fonte_nome') or 'fonte'}]({meta.get('fonte_url', '')}) ({meta.get('data_publicacao') or 'data não informada'})
 **Título da fonte:** {meta.get('titulo', '')}

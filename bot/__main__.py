@@ -42,6 +42,41 @@ def _resumo_actions(texto: str) -> None:
             f.write(texto + "\n")
 
 
+def _fazer_charge(conta, descricao: str, nome: str) -> tuple[str | None, str | None]:
+    """Gera, carimba e salva a charge. Devolve (caminho relativo ao repositório, erro)."""
+    from . import charge
+
+    try:
+        imagem = charge.gerar_imagem(descricao, conta.charge)
+        jpeg = charge.carimbar(imagem, conta.charge.get("carimbo", "Charge gerada por IA"))
+    except Exception as e:  # noqa: BLE001 - a charge nunca derruba o post
+        return None, str(e)[:300]
+    conta.dir_charges.mkdir(parents=True, exist_ok=True)
+    arquivo = conta.dir_charges / f"{nome}.jpg"
+    arquivo.write_bytes(jpeg)
+    return arquivo.relative_to(contas.RAIZ).as_posix(), None
+
+
+def _ler_charge(conta, caminho_rel: str | None) -> bytes | None:
+    """Lê a charge de uma issue, só se estiver dentro de contas/<id>/charges/ (evita caminho arbitrário)."""
+    if not caminho_rel:
+        return None
+    arquivo = (contas.RAIZ / caminho_rel).resolve()
+    if arquivo.parent != conta.dir_charges.resolve() or arquivo.suffix != ".jpg":
+        raise ValueError(f"caminho de charge inválido: {caminho_rel!r}")
+    if not arquivo.is_file():
+        raise FileNotFoundError(
+            f"charge {caminho_rel} não encontrada no repositório. "
+            "Para publicar só o texto, adicione a label `sem-charge` junto com `aprovado`."
+        )
+    return arquivo.read_bytes()
+
+
+def _url_raw(caminho_rel: str) -> str | None:
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    return f"https://github.com/{repo}/raw/main/{caminho_rel}" if repo else None
+
+
 def _ultima_execucao(hist: dict) -> datetime | None:
     valor = hist.get("ultima_execucao")
     return datetime.fromisoformat(valor) if valor else None
@@ -124,10 +159,20 @@ def cmd_gerar(args) -> int:
     )
 
     if modo == "simulacao":
+        if d.get("charge_descricao"):
+            print(f"[charge] (não gerada em simulação) {d['charge_descricao']}")
+            _resumo_actions(f"Charge (não gerada em simulação): {d['charge_descricao']}")
         return 0
 
+    charge_arquivo, charge_erro = None, None
+    if conta.charge_ativa and d.get("charge_descricao"):
+        charge_arquivo, charge_erro = _fazer_charge(conta, d["charge_descricao"], entrada["id"])
+        print(f"[charge] {charge_arquivo or 'falhou: ' + str(charge_erro)}")
+        if charge_arquivo:
+            entrada["charge"] = charge_arquivo
+
     if modo == "automatico":
-        post_id = publicar(texto_final, conta.usuario_x)
+        post_id = publicar(texto_final, conta.usuario_x, imagem=_ler_charge(conta, charge_arquivo))
         entrada.update(status="publicado", post_id=post_id)
         print(f"Publicado: {url_do_post(post_id)}")
         _resumo_actions(f"Publicado: {url_do_post(post_id)}")
@@ -143,6 +188,13 @@ def cmd_gerar(args) -> int:
             tema_chave=entrada["tema_chave"],
             revisao_obrigatoria=conta.revisao_obrigatoria,
         )
+        if conta.charge_ativa:
+            meta.update(
+                charge_descricao=d.get("charge_descricao"),
+                charge_arquivo=charge_arquivo,
+                charge_url=_url_raw(charge_arquivo) if charge_arquivo else None,
+                charge_erro=charge_erro,
+            )
         SAIDA.mkdir(exist_ok=True)
         (SAIDA / "rascunho.md").write_text(issue.montar_corpo(texto_final, meta), encoding="utf-8")
         titulo = (d.get("titulo") or "post")[:80]
@@ -174,9 +226,15 @@ def cmd_publicar_rascunho(args) -> int:
         print("Não publicado: " + "; ".join(erros), file=sys.stderr)
         return 1
 
-    post_id = publicar(texto_final, conta.usuario_x)
+    try:
+        rotulos = set(json.loads(os.environ.get("ISSUE_LABELS") or "[]"))
+    except ValueError:
+        rotulos = set()
+    imagem = None if "sem-charge" in rotulos else _ler_charge(conta, meta.get("charge_arquivo"))
+
+    post_id = publicar(texto_final, conta.usuario_x, imagem=imagem)
     url = url_do_post(post_id)
-    print(f"Publicado: {url}")
+    print(f"Publicado: {url}" + (" (com charge)" if imagem else ""))
 
     hist = historico.carregar(conta.caminho_historico)
     entrada = {
@@ -194,6 +252,8 @@ def cmd_publicar_rascunho(args) -> int:
     }
     if meta.get("ano_evento"):
         entrada["ano_evento"] = meta["ano_evento"]
+    if imagem:
+        entrada["charge"] = meta.get("charge_arquivo")
     historico.registrar(hist, entrada)
     historico.salvar(hist, conta.caminho_historico)
 

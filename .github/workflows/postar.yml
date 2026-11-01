@@ -71,12 +71,32 @@ jobs:
           MODO: ${{ inputs.modo != 'padrao' && inputs.modo || '' }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} # charges (contas com "charge.ativo")
+          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: python -m bot gerar --conta "$CONTA"
+
+      # Salva antes de criar a issue: a charge precisa estar no repositório para aparecer na issue.
+      - name: Salvar histórico e charge
+        env:
+          CONTA: ${{ matrix.conta }}
+        run: |
+          git config user.name "safesrcbot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "contas/$CONTA/historico.json"
+          if [ -d "contas/$CONTA/charges" ]; then git add "contas/$CONTA/charges"; fi
+          if git diff --cached --quiet; then echo "Sem mudanças no histórico"; exit 0; fi
+          git commit -m "historico($CONTA): novo post [skip ci]"
+          # Outras contas podem ter feito push ao mesmo tempo: rebase e tenta de novo.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then exit 0; fi
+            sleep $((i * 5))
+          done
+          exit 1
 
       - name: Criar issue de rascunho
         if: hashFiles('saida/rascunho.md') != ''
@@ -88,22 +108,7 @@ jobs:
           gh label create rascunho --color FBCA04 --description "Post aguardando revisão" --force
           gh label create aprovado --color 0E8A16 --description "Publicar este rascunho" --force
           gh label create publicado --color 5319E7 --description "Já publicado no X" --force
+          gh label create sem-charge --color D4C5F9 --description "Publicar sem a charge" --force
           gh label create "conta:$CONTA" --color C5DEF5 --description "Rascunho da conta $CONTA" --force
           gh issue create --title "$(cat saida/titulo.txt)" --body-file saida/rascunho.md \
             --label rascunho --label "conta:$CONTA" --assignee "$DONO"
-
-      - name: Salvar histórico
-        env:
-          CONTA: ${{ matrix.conta }}
-        run: |
-          git config user.name "safesrcbot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "contas/$CONTA/historico.json"
-          if git diff --cached --quiet; then echo "Sem mudanças no histórico"; exit 0; fi
-          git commit -m "historico($CONTA): novo post [skip ci]"
-          # Outras contas podem ter feito push ao mesmo tempo: rebase e tenta de novo.
-          for i in 1 2 3 4 5; do
-            git pull --rebase && git push && exit 0
-            sleep $((i * 5))
-          done
-          exit 1

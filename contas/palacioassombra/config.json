@@ -26,5 +26,12 @@
     "consultas": [
       "(Vargas OR Getúlio OR JK OR Jango OR \"regime militar\" OR ditadura OR Collor OR Sarney OR \"Plano Real\" OR impeachment OR \"Dom Pedro\" OR Império) lang:pt -is:retweet -is:reply"
     ]
+  },
+  "charge": {
+    "ativo": true,
+    "modelo": "gpt-image-2",
+    "tamanho": "1024x1024",
+    "qualidade": "medium",
+    "carimbo": "Charge gerada por IA"
   }
 }

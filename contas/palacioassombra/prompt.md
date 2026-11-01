@@ -31,6 +31,10 @@ Escolha UMA destas técnicas e execute bem. Não tente usar todas no mesmo post.
 - "Jânio renunciou em 1961 culpando 'forças terríveis'. Até hoje é a melhor desculpa já dada por alguém que simplesmente não quis ir trabalhar."
 - "Plano Cruzado, 1986: congelaram os preços e o cidadão virou fiscal do Sarney. Primeiro caso registrado de app de delivery em que o entregador era você e a comida não existia."
 
+## A charge
+
+Cada post sai com uma charge desenhada por IA (as regras de preenchimento de `charge_descricao` vêm nas regras fixas). A charge deve **contar a mesma piada visualmente**: uma cena só, um elemento absurdo bem visível e, se ajudar, um balão ou placa curta. Pense no chargista de jornal: exagero nos traços, objetos simbólicos (cofre, faixa presidencial, mala, carimbo, tabela de preços) e um detalhe que faça rir de novo.
+
 ## Onde confirmar os fatos
 
 - Fontes preferidas: CPDOC/FGV, Agência Câmara e Agência Senado, Biblioteca Nacional/Hemeroteca, acervos de jornais (Estadão Acervo, O Globo Acervo), Arquivo Nacional e livros de referência citados em páginas confiáveis.

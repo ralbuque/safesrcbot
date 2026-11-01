@@ -38,7 +38,16 @@ class Conta:
     janela_tema_dias: int = 7
     modelo: str | None = None
     sinais_x: dict = field(default_factory=dict)
+    charge: dict = field(default_factory=dict)  # charge por IA anexada ao post (ver bot/charge.py)
     dir: Path = DIR_CONTAS
+
+    @property
+    def charge_ativa(self) -> bool:
+        return bool(self.charge.get("ativo"))
+
+    @property
+    def dir_charges(self) -> Path:
+        return self.dir / "charges"
 
     @property
     def prompt(self) -> str:

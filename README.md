@@ -14,7 +14,7 @@ Arquitetura, configuração de cada conta e decisões estão no [CLAUDE.md](CLAU
    - para a conta dona do app, gere pelo portal;
    - para as outras contas, rode localmente `pip install tweepy` e depois `python scripts/autorizar_conta.py`, autorizando com o navegador **logado na conta certa**.
 4. **GitHub:**
-   - em *Settings → Secrets and variables → Actions*, crie os secrets `ANTHROPIC_API_KEY`, `X_API_KEY`, `X_API_SECRET` e `X_BEARER_TOKEN`;
+   - em *Settings → Secrets and variables → Actions*, crie os secrets `ANTHROPIC_API_KEY`, `X_API_KEY`, `X_API_SECRET`, `X_BEARER_TOKEN` e `OPENAI_API_KEY` (charges da @palacioassombra);
    - em *Settings → Environments*, crie um Environment por conta (`safesrc`, `ancapsu`, `palacioassombra`, `mundoemrevo`), cada um com `X_ACCESS_TOKEN` e `X_ACCESS_TOKEN_SECRET`;
    - em *Settings → Actions → General → Workflow permissions*, marque **Read and write**.
 5. **Teste:** em *Actions → Gerar post → Run workflow*, informe a conta e o modo `simulacao`.
@@ -25,3 +25,4 @@ Arquitetura, configuração de cada conta e decisões estão no [CLAUDE.md](CLAU
 - **Aprovar:** edite o texto no bloco `~~~text`, se quiser, e adicione a label **`aprovado`**. Feche o menu de labels para a escolha ser salva.
 - **Descartar:** feche a issue.
 - **Contas políticas:** sempre passam por revisão. Confira o fato na fonte indicada na issue antes de aprovar.
+- **Charges (@palacioassombra):** a imagem aparece na issue. Para publicar só o texto, adicione `sem-charge` junto com `aprovado`.

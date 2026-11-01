@@ -31,6 +31,11 @@ def _ferramenta_registro(conta: Conta) -> dict:
     }
     if conta.idade_minima_anos:
         props["ano_evento"] = {"type": "integer", "description": "Ano em que o evento histórico ocorreu"}
+    if conta.charge_ativa:
+        props["charge_descricao"] = {
+            "type": "string",
+            "description": "Descrição da cena da charge que acompanha o post (ver regras fixas)",
+        }
     return {
         "name": "registrar_post",
         "description": "Registra o post escolhido (ou a decisão de não postar agora).",
@@ -65,6 +70,17 @@ def regras_do_sistema(conta: Conta, agora: datetime) -> str:
     regras.append(
         f"- Não repita `tema_chave` usado nos últimos {conta.janela_tema_dias} dias (veja 'Posts recentes')."
     )
+    if conta.charge_ativa:
+        regras += [
+            "- O post vai acompanhado de uma CHARGE desenhada por IA. Preencha `charge_descricao` (até ~80 palavras, "
+            "em português) com a cena que reforça a piada do post: cenário, personagens, ação e, se ajudar, UMA fala "
+            "curta em balão ou uma placa (até 8 palavras).",
+            "- Na charge, descreva as pessoas por papel e traços caricatos (ex.: 'presidente baixinho de bigode e faixa "
+            "presidencial', 'ministra de óculos segurando um cofre'); se o nome for essencial, coloque-o numa placa ou "
+            "legenda dentro da cena, não como pedido de retrato.",
+            "- Charge sem vítimas, sangue, violência, nudez ou humilhação de grupos; o alvo é o poder e o absurdo da situação. "
+            "O estilo (cartum de jornal, nunca foto) é aplicado automaticamente: não descreva estilo, só a cena.",
+        ]
     return "\n".join(regras)
 
 
@@ -152,6 +168,8 @@ def verificar(dados: dict, conta: Conta, hist: dict, agora: datetime) -> list[st
     obrigatorios = ["texto", "fonte_url", "titulo", "categoria", "tema_chave"]
     if conta.idade_minima_anos:
         obrigatorios.append("ano_evento")
+    if conta.charge_ativa:
+        obrigatorios.append("charge_descricao")
     faltando = [c for c in obrigatorios if not dados.get(c)]
     if faltando:
         return [f"campos obrigatórios ausentes: {', '.join(faltando)}"]
@@ -172,6 +190,7 @@ def verificar(dados: dict, conta: Conta, hist: dict, agora: datetime) -> list[st
         hist,
         dados["fonte_url"],
         dados.get("cves") or [],
+        agora=agora,
         tema_chave=dados.get("tema_chave"),
         janela_tema_dias=conta.janela_tema_dias,
     )
