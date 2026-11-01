@@ -153,7 +153,19 @@
       "status": "publicado",
       "post_id": "2116670840402006221",
       "issue": 88
+    },
+    {
+      "id": "f8f41c08be959c13",
+      "data": "2026-11-01T15:21:56+00:00",
+      "categoria": "imperio",
+      "tema_chave": "banimento-familia-imperial-5-mil-contos-1889",
+      "titulo": "BANIMENTO DA FAMÍLIA IMPERIAL (CPDOC/FGV)",
+      "fonte_url": "https://cpdoc.fgv.br/sites/default/files/verbetes/primeira-republica/BANIMENTO%20DA%20FAM%C3%8DLIA%20IMPERIAL.pdf",
+      "cves": [],
+      "texto": "1889: o Governo Provisório oferece 5 mil contos a Dom Pedro II para ele se instalar no exterior. Ele recusa. Segundo consta, o governo se irrita e decreta o banimento da família imperial.\n\nDom Pedro II descobriu que, na política brasileira, recusar verba é ofensa pessoal.",
+      "ano_evento": 1889,
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-31T22:40:01+00:00"
+  "ultima_execucao": "2026-11-01T15:21:56+00:00"
 }
