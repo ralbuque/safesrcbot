@@ -179,7 +179,18 @@
       "status": "publicado",
       "post_id": "2116978471419133965",
       "issue": 92
+    },
+    {
+      "id": "a8a3d2b0d04a4399",
+      "data": "2026-11-01T19:50:58+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "g20-miami-convite-zelensky-putin-nov26",
+      "titulo": "Rubio Doubts Ukraine Peace Deal Before Spring 2027, Eyes Miami G20",
+      "fonte_url": "https://kyivpost.com/post/88775",
+      "cves": [],
+      "texto": "Trump diz não ver problema em convidar Zelensky para o G20 de Miami (14-15/12), onde Putin já foi convidado. Rubio duvida que o russo vá. Quem quer paz senta à mesa; Moscou segue exigindo que Zelensky vá até lá, segundo Lavrov.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-01T15:21:57+00:00"
+  "ultima_execucao": "2026-11-01T19:50:58+00:00"
 }
