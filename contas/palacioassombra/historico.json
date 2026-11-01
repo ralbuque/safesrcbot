@@ -170,16 +170,18 @@
     },
     {
       "id": "198ad576128fb6c3",
-      "data": "2026-11-01T20:14:59+00:00",
+      "data": "2026-11-01T20:22:56+00:00",
       "categoria": "economia-historica",
       "tema_chave": "belindia-edmar-bacha-1974",
       "titulo": "Remédio para crise: voto consciente em outubro, receita criador da Belíndia (Edmar Bacha, IEPE/CdG)",
       "fonte_url": "https://iepecdg.com.br/artigos/remedio-para-crise-voto-consciente-em-outubro-receita-criador-da-belindia/",
       "cves": [],
-      "texto": "1974: Edmar Bacha inventa a Belíndia, país com leis e impostos da Bélgica e realidade social da Índia. Era uma fábula contra a política econômica da ditadura. Meio século depois, o contribuinte ainda recebe a sequência todo mês. Chama-se boleto.",
+      "texto": "Em 1974, Edmar Bacha inventa a Belíndia, país com leis e impostos da Bélgica e realidade social da Índia. Era uma fábula contra a política econômica do país então. Triste constatar que nada mudou. Alguém acha que vai mudar um dia?",
       "ano_evento": 1974,
       "charge": "contas/palacioassombra/charges/198ad576128fb6c3.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2116989386885943434",
+      "issue": 95
     }
   ],
   "ultima_execucao": "2026-11-01T20:14:59+00:00"
