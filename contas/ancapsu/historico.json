@@ -175,7 +175,18 @@
       "status": "publicado",
       "post_id": "2116672234081116591",
       "issue": 86
+    },
+    {
+      "id": "87f6d5a3122f643d",
+      "data": "2026-11-01T01:30:11+00:00",
+      "categoria": "congresso",
+      "tema_chave": "pl-contra-voto-distrital-puxadores-de-voto-centrao",
+      "titulo": "Minoria discorda sobre voto distrital misto frente à ofensiva do centrão",
+      "fonte_url": "https://www.cnnbrasil.com.br/politica/minoria-discorda-sobre-voto-distrital-misto-frente-a-ofensiva-do-centrao/",
+      "cves": [],
+      "texto": "Voto distrital misto: o Centrão avança com a ideia, de olho em 2034, e a CNN aponta os puxadores de voto como principais alvos. O líder da oposição, Cabo Gilberto (PL), já se declarou contra. Mudar a regra porque os caciques perderam cadeira é autodefesa, não reforma.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-10-31T19:14:46+00:00"
+  "ultima_execucao": "2026-11-01T01:30:11+00:00"
 }
