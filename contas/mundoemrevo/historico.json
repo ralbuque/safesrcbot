@@ -218,7 +218,18 @@
       "status": "publicado",
       "post_id": "2117202486897606726",
       "issue": 100
+    },
+    {
+      "id": "749a185c397735ca",
+      "data": "2026-11-02T20:22:06+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "bombas-guiadas-komyshuvakha-ajuda-humanitaria-nov26",
+      "titulo": "'Exceptionally horrific strike' — Russian bombs strike school used as humanitarian aid center in Zaporizhzhia Oblast, killing 24",
+      "fonte_url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/",
+      "cves": [],
+      "texto": "Segundo o serviço de emergência da Ucrânia, bombas guiadas russas atingiram uma escola usada para distribuir ajuda humanitária em Komyshuvakha (Zaporíjia): ao menos 24 mortos. Zelensky diz que nove bombas atingiram em seguida o abrigo. Isso não é desescalada, é terror.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-02T10:06:20+00:00"
+  "ultima_execucao": "2026-11-02T20:22:06+00:00"
 }
