@@ -735,7 +735,21 @@
       "texto": "A Northflank, plataforma de hospedagem de apps, pediu que clientes rotacionem variáveis de ambiente e chaves após um incidente. Houve relatos de uso não autorizado de chaves de API de IA. Rotacione segredos, defina limites de gasto e revise logs de uso.\n\nhttps://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
       "status": "publicado",
       "post_id": "2116661639236010473"
+    },
+    {
+      "id": "bc4258f9677bca1e",
+      "data": "2026-11-02T02:45:53+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "drupal-commerce-core-cve-2026-118539",
+      "titulo": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "fonte_url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "cves": [
+        "CVE-2026-118539"
+      ],
+      "texto": "Drupal alerta: CVE-2026-118539, falha de autorização ausente no Commerce Core, já é explorada. Rotas e campos desprotegidos permitem bypass de acesso. Afeta até 2.41 e 3.0.0 a 3.3.13. Atualize para 3.3.13 ou 8.x-2.41.\n\nhttps://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "status": "publicado",
+      "post_id": "2117085921094873489"
     }
   ],
-  "ultima_execucao": "2026-11-01T23:31:40+00:00"
+  "ultima_execucao": "2026-11-02T02:45:53+00:00"
 }
