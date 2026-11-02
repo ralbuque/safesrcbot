@@ -206,14 +206,16 @@
     },
     {
       "id": "fd88b8060ecd76b5",
-      "data": "2026-11-02T10:06:20+00:00",
+      "data": "2026-11-02T10:29:43+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "balanco-outubro-96km-perdas-russas-recorde-nov26",
       "titulo": "Russia suffers record troop losses in October, its worst month since full-scale invasion, Ukraine says",
       "fonte_url": "https://kyivindependent.com/russia-suffers-record-troop-losses-in-october-its-worst-month-since-full-scale-invasion-ukraine-says/",
       "cves": [],
-      "texto": "Segundo Zelensky, a Ucrânia libertou 96,2 km² em outubro, 10,4 km² a mais do que a Rússia conquistou no mês. O Estado-Maior ucraniano fala em 54,4 mil baixas russas, recorde da guerra. Dados de Kiev, sem checagem independente, mas o avanço russo deixou de ser inevitável.",
-      "status": "rascunho"
+      "texto": "Segundo Zelensky, a Ucrânia libertou 96,2 km² em outubro, 10,4 km² a mais do que a Rússia conquistou no mês. Isso ao mesmo tempo que se registra o record de 54 mil baixas russas, entre mortos e feridos graves. Isso tudo com o \"aliado\" Trump atrapalhando.",
+      "status": "publicado",
+      "post_id": "2117202486897606726",
+      "issue": 100
     }
   ],
   "ultima_execucao": "2026-11-02T10:06:20+00:00"
