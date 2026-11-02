@@ -228,14 +228,16 @@
     },
     {
       "id": "258e77a009e0785e",
-      "data": "2026-11-02T10:06:21+00:00",
+      "data": "2026-11-02T10:31:21+00:00",
       "categoria": "eleicoes-partidos",
       "tema_chave": "janones-exercito-do-lula-fantastico",
       "titulo": "Janones bate o martelo sobre aceitar ministério no governo Lula e revela futuro do 'Exército' de 10 milhões",
       "fonte_url": "https://www.bnews.com.br/noticias/politica/janones-bate-o-martelo-sobre-aceitar-ministerio-no-governo-lula-e-revela-futuro-do-exercito-de-10-milhoes.html",
       "cves": [],
-      "texto": "Janones disse ao Fantástico que o canal 'Exército do Lula', com mais de 10 milhões no WhatsApp, é do presidente, e que fica na Câmara, sem ministério. Máquina de militância digital com dono declarado. Curioso: só a da direita vira caso de polícia.",
-      "status": "rascunho"
+      "texto": "Janones disse ao Fantástico que o canal 'Exército do Lula', com mais de 10 milhões no WhatsApp, é do presidente, e que fica na Câmara, sem ministério. Gabinete do ódio, milícia digital com dono declarado. Aparentemente, só é problema quando é da direita.",
+      "status": "publicado",
+      "post_id": "2117202898098475456",
+      "issue": 99
     }
   ],
   "ultima_execucao": "2026-11-02T10:06:21+00:00"
