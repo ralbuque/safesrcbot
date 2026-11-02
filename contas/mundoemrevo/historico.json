@@ -203,7 +203,18 @@
       "cves": [],
       "texto": "O Irã diz que quase 10 navios atingiram minas no Estreito de Ormuz, junto à costa de Omã; a alegação não foi verificada de forma independente. Ao mesmo tempo, Teerã diz que a via só reabre se os EUA cederem. Fechar uma rota global de energia virou moeda de barganha do regime.",
       "status": "rascunho"
+    },
+    {
+      "id": "fd88b8060ecd76b5",
+      "data": "2026-11-02T10:06:20+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "balanco-outubro-96km-perdas-russas-recorde-nov26",
+      "titulo": "Russia suffers record troop losses in October, its worst month since full-scale invasion, Ukraine says",
+      "fonte_url": "https://kyivindependent.com/russia-suffers-record-troop-losses-in-october-its-worst-month-since-full-scale-invasion-ukraine-says/",
+      "cves": [],
+      "texto": "Segundo Zelensky, a Ucrânia libertou 96,2 km² em outubro, 10,4 km² a mais do que a Rússia conquistou no mês. O Estado-Maior ucraniano fala em 54,4 mil baixas russas, recorde da guerra. Dados de Kiev, sem checagem independente, mas o avanço russo deixou de ser inevitável.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-01T23:31:42+00:00"
+  "ultima_execucao": "2026-11-02T10:06:20+00:00"
 }
