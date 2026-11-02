@@ -217,14 +217,16 @@
     },
     {
       "id": "5c8ffb9b4114e19b",
-      "data": "2026-11-01T23:31:48+00:00",
+      "data": "2026-11-02T10:33:08+00:00",
       "categoria": "economia",
       "tema_chave": "big-techs-regulacao-concorrencial-cade-ate-dezembro",
       "titulo": "Governo Lula e relator querem aprovar regulação concorrencial das big techs até o fim do ano",
       "fonte_url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/governo-lula-e-relator-querem-aprovar-regulacao-concorrencial-das-big-techs-ate-o-fim-do-ano/",
       "cves": [],
       "texto": "Governo Lula e o relator querem aprovar até dezembro o projeto que amplia os poderes do Cade sobre big techs, antes de o novo Congresso tomar posse. Motta diz que não votará com pressa. Quando a regra só passa no apagar das luzes, o problema é o texto ou o plenário que vem aí?",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2117203348084674717",
+      "issue": 97
     },
     {
       "id": "258e77a009e0785e",
