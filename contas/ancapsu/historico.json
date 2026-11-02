@@ -240,7 +240,18 @@
       "status": "publicado",
       "post_id": "2117202898098475456",
       "issue": 99
+    },
+    {
+      "id": "048b21e859ea27ad",
+      "data": "2026-11-02T20:22:04+00:00",
+      "categoria": "congresso",
+      "tema_chave": "marinho-voto-aberto-direita-senado-alcolumbre",
+      "titulo": "Rogério Marinho vai defender que direita divulgue voto em estratégia para derrotar Alcolumbre",
+      "fonte_url": "https://www.jornaldocomercio.com/politica/2026/11/1268962-rogerio-marinho-vai-defender-que-direita-divulgue-voto-em-estrategia-para-derrotar-alcolumbre.html",
+      "cves": [],
+      "texto": "Rogério Marinho disse que vai defender que senadores de direita declarem o voto abertamente na eleição do Senado, em fevereiro. \"É difícil justificar em público o voto no Alcolumbre\", afirmou. Faz sentido: quem prometeu enfrentar o STF na urna que mostre a cara no painel.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-02T10:06:21+00:00"
+  "ultima_execucao": "2026-11-02T20:22:04+00:00"
 }
