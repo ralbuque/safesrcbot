@@ -247,14 +247,16 @@
     },
     {
       "id": "63d214cdce86a504",
-      "data": "2026-11-03T17:58:08+00:00",
+      "data": "2026-11-03T21:34:03+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "ataque-hospital-kharkiv-nov26",
       "titulo": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
       "fonte_url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
       "cves": [],
-      "texto": "Kharkiv: mísseis balísticos e bombas guiadas russas atingiram um hospital de madrugada e deixaram 73 feridos, segundo autoridades ucranianas. Zelensky diz que a cardiologia foi danificada. Moscou fala em alvos elétricos. Um dia após Komyshuvakha, o padrão contra civis segue.",
-      "status": "rascunho"
+      "texto": "Kharkiv: mísseis balísticos e bombas guiadas russas atingiram um hospital de madrugada e deixaram 73 feridos, segundo autoridades ucranianas. Ala de cardiologia atacada. Um dia após Komyshuvakha, o padrão de ataques russos contra civis segue. A desinformação também.",
+      "status": "publicado",
+      "post_id": "2117732059267359067",
+      "issue": 107
     }
   ],
   "ultima_execucao": "2026-11-03T17:58:08+00:00"
