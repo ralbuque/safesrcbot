@@ -195,7 +195,20 @@
       "ano_evento": 1930,
       "charge": "contas/palacioassombra/charges/45041ea6c356c4e7.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "16f47852edd7c9a2",
+      "data": "2026-11-03T23:14:53+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "fusca-itamar-apos-elba-collor",
+      "titulo": "Memória: Itamar Franco ressuscitou Fusca para facilitar acesso ao carro popular",
+      "fonte_url": "https://www.vrum.com.br/noticias/memoria-itamar-franco-ressuscitou-fusca-para-facilitar-acesso-ao-carro-popular/",
+      "cves": [],
+      "texto": "1992: Collor cai por causa de um Fiat Elba pago por PC Farias. 1993: Itamar reabre a linha do Fusca, parada desde 1986. Diante de um carro que derrubou um presidente, o sucessor fez o que qualquer estadista faria: pediu outro.",
+      "ano_evento": 1993,
+      "charge": "contas/palacioassombra/charges/16f47852edd7c9a2.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-01T23:31:41+00:00"
+  "ultima_execucao": "2026-11-03T23:14:53+00:00"
 }
