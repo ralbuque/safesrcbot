@@ -773,7 +773,21 @@
       "texto": "BTCPay Server (processador de pagamentos open source e self-hosted) está tendo hot wallets esvaziadas em instâncias na 2.4.1 ou anterior. O projeto pede atualização para a 2.4.7. Lição: software que guarda chaves não pode ficar sem patch.\n\nhttps://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
       "status": "publicado",
       "post_id": "2117677903118762050"
+    },
+    {
+      "id": "a3d07424bed86123",
+      "data": "2026-11-03T23:14:56+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "wordpress-core-toctou-cve-2026-119977-kev",
+      "titulo": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "fonte_url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "cves": [
+        "CVE-2026-119977"
+      ],
+      "texto": "CISA incluiu no KEV o CVE-2026-119977, uma race condition TOCTOU no core do WordPress, com exploração ativa. Quem mantém sites: atualize o core (o aviso do Cyber Centre cita a 7.1.4) e, até lá, bloqueie o acesso HTTP a wp-content/upgrade.\n\nhttps://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "status": "publicado",
+      "post_id": "2117757562053353585"
     }
   ],
-  "ultima_execucao": "2026-11-03T17:58:07+00:00"
+  "ultima_execucao": "2026-11-03T23:14:56+00:00"
 }
