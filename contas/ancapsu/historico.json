@@ -253,7 +253,18 @@
       "status": "publicado",
       "post_id": "2117385651515789363",
       "issue": 101
+    },
+    {
+      "id": "8707ce28ca14116a",
+      "data": "2026-11-03T02:30:27+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "moraes-escudo-anti-impeachment-inquerito-flavio",
+      "titulo": "Moraes usará inquérito contra Flávio e Willer como escudo anti-impeachment",
+      "fonte_url": "https://www.metropoles.com/colunas/igor-gadelha/moraes-usara-inquerito-contra-flavio-e-willer-como-escudo-anti-impeachment",
+      "cves": [],
+      "texto": "Segundo o Metrópoles, aliados de Flávio e integrantes do governo Lula apostam que Moraes usará o inquérito contra o senador como escudo anti-impeachment. Se até o governo vê o conflito, o relator deveria sair, ainda mais após a Folha revelar voos dele em jatos ligados a Vorcaro.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-02T20:22:04+00:00"
+  "ultima_execucao": "2026-11-03T02:30:27+00:00"
 }
