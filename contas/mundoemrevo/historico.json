@@ -257,7 +257,18 @@
       "status": "publicado",
       "post_id": "2117732059267359067",
       "issue": 107
+    },
+    {
+      "id": "437cc2441351284d",
+      "data": "2026-11-03T23:14:51+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "ataque-massivo-energia-dez-regioes-nov26",
+      "titulo": "Ukraine war latest: Russia launches biggest mass attack on Ukraine's energy infrastructure this year",
+      "fonte_url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-biggest-mass-attack-on-ukraines-energy-infrastructure-this-year/",
+      "cves": [],
+      "texto": "A Rússia fez nesta terça o maior ataque do ano à rede de energia da Ucrânia: subestações e usinas em dez regiões. Kiev enfrenta cortes de emergência e falta d'água. Zelensky havia alertado. Às vésperas de Abu Dhabi, o Kremlin segue negociando com mísseis.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-03T17:58:08+00:00"
+  "ultima_execucao": "2026-11-03T23:14:51+00:00"
 }
