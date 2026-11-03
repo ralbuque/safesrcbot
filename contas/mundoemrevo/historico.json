@@ -231,7 +231,18 @@
       "status": "publicado",
       "post_id": "2117385842196926734",
       "issue": 102
+    },
+    {
+      "id": "3126fd372640ef10",
+      "data": "2026-11-03T10:07:54+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "negociacoes-abu-dhabi-10-11-nov26",
+      "titulo": "US to Mediate Trilateral Talks With Ukraine, Russia in Abu Dhabi Next Week, US Envoy Says (Reuters, via U.S. News)",
+      "fonte_url": "https://www.usnews.com/news/world/articles/2026-11-02/us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official",
+      "cves": [],
+      "texto": "Os EUA vão mediar negociações entre Ucrânia e Rússia em Abu Dhabi, em 10 e 11 de novembro, segundo Witkoff. Na pauta: segurança pós-guerra e desescalada. Mas Putin segue recusando cessar-fogo e intensificando ataques a cidades. Diálogo só vale se não premiar o agressor.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-02T20:22:06+00:00"
+  "ultima_execucao": "2026-11-03T10:07:54+00:00"
 }
