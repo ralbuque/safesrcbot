@@ -749,7 +749,19 @@
       "texto": "Drupal alerta: CVE-2026-118539, falha de autorização ausente no Commerce Core, já é explorada. Rotas e campos desprotegidos permitem bypass de acesso. Afeta até 2.41 e 3.0.0 a 3.3.13. Atualize para 3.3.13 ou 8.x-2.41.\n\nhttps://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
       "status": "publicado",
       "post_id": "2117085921094873489"
+    },
+    {
+      "id": "5621acfb0e5a1d8b",
+      "data": "2026-11-03T02:30:27+00:00",
+      "categoria": "supply-chain",
+      "tema_chave": "cursor-marketplace-claude-code-extension-ssh-backdoor",
+      "titulo": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+      "fonte_url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+      "cves": [],
+      "texto": "Atacante com acesso ao marketplace do Cursor publicou cópia adulterada da extensão anthropic.claude-code (2.1.312 e 2.1.313), no ar ~11h em 29/10. Fazia recon do host e tentava reverse SSH tunnel. Remova, use a 2.1.314 e revise authorized_keys.\n\nhttps://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+      "status": "publicado",
+      "post_id": "2117444458832609512"
     }
   ],
-  "ultima_execucao": "2026-11-02T20:22:04+00:00"
+  "ultima_execucao": "2026-11-03T02:30:27+00:00"
 }
