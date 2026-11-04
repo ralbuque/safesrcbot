@@ -801,7 +801,19 @@
       "texto": "Falha crítica no APT, CVE-2026-109518: quem controla o tráfego HTTP de download troca um pacote verificado e roda código como root. Depende de retry, padrão desde Debian 12 e Ubuntu 22.04. Atualize o APT em hosts, imagens de contêiner e runners de CI.\n\nhttps://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
       "status": "publicado",
       "post_id": "2118049827695255676"
+    },
+    {
+      "id": "74b56641576a8d0c",
+      "data": "2026-11-04T23:57:15+00:00",
+      "categoria": "supply-chain",
+      "tema_chave": "polinrider-npm-ethereum-c2",
+      "titulo": "PolinRider Returns: Hijacked npm Packages Use Ethereum Blockchain to Conceal Malware Infrastructure",
+      "fonte_url": "https://www.ox.security/blog/polinrider-returns-hijacked-npm-packages-use-ethereum-blockchain-to-conceal-malware-infrastructure/",
+      "cves": [],
+      "texto": "PolinRider voltou: versões maliciosas de pacotes npm legítimos (ex.: react-contact-forms 0.5.2) usam a blockchain Ethereum para esconder o IP do C2 e rodam payloads em memória. Revise lockfiles e CI que instalaram esses pacotes.\n\nhttps://www.ox.security/blog/polinrider-returns-hijacked-npm-packages-use-ethereum-blockchain-to-conceal-malware-infrastructure/",
+      "status": "publicado",
+      "post_id": "2118130618781569286"
     }
   ],
-  "ultima_execucao": "2026-11-04T18:36:04+00:00"
+  "ultima_execucao": "2026-11-04T23:57:15+00:00"
 }
