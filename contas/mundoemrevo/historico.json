@@ -281,7 +281,18 @@
       "status": "publicado",
       "post_id": "2117978538976448715",
       "issue": 112
+    },
+    {
+      "id": "5a38aa699821ea6a",
+      "data": "2026-11-04T18:36:04+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "hur-estoque-misseis-balisticos-russos-nov26",
+      "titulo": "Russia Holds Up to 700 Ballistic Missiles, Produces Over 200 Missiles Monthly, Intel Says",
+      "fonte_url": "https://kyivpost.com/post/89105",
+      "cves": [],
+      "texto": "Segundo a inteligência militar ucraniana (HUR), a Rússia tem até 700 mísseis balísticos em estoque e produz mais de 200 mísseis, entre cruzeiro e balísticos, por mês, apesar das sanções. Com o inverno e a rede elétrica sob ataque, interceptadores são urgência, não favor.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-04T10:48:50+00:00"
+  "ultima_execucao": "2026-11-04T18:36:04+00:00"
 }
