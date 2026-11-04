@@ -292,7 +292,18 @@
       "cves": [],
       "texto": "Segundo a inteligência militar ucraniana (HUR), a Rússia tem até 700 mísseis balísticos em estoque e produz mais de 200 mísseis, entre cruzeiro e balísticos, por mês, apesar das sanções. Com o inverno e a rede elétrica sob ataque, interceptadores são urgência, não favor.",
       "status": "rascunho"
+    },
+    {
+      "id": "0aa9338af0330330",
+      "data": "2026-11-04T23:57:14+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "kyiv-independent-ciberataque-falso-alerta-nuclear-nov26",
+      "titulo": "Kyiv Independent hit by suspected Russian cyberattack",
+      "fonte_url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/",
+      "cves": [],
+      "texto": "O Kyiv Independent sofreu ciberataque nesta quarta: invasores acessaram o site e o serviço de newsletter e enviaram e-mails falsos sobre um suposto míssil nuclear contra Kyiv. O veículo suspeita da Rússia pelo teor, sem prova técnica. Desinformação também é arma de guerra.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-04T18:36:04+00:00"
+  "ultima_execucao": "2026-11-04T23:57:14+00:00"
 }
