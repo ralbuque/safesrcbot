@@ -268,7 +268,18 @@
       "cves": [],
       "texto": "A Rússia fez nesta terça o maior ataque do ano à rede de energia da Ucrânia: subestações e usinas em dez regiões. Kiev enfrenta cortes de emergência e falta d'água. Zelensky havia alertado. Às vésperas de Abu Dhabi, o Kremlin segue negociando com mísseis.",
       "status": "rascunho"
+    },
+    {
+      "id": "58e235b23177912c",
+      "data": "2026-11-04T10:48:50+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "merz-zelensky-berlim-oleshky-modelo-tregua-energia-nov26",
+      "titulo": "German Chancellor Merz calls on Russia to end Ukraine war",
+      "fonte_url": "https://aa.com.tr/en/europe/german-chancellor-merz-calls-on-russia-to-end-ukraine-war/4110167",
+      "cves": [],
+      "texto": "Em Berlim, Merz propôs usar a trégua local de Oleshky como modelo para cessar-fogo na energia e no Mar Negro e disse que Moscou recusa até agora. Segundo Zelensky, a Rússia lançou 289 drones e 76 mísseis contra a rede elétrica. A resposta do Kremlin à trégua é blecaute.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-03T23:14:51+00:00"
+  "ultima_execucao": "2026-11-04T10:48:50+00:00"
 }
