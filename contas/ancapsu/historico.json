@@ -318,7 +318,18 @@
       "status": "publicado",
       "post_id": "2117979786265956656",
       "issue": 111
+    },
+    {
+      "id": "c615c367c1ffe1af",
+      "data": "2026-11-04T23:57:15+00:00",
+      "categoria": "eleicoes-partidos",
+      "tema_chave": "pl-oficializa-marinho-40-votos-tereza-cristina",
+      "titulo": "PL oficializa Rogério Marinho para disputar a presidência do Senado contra Alcolumbre",
+      "fonte_url": "https://www.cartacapital.com.br/politica/pl-oficializa-rogerio-marinho-para-disputar-a-presidencia-do-senado-contra-alcolumbre/",
+      "cves": [],
+      "texto": "O PL oficializou Rogério Marinho para presidir o Senado. Ele diz ter ao menos 40 apoios; são 41 para vencer no 1º turno. Falta um voto e falta combinar com Tereza Cristina. Direita dividida é o melhor cenário para Alcolumbre, o candidato apoiado por Lula.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-04T10:48:53+00:00"
+  "ultima_execucao": "2026-11-04T23:57:15+00:00"
 }
