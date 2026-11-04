@@ -787,7 +787,21 @@
       "texto": "CISA incluiu no KEV o CVE-2026-119977, uma race condition TOCTOU no core do WordPress, com exploração ativa. Quem mantém sites: atualize o core (o aviso do Cyber Centre cita a 7.1.4) e, até lá, bloqueie o acesso HTTP a wp-content/upgrade.\n\nhttps://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "status": "publicado",
       "post_id": "2117757562053353585"
+    },
+    {
+      "id": "f72f567cab23b3cb",
+      "data": "2026-11-04T18:36:04+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "apt-mitm-package-swap-cve-2026-109518",
+      "titulo": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "fonte_url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "cves": [
+        "CVE-2026-109518"
+      ],
+      "texto": "Falha crítica no APT, CVE-2026-109518: quem controla o tráfego HTTP de download troca um pacote verificado e roda código como root. Depende de retry, padrão desde Debian 12 e Ubuntu 22.04. Atualize o APT em hosts, imagens de contêiner e runners de CI.\n\nhttps://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "status": "publicado",
+      "post_id": "2118049827695255676"
     }
   ],
-  "ultima_execucao": "2026-11-04T03:05:19+00:00"
+  "ultima_execucao": "2026-11-04T18:36:04+00:00"
 }
