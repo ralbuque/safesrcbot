@@ -295,14 +295,16 @@
     },
     {
       "id": "4e8fa69114cbb743",
-      "data": "2026-11-03T23:14:53+00:00",
+      "data": "2026-11-04T13:57:10+00:00",
       "categoria": "seguranca-publica",
       "tema_chave": "senado-aprova-pec-seguranca-sem-maioridade-penal",
       "titulo": "PEC da Segurança Pública é aprovada em primeiro turno no Senado",
       "fonte_url": "https://exame.com/brasil/pec-da-seguranca-publica-e-aprovada-em-primeiro-turno-no-senado/",
       "cves": [],
       "texto": "Senado aprovou a PEC da Segurança: 73 votos no 1º turno, 75 no 2º, nenhum contra. Mas o relator petista tirou a maioridade penal e mandou o tema para trâmite separado. O governo topa endurecer contra facção, mas foge da pauta que, segundo Marinho, quase 80% apoiam.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2117979470707781833",
+      "issue": 108
     },
     {
       "id": "f6ae84873de03e04",
