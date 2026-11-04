@@ -303,7 +303,18 @@
       "cves": [],
       "texto": "Senado aprovou a PEC da Segurança: 73 votos no 1º turno, 75 no 2º, nenhum contra. Mas o relator petista tirou a maioridade penal e mandou o tema para trâmite separado. O governo topa endurecer contra facção, mas foge da pauta que, segundo Marinho, quase 80% apoiam.",
       "status": "rascunho"
+    },
+    {
+      "id": "f6ae84873de03e04",
+      "data": "2026-11-04T10:48:53+00:00",
+      "categoria": "economia",
+      "tema_chave": "pacote-eleitoral-lula-290-bi-divida",
+      "titulo": "Pacote eleitoral de Lula alcança R$ 290 bi e gera pressão sobre dívida pública",
+      "fonte_url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pacote-eleitoral-de-lula-alcanca-r-290-bi-e-gera-pressao-sobre-divida-publica-2/",
+      "cves": [],
+      "texto": "Folha calculou em R$ 290 bi o pacote de medidas de Lula de olho na eleição, somando 2026 e 2027. Agora, com a dívida bruta em R$ 11,1 tri, o governo diz que avalia medidas fiscais, sem data. Gasta na campanha, e a conta chega depois, para o contribuinte.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-03T23:14:53+00:00"
+  "ultima_execucao": "2026-11-04T10:48:53+00:00"
 }
