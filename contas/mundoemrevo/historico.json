@@ -303,7 +303,18 @@
       "cves": [],
       "texto": "O Kyiv Independent sofreu ciberataque nesta quarta: invasores acessaram o site e o serviço de newsletter e enviaram e-mails falsos sobre um suposto míssil nuclear contra Kyiv. O veículo suspeita da Rússia pelo teor, sem prova técnica. Desinformação também é arma de guerra.",
       "status": "rascunho"
+    },
+    {
+      "id": "996f7773d17100d1",
+      "data": "2026-11-05T14:58:55+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "kiev-pior-apagao-hidrico-guerra-nov26",
+      "titulo": "Russian strikes cause Kyiv's worst water outage of full-scale war",
+      "fonte_url": "https://kyivindependent.com/russian-strikes-cause-kyivs-worst-water-outage-of-full-scale-war/",
+      "cves": [],
+      "texto": "Kiev ficou mais de 24 horas sem água após o ataque russo de 3/11 à rede elétrica: o pior corte hídrico da capital na guerra, segundo fontes ouvidas pelo Kyiv Independent. Sem luz, não há bombeamento. Mirar o que mantém civis vivos no inverno é estratégia do Kremlin.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-04T23:57:14+00:00"
+  "ultima_execucao": "2026-11-05T14:58:55+00:00"
 }
