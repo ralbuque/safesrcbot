@@ -295,14 +295,16 @@
     },
     {
       "id": "0aa9338af0330330",
-      "data": "2026-11-04T23:57:14+00:00",
+      "data": "2026-11-05T17:02:10+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "kyiv-independent-ciberataque-falso-alerta-nuclear-nov26",
       "titulo": "Kyiv Independent hit by suspected Russian cyberattack",
       "fonte_url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/",
       "cves": [],
       "texto": "O Kyiv Independent sofreu ciberataque nesta quarta: invasores acessaram o site e o serviço de newsletter e enviaram e-mails falsos sobre um suposto míssil nuclear contra Kyiv. O veículo suspeita da Rússia pelo teor, sem prova técnica. Desinformação também é arma de guerra.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118388412424261814",
+      "issue": 114
     },
     {
       "id": "996f7773d17100d1",
