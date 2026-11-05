@@ -213,7 +213,7 @@
     },
     {
       "id": "715f8c739ad82f62",
-      "data": "2026-11-04T23:57:11+00:00",
+      "data": "2026-11-05T16:59:16+00:00",
       "categoria": "republica-velha",
       "tema_chave": "golpe-3-novembro-deodoro-1891",
       "titulo": "Governo Deodoro: características, período, realizações, renúncia e resumo",
@@ -222,7 +222,9 @@
       "texto": "Novembro de 1891: Deodoro fecha o Congresso para barrar a lei de responsabilidade do presidente. Vinte dias depois, a Marinha ameaça bombardear o Rio e ele renuncia. Resultado: foi responsabilizado sem precisar da lei.",
       "ano_evento": 1891,
       "charge": "contas/palacioassombra/charges/715f8c739ad82f62.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118387682241888752",
+      "issue": 116
     },
     {
       "id": "2ca218805115daa7",
