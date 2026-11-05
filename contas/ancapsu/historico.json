@@ -334,14 +334,16 @@
     },
     {
       "id": "9d62293e19b8b391",
-      "data": "2026-11-05T14:58:53+00:00",
+      "data": "2026-11-05T17:01:31+00:00",
       "categoria": "economia",
       "tema_chave": "imposto-seletivo-mp-publicada-aliquotas-2027",
       "titulo": "Governo define alíquotas do Imposto Seletivo para 2027 em medida provisória",
       "fonte_url": "https://www.infomoney.com.br/politica/governo-define-aliquotas-do-imposto-seletivo-para-2027-em-medida-provisoria/",
       "cves": [],
       "texto": "Lula assinou MP que define o Imposto Seletivo de 2027: veículos, bebidas e cigarros seguem as alíquotas atuais do IPI, e a cobrança começa em 2 de fevereiro. O governo jura que a carga não muda. Imposto novo com promessa de neutralidade pede desconfiança do contribuinte.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118388249031033029",
+      "issue": 117
     }
   ],
   "ultima_execucao": "2026-11-05T14:58:53+00:00"
