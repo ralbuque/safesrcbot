@@ -318,7 +318,18 @@
       "status": "publicado",
       "post_id": "2118388310661812436",
       "issue": 118
+    },
+    {
+      "id": "01f32a28570fa08f",
+      "data": "2026-11-05T21:27:27+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "isw-russia-perde-terreno-outubro-sem-avancos-nov26",
+      "titulo": "Russian Assaults Stall Across Several Fronts, ISW Says",
+      "fonte_url": "https://kyivpost.com/post/89232",
+      "cves": [],
+      "texto": "Segundo o ISW, a Rússia perdeu terreno em outubro pelo segundo mês seguido e não teve avanços confirmados em vários setores em 3 e 4/11, com contra-ataques ucranianos. Sem ganhos no front, Moscou insiste em destruir a rede elétrica ucraniana para o inverno.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-05T14:58:55+00:00"
+  "ultima_execucao": "2026-11-05T21:27:27+00:00"
 }
