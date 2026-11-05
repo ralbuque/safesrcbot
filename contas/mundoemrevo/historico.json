@@ -306,14 +306,16 @@
     },
     {
       "id": "996f7773d17100d1",
-      "data": "2026-11-05T14:58:55+00:00",
+      "data": "2026-11-05T17:01:45+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "kiev-pior-apagao-hidrico-guerra-nov26",
       "titulo": "Russian strikes cause Kyiv's worst water outage of full-scale war",
       "fonte_url": "https://kyivindependent.com/russian-strikes-cause-kyivs-worst-water-outage-of-full-scale-war/",
       "cves": [],
       "texto": "Kiev ficou mais de 24 horas sem água após o ataque russo de 3/11 à rede elétrica: o pior corte hídrico da capital na guerra, segundo fontes ouvidas pelo Kyiv Independent. Sem luz, não há bombeamento. Mirar o que mantém civis vivos no inverno é estratégia do Kremlin.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118388310661812436",
+      "issue": 118
     }
   ],
   "ultima_execucao": "2026-11-05T14:58:55+00:00"
