@@ -226,7 +226,7 @@
     },
     {
       "id": "2ca218805115daa7",
-      "data": "2026-11-05T14:58:52+00:00",
+      "data": "2026-11-05T16:58:41+00:00",
       "categoria": "economia-historica",
       "tema_chave": "cpmf-provisoria-1996-2007",
       "titulo": "IOF 'repõe' quase metade da extinta CPMF",
@@ -235,7 +235,9 @@
       "texto": "NOTA DE FALECIMENTO: a CPMF, Contribuição \"Provisória\", nascida em 1996. Durou 11 anos e morreu em 2007. Em janeiro de 2008, o IOF ganhou uma alíquota extra de 0,38%, exatamente a dela. Não teve velório. Teve reencarnação.",
       "ano_evento": 2007,
       "charge": "contas/palacioassombra/charges/2ca218805115daa7.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118387535248347537",
+      "issue": 119
     }
   ],
   "ultima_execucao": "2026-11-05T14:58:52+00:00"
