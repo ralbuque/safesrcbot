@@ -813,7 +813,19 @@
       "texto": "PolinRider voltou: versões maliciosas de pacotes npm legítimos (ex.: react-contact-forms 0.5.2) usam a blockchain Ethereum para esconder o IP do C2 e rodam payloads em memória. Revise lockfiles e CI que instalaram esses pacotes.\n\nhttps://www.ox.security/blog/polinrider-returns-hijacked-npm-packages-use-ethereum-blockchain-to-conceal-malware-infrastructure/",
       "status": "publicado",
       "post_id": "2118130618781569286"
+    },
+    {
+      "id": "26e0752a4b665142",
+      "data": "2026-11-06T01:50:11+00:00",
+      "categoria": "ferramentas-padroes",
+      "tema_chave": "vercel-dbsc-security-review",
+      "titulo": "Vercel ties login sessions to devices, rolls out AI security reviews in public beta",
+      "fonte_url": "https://www.helpnetsecurity.com/2026/11/05/vercel-security-review-session-hijacking/",
+      "cves": [],
+      "texto": "Vercel começou a liberar o DBSC (Device Bound Session Credentials), que amarra a sessão ao dispositivo e reduz o valor de cookies roubados por infostealers. Sem chave segura no aparelho, volta ao comportamento padrão. Vale avaliar DBSC nas suas apps.\n\nhttps://www.helpnetsecurity.com/2026/11/05/vercel-security-review-session-hijacking/",
+      "status": "publicado",
+      "post_id": "2118521434247151733"
     }
   ],
-  "ultima_execucao": "2026-11-05T21:27:26+00:00"
+  "ultima_execucao": "2026-11-06T01:50:11+00:00"
 }
