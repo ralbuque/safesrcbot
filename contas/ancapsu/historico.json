@@ -379,7 +379,18 @@
       "cves": [],
       "texto": "Lula gravou pronunciamento sobre 'sustentabilidade' das contas, mas, segundo o Metrópoles, sem detalhar nenhuma medida de ajuste. A Bolsa caiu 13,88% no 1º pregão após a eleição. O mercado pede plano; o governo entrega discurso e empurra a conta para depois.",
       "status": "rascunho"
+    },
+    {
+      "id": "a65be6254579c22e",
+      "data": "2026-11-06T22:02:24+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "moraes-visita-filipe-martins-barra-gayer-vanhattem-jordy",
+      "titulo": "Crusoé: Moraes autoriza visita de Carlos Bolsonaro a Martins; Gayer é barrado",
+      "fonte_url": "https://oantagonista.com.br/brasil/crusoe-moraes-autoriza-visita-de-carlos-bolsonaro-a-martins-gayer-e-barrado/",
+      "cves": [],
+      "texto": "Moraes liberou Carlos Bolsonaro para visitar Filipe Martins na prisão, mas barrou Gayer, Van Hattem e Jordy por serem investigados em fatos conexos, diz a Crusoé. Parlamentar depende do aval de Moraes até para visitar preso, e quem é investigado fica de fora.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-06T16:52:14+00:00"
+  "ultima_execucao": "2026-11-06T22:02:24+00:00"
 }
