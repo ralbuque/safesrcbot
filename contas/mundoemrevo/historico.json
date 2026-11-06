@@ -331,7 +331,18 @@
       "status": "publicado",
       "post_id": "2118463069416489254",
       "issue": 121
+    },
+    {
+      "id": "e9c062fcb9e54142",
+      "data": "2026-11-06T09:18:04+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "defesa-aerea-8mil-drones-misseis-outubro-nov26",
+      "titulo": "Ukraine News Today: Breaking Updates & Live Coverage - November 5, 2026 from Kyiv Post (Ukraine Downs Over 8,000 Russian Drones and Missiles in October, Defense Ministry Says)",
+      "fonte_url": "https://www.kyivpost.com/thread/89179",
+      "cves": [],
+      "texto": "Segundo o Ministério da Defesa da Ucrânia, suas forças destruíram mais de 8 mil drones e mísseis russos em outubro e neutralizaram mais de 43 mil drones táticos. É a escala da campanha aérea do Kremlin contra cidades e energia — e por que a defesa aérea é prioridade.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-05T21:27:27+00:00"
+  "ultima_execucao": "2026-11-06T09:18:04+00:00"
 }
