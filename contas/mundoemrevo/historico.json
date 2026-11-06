@@ -342,7 +342,18 @@
       "cves": [],
       "texto": "Segundo o Ministério da Defesa da Ucrânia, suas forças destruíram mais de 8 mil drones e mísseis russos em outubro e neutralizaram mais de 43 mil drones táticos. É a escala da campanha aérea do Kremlin contra cidades e energia — e por que a defesa aérea é prioridade.",
       "status": "rascunho"
+    },
+    {
+      "id": "7b96816e402f4fcc",
+      "data": "2026-11-06T16:52:10+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "espanha-490-milhoes-defesa-aerea-nov26",
+      "titulo": "Ukraine strikes 2 Russian ammunition depots, other military targets in occupied territories, General Staff says (Kyiv Independent, 6 Nov 2026 – manchete: Spain to provide Ukraine $490 million in military aid, Zelensky says)",
+      "fonte_url": "https://kyivindependent.com/ukraine-strikes-2-russian-ammunition-depots-other-military-targets-in-occupied-territories-general-staff-says/",
+      "cves": [],
+      "texto": "Zelensky diz que a Espanha dará US$ 490 milhões em ajuda militar à Ucrânia, para reforçar a defesa aérea. Após o ataque de 3/11, Kiev viveu seu pior apagão hídrico da guerra. Defesa antiaérea é proteção de civis, e a Europa precisa dividir essa conta.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-06T09:18:04+00:00"
+  "ultima_execucao": "2026-11-06T16:52:10+00:00"
 }
