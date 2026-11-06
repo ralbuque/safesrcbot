@@ -240,7 +240,20 @@
       "status": "publicado",
       "post_id": "2118387535248347537",
       "issue": 119
+    },
+    {
+      "id": "33e8fe0ffc3cc405",
+      "data": "2026-11-06T01:50:11+00:00",
+      "categoria": "imperio",
+      "tema_chave": "baile-ilha-fiscal-1889",
+      "titulo": "Baile da Ilha Fiscal",
+      "fonte_url": "https://pt.wikipedia.org/wiki/Baile_da_Ilha_Fiscal",
+      "cves": [],
+      "texto": "9/11/1889: o Visconde de Ouro Preto gasta 250 contos num baile para mostrar que o Império está firme. Na mesma noite, o Clube Militar tramava a queda dele. Seis dias depois, só um dos eventos deu resultado. O outro tinha 800 kg de camarão.",
+      "ano_evento": 1889,
+      "charge": "contas/palacioassombra/charges/33e8fe0ffc3cc405.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-05T14:58:52+00:00"
+  "ultima_execucao": "2026-11-06T01:50:11+00:00"
 }
