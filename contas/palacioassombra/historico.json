@@ -253,7 +253,20 @@
       "ano_evento": 1889,
       "charge": "contas/palacioassombra/charges/33e8fe0ffc3cc405.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "7475d8759d225f67",
+      "data": "2026-11-06T16:52:05+00:00",
+      "categoria": "era-vargas",
+      "tema_chave": "plano-cohen-1937",
+      "titulo": "Plano Cohen",
+      "fonte_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/plano-cohen",
+      "cves": [],
+      "texto": "1937: um capitão integralista escreve um plano comunista de mentirinha. Na versão dele, um exercício. O Estado-Maior \"apreende\" o papel e em 10 de novembro nasce o Estado Novo. Até hoje, o trabalho \"só pra treinar\" de maior consequência da história do Brasil.",
+      "ano_evento": 1937,
+      "charge": "contas/palacioassombra/charges/7475d8759d225f67.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-06T01:50:11+00:00"
+  "ultima_execucao": "2026-11-06T16:52:05+00:00"
 }
