@@ -266,7 +266,20 @@
       "ano_evento": 1937,
       "charge": "contas/palacioassombra/charges/7475d8759d225f67.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "6618658f07d342d7",
+      "data": "2026-11-06T22:02:22+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "urv-plano-real-1994",
+      "titulo": "URV: moeda \"virtual\" do Plano Real completa 20 anos",
+      "fonte_url": "https://www.terra.com.br/economia/urv-moeda-virtual-do-plano-real-completa-20-anos,443a255356654410VgnVCM4000009bcceb0aRCRD.html",
+      "cves": [],
+      "texto": "1994: o governo cria a URV, moeda que não existe, não se imprime e não serve pra pagar nada, mas todo preço passa a ser cotado nela, com valor novo a cada dia. Foi o primeiro programa de milhas do Brasil e o único em que os pontos viraram dinheiro de verdade.",
+      "ano_evento": 1994,
+      "charge": "contas/palacioassombra/charges/6618658f07d342d7.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-06T16:52:05+00:00"
+  "ultima_execucao": "2026-11-06T22:02:22+00:00"
 }
