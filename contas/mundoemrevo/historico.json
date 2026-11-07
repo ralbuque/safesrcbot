@@ -366,7 +366,18 @@
       "status": "publicado",
       "post_id": "2118914119063773187",
       "issue": 129
+    },
+    {
+      "id": "b1f1fd3efffe27de",
+      "data": "2026-11-07T15:13:05+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "komyshuvakha-hur-identifica-pilotos-55-mortos-nov26",
+      "titulo": "Military intelligence identifies Russian soldiers involved in deadly Komyshuvakha aid center strike",
+      "fonte_url": "https://kyivindependent.com/military-intelligence-identifies-russian-soldiers-involved-in-deadly-komyshuvakha-aid-center-strike/",
+      "cves": [],
+      "texto": "Sobe para 55 o número de mortos no bombardeio russo a um centro de ajuda humanitária em Komyshuvakha, segundo autoridades locais; mais de 50 seguem desaparecidos. A inteligência ucraniana diz ter identificado seis pilotos russos envolvidos. Crime de guerra não prescreve.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-06T22:02:30+00:00"
+  "ultima_execucao": "2026-11-07T15:13:05+00:00"
 }
