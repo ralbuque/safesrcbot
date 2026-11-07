@@ -379,7 +379,18 @@
       "status": "publicado",
       "post_id": "2119103820680794239",
       "issue": 132
+    },
+    {
+      "id": "b7f37708ef4a33a0",
+      "data": "2026-11-07T19:31:30+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "kyiv-misseis-balisticos-jardim-infancia-nov26",
+      "titulo": "Russian Ballistic Missiles Strike Kyiv, Destroy Kindergarten Building, Injure Child, 4 Others",
+      "fonte_url": "https://kyivpost.com/post/89404",
+      "cves": [],
+      "texto": "Ao menos 6 mísseis balísticos russos miraram Kyiv na madrugada de hoje, segundo o Kyiv Post: jardim de infância destruído, 5 feridos, entre eles uma criança. Zelensky alerta para novo ataque à energia e às pontes do Dnipro e pede Patriots sem atraso.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-07T15:13:05+00:00"
+  "ultima_execucao": "2026-11-07T19:31:30+00:00"
 }
