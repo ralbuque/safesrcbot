@@ -285,7 +285,20 @@
       "status": "publicado",
       "post_id": "2118914039111623097",
       "issue": 130
+    },
+    {
+      "id": "53ba80284f5aeb47",
+      "data": "2026-11-07T15:13:05+00:00",
+      "categoria": "regime-militar",
+      "tema_chave": "eleicao-1974-mdb-senado",
+      "titulo": "Especial: Senado 74 – A eleição que abalou a ditadura",
+      "fonte_url": "https://www12.senado.leg.br/noticias/materias/2014/11/14/especial-senado-74-2013-a-eleicao-que-abalou-a-ditadura",
+      "cves": [],
+      "texto": "1974: o regime tolerava uma oposição \"consentida\", só pra constar. O eleitor levou a sério e deu ao MDB 16 das 22 vagas no Senado.\nContrataram um figurante pra dar cor e o figurante ficou com o filme.",
+      "ano_evento": 1974,
+      "charge": "contas/palacioassombra/charges/53ba80284f5aeb47.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-06T22:02:22+00:00"
+  "ultima_execucao": "2026-11-07T15:13:05+00:00"
 }
