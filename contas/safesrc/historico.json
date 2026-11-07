@@ -825,7 +825,21 @@
       "texto": "Vercel começou a liberar o DBSC (Device Bound Session Credentials), que amarra a sessão ao dispositivo e reduz o valor de cookies roubados por infostealers. Sem chave segura no aparelho, volta ao comportamento padrão. Vale avaliar DBSC nas suas apps.\n\nhttps://www.helpnetsecurity.com/2026/11/05/vercel-security-review-session-hijacking/",
       "status": "publicado",
       "post_id": "2118521434247151733"
+    },
+    {
+      "id": "18d5096720ddb16f",
+      "data": "2026-11-07T01:50:54+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "openssh-sshole-alpine-musl-cve-2026-123158",
+      "titulo": "OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158)",
+      "fonte_url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+      "cves": [
+        "CVE-2026-123158"
+      ],
+      "texto": "\"sshole\" (CVE-2026-123158): OpenSSH anterior à 10.6p2 em Linux com musl (Alpine) sem PAM permite login em contas sem senha. Exploração começou em menos de 9h após a divulgação. Usa sshd em imagens Alpine? Atualize para 10.6p2.\n\nhttps://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+      "status": "publicado",
+      "post_id": "2118883988437963181"
     }
   ],
-  "ultima_execucao": "2026-11-06T22:02:19+00:00"
+  "ultima_execucao": "2026-11-07T01:50:54+00:00"
 }
