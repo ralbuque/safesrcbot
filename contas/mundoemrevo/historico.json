@@ -356,14 +356,16 @@
     },
     {
       "id": "8f6286e915f021c6",
-      "data": "2026-11-06T22:02:30+00:00",
+      "data": "2026-11-07T03:51:08+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "dtek-78-ataques-energia-vs-11-em-2022-nov26",
       "titulo": "Russian Offensive Campaign Assessment, November 5, 2026",
       "fonte_url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-5-2026",
       "cves": [],
       "texto": "Segundo a DTEK, maior empresa de energia da Ucrânia, a Rússia atacou usinas e linhas de transmissão 78 vezes desde cerca de 2 de novembro. Em todo o ano de 2022 foram 11. Não é dano colateral: é uma campanha contra energia e água de civis, com o inverno chegando.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118914119063773187",
+      "issue": 129
     }
   ],
   "ultima_execucao": "2026-11-06T22:02:30+00:00"
