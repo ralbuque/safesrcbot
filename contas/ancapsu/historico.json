@@ -423,14 +423,16 @@
     },
     {
       "id": "648df5b93b0ddc27",
-      "data": "2026-11-07T19:31:34+00:00",
+      "data": "2026-11-07T21:18:12+00:00",
       "categoria": "congresso",
       "tema_chave": "alcolumbre-gabinetes-garagem-emendas-reeleicao-malu-gaspar",
       "titulo": "Alcolumbre negocia cargos e emendas para manter comando do Senado e conter o PL",
       "fonte_url": "https://agendadopoder.com.br/alcolumbre-negocia-cargos-e-emendas-para-manter-comando-do-senado-e-conter-o-pl/",
       "cves": [],
       "texto": "Segundo coluna de Malu Gaspar, no Globo, Alcolumbre oferece gabinete, vaga de garagem e emendas a senadores recém-eleitos por apoio à reeleição, e segue sem aceitar votar impeachment de ministro do STF. Voto de senador por vaga de estacionamento: o preço da blindagem.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2119177624765497724",
+      "issue": 136
     }
   ],
   "ultima_execucao": "2026-11-07T19:31:34+00:00"
