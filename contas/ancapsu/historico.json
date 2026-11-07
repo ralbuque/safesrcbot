@@ -373,14 +373,16 @@
     },
     {
       "id": "0ea6f62c50cf089e",
-      "data": "2026-11-06T16:52:14+00:00",
+      "data": "2026-11-07T03:52:44+00:00",
       "categoria": "economia",
       "tema_chave": "lula-pronunciamento-sem-medidas-ajuste-fiscal",
       "titulo": "Lula grava pronunciamento defendendo \"sustentabilidade\" das contas públicas",
       "fonte_url": "https://www.metropoles.com/colunas/igor-gadelha/lula-grava-pronunciamento-defendendo-sustentabilidade-das-contas-publicas",
       "cves": [],
       "texto": "Lula gravou pronunciamento sobre 'sustentabilidade' das contas, mas, segundo o Metrópoles, sem detalhar nenhuma medida de ajuste. A Bolsa caiu 13,88% no 1º pregão após a eleição. O mercado pede plano; o governo entrega discurso e empurra a conta para depois.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118914521737916825",
+      "issue": 125
     },
     {
       "id": "a65be6254579c22e",
