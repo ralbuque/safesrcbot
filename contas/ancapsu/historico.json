@@ -407,7 +407,18 @@
       "status": "publicado",
       "post_id": "2118913965019283815",
       "issue": 131
+    },
+    {
+      "id": "13a851d21cb3305a",
+      "data": "2026-11-07T15:13:08+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "uol-316-interacoes-vorcaro-moraes",
+      "titulo": "Novas mensagens sugerem proximidade entre Alexandre de Moraes e Daniel Vorcaro",
+      "fonte_url": "https://www.gazetadopovo.com.br/republica/novas-mensagens-sugerem-proximidade-entre-alexandre-de-moraes-e-daniel-vorcaro/",
+      "cves": [],
+      "texto": "Segundo o UOL, o celular de Vorcaro registra 316 interações com Moraes nos dois meses antes da prisão do banqueiro, com encontros marcados e até \"paizão\". Moraes nega diálogo real. Quem se diz acima de qualquer suspeita deveria explicar isso em público, não em nota.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-07T01:50:55+00:00"
+  "ultima_execucao": "2026-11-07T15:13:08+00:00"
 }
