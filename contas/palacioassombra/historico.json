@@ -258,7 +258,7 @@
     },
     {
       "id": "7475d8759d225f67",
-      "data": "2026-11-06T16:52:05+00:00",
+      "data": "2026-11-07T03:53:09+00:00",
       "categoria": "era-vargas",
       "tema_chave": "plano-cohen-1937",
       "titulo": "Plano Cohen",
@@ -267,7 +267,9 @@
       "texto": "1937: um capitão integralista escreve um plano comunista de mentirinha. Na versão dele, um exercício. O Estado-Maior \"apreende\" o papel e em 10 de novembro nasce o Estado Novo. Até hoje, o trabalho \"só pra treinar\" de maior consequência da história do Brasil.",
       "ano_evento": 1937,
       "charge": "contas/palacioassombra/charges/7475d8759d225f67.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118914624376414654",
+      "issue": 127
     },
     {
       "id": "6618658f07d342d7",
