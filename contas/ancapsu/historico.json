@@ -393,14 +393,16 @@
     },
     {
       "id": "caa03a0ad76ac4d0",
-      "data": "2026-11-07T01:50:55+00:00",
+      "data": "2026-11-07T03:50:31+00:00",
       "categoria": "stf-judiciario",
       "tema_chave": "fachin-homologa-delacao-mansur-reag-master-brb",
       "titulo": "Fachin homologa delação do fundador da Reag no caso Master e BRB",
       "fonte_url": "https://soubrasilia.com/stf-fachin-homologa-delacao-mansur-reag-caso-master-brb-6-novembro-2026/",
       "cves": [],
       "texto": "Fachin homologou nesta sexta a delação do fundador da Reag, João Carlos Mansur, no caso Master/BRB. O acordo com a PGR segue sob sigilo. Delação não é condenação, mas quando os nomes vierem a público a apuração tem que alcançar todos os citados, sem seletividade e sem pizza.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118913965019283815",
+      "issue": 131
     }
   ],
   "ultima_execucao": "2026-11-07T01:50:55+00:00"
