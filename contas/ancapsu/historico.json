@@ -360,14 +360,16 @@
     },
     {
       "id": "8b730ebc0d7df2aa",
-      "data": "2026-11-06T01:50:08+00:00",
+      "data": "2026-11-07T03:52:00+00:00",
       "categoria": "stf-judiciario",
       "tema_chave": "governo-aposta-stf-derrubar-lei-bets-2018",
       "titulo": "Governo Lula aposta em derrubada pelo STF de lei de 2018 que autorizou bets",
       "fonte_url": "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/governo-lula-aposta-em-derrubada-pelo-stf-de-lei-de-2018-que-autorizou-bets/",
       "cves": [],
       "texto": "Segundo a CNN, integrantes do governo Lula apostam que o STF derrube a lei das bets de 2018 para evitar reveses no Congresso. Se o voto dos parlamentares é incerto, o Planalto aposta no atalho do Supremo. Legislar por decisão judicial virou plano B.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2118914338019045723",
+      "issue": 122
     },
     {
       "id": "0ea6f62c50cf089e",
