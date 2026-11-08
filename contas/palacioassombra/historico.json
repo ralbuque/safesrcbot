@@ -303,7 +303,7 @@
     },
     {
       "id": "efd06a790d4c4f6c",
-      "data": "2026-11-07T23:06:09+00:00",
+      "data": "2026-11-08T21:51:30+00:00",
       "categoria": "republica-velha",
       "tema_chave": "proclamacao-republica-povo-bestializado-1889",
       "titulo": "A semana na história - 12 a 18 de Novembro",
@@ -312,7 +312,9 @@
       "texto": "15/11/1889: o Exército derruba a monarquia e o povo fica na calçada achando que é parada militar. Aristides Lobo, republicano, anotou tudo. Até hoje o brasileiro só percebe que mudou o regime quando avisam do feriado.",
       "ano_evento": 1889,
       "charge": "contas/palacioassombra/charges/efd06a790d4c4f6c.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2119548388337242541",
+      "issue": 139
     },
     {
       "id": "1418a21513945bc9",
