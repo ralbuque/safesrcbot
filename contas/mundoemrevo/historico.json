@@ -393,14 +393,16 @@
     },
     {
       "id": "a827d4d3794df84d",
-      "data": "2026-11-07T23:06:09+00:00",
+      "data": "2026-11-08T20:51:35+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "alertas-falsos-bomba-europa-isw-nov26",
       "titulo": "Russian Offensive Campaign Assessment, November 6, 2026",
       "fonte_url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-6-2026",
       "cves": [],
       "texto": "Autoridades da Espanha, Itália e Irlanda chamaram de \"coordenada\" a onda de alertas falsos de bomba contra voos, aeroportos e veículos de imprensa na Europa. Nenhum Estado apontou autor, mas o ISW vê método compatível com o do Kremlin: custo econômico e desordem a baixo custo.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2119533313748553985",
+      "issue": 137
     },
     {
       "id": "97b96922b0af0f15",
