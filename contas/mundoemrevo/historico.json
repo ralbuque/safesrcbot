@@ -417,14 +417,16 @@
     },
     {
       "id": "491ac7a3f8ff0978",
-      "data": "2026-11-08T16:09:01+00:00",
+      "data": "2026-11-08T21:50:02+00:00",
       "categoria": "israel-oriente-medio",
       "tema_chave": "herzog-eisenkot-mandato-governo-israel-nov26",
       "titulo": "Israel's president picks Eisenkot over Netanyahu to form next government",
       "fonte_url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government",
       "cves": [],
-      "texto": "Herzog vai encarregar Gadi Eisenkot, ex-chefe das Forças Armadas, de formar o governo de Israel: 67 deputados o indicaram, contra 46 de Netanyahu. Ele tem 28 dias (mais até 14) para reunir 61 cadeiras. Nada está definido: é a democracia israelense em ação.",
-      "status": "rascunho"
+      "texto": "Herzog vai encarregar Gadi Eisenkot, ex-chefe das Forças Armadas, de formar o governo de Israel: 67 deputados o indicaram (os dele e os árabes), contra 46 de Netanyahu. Ele tem 28 dias (mais até 14) para reunir 61 cadeiras. Se não conseguir, haverá novas eleições.",
+      "status": "publicado",
+      "post_id": "2119548021062959445",
+      "issue": 141
     },
     {
       "id": "1040e6bc7729c2fa",
