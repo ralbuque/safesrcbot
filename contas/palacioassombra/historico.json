@@ -313,7 +313,20 @@
       "ano_evento": 1889,
       "charge": "contas/palacioassombra/charges/efd06a790d4c4f6c.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "1418a21513945bc9",
+      "data": "2026-11-08T16:08:58+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "silvio-santos-candidatura-barrada-1989",
+      "titulo": "Silvio Santos tentou concorrer à Presidência da República em 1989",
+      "fonte_url": "https://www.osul.com.br/silvio-santos-tentou-concorrer-a-presidencia-da-republica-em-1989/",
+      "cves": [],
+      "texto": "1989: Silvio Santos vira candidato a presidente em 31/10, já bem nas pesquisas e com o nome de outro na cédula. Em 9/11, o TSE o barra por 7 a 0: dono de TV. Calouro mais rápido da história: nove dias de campanha e sete jurados apertando a buzina juntos.",
+      "ano_evento": 1989,
+      "charge": "contas/palacioassombra/charges/1418a21513945bc9.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-07T23:06:09+00:00"
+  "ultima_execucao": "2026-11-08T16:08:58+00:00"
 }
