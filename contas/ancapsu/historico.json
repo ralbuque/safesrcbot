@@ -436,14 +436,16 @@
     },
     {
       "id": "7dd2ff8b2e438474",
-      "data": "2026-11-07T23:06:10+00:00",
+      "data": "2026-11-08T20:52:06+00:00",
       "categoria": "congresso",
       "tema_chave": "marinho-senado-subordinado-executivo-judiciario",
       "titulo": "Alcolumbre e Marinho intensificam campanha à presidência do Senado com indiretas e troca de farpas",
       "fonte_url": "https://www.tribunadosertao.com.br/poder-e-governo/2026/11/05/1013898-alcolumbre-e-marinho-intensificam-campanha-a-presidencia-do-senado-com-indiretas-e-troca-de-farpas",
       "cves": [],
       "texto": "Marinho disse, ao lançar a candidatura, que o Senado perdeu protagonismo e age subordinado a outros Poderes, segundo O Globo. Com setores da direita cobrando de Alcolumbre postura mais dura com o STF, o diagnóstico tem lastro. Em fevereiro se vê quem quer um Senado de verdade.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2119533444413977011",
+      "issue": 138
     },
     {
       "id": "da818a8107706b69",
