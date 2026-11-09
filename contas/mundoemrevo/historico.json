@@ -455,7 +455,18 @@
       "status": "publicado",
       "post_id": "2119826221714592116",
       "issue": 146
+    },
+    {
+      "id": "f1866f7ff29e7dd7",
+      "data": "2026-11-09T16:42:54+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "vespera-abu-dhabi-317-drones-armazem-odesa-nov26",
+      "titulo": "A Day Before US-Brokered Talks, Russia and Ukraine Batter Each Other With Long-Range Strikes (AP, via U.S. News)",
+      "fonte_url": "https://www.usnews.com/news/world/articles/2026-11-09/a-day-before-us-brokered-talks-russia-and-ukraine-batter-each-other-with-long-range-strikes",
+      "cves": [],
+      "texto": "Na véspera das negociações em Abu Dhabi, a Rússia lançou 317 drones (105 a jato), diz a Força Aérea ucraniana, e atingiu em Odesa um armazém de comida para escolas e creches: 3 mortos, segundo autoridades locais. Quem busca paz não mira a merenda das crianças.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-09T00:05:45+00:00"
+  "ultima_execucao": "2026-11-09T16:42:54+00:00"
 }
