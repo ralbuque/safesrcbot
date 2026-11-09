@@ -328,7 +328,20 @@
       "ano_evento": 1989,
       "charge": "contas/palacioassombra/charges/1418a21513945bc9.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "2fc02233fb14be6b",
+      "data": "2026-11-09T00:05:47+00:00",
+      "categoria": "economia-historica",
+      "tema_chave": "maua-emprestimo-negado-1875",
+      "titulo": "Perfil - Barão de Mauá (IPEA, Desafios do Desenvolvimento)",
+      "fonte_url": "https://www.ipea.gov.br/desafios/index.php?option=com_content&id=2567%3Acatid%3D28",
+      "cves": [],
+      "texto": "Maio de 1875: o Banco Mauá, do empresário que já foi o homem mais rico do país, para de pagar e pede 3 mil contos ao Banco do Brasil. Resposta: não.\n\nMauá nasceu cedo demais. No BNDES de 2010, ele saía de lá \"campeão nacional\".",
+      "ano_evento": 1875,
+      "charge": "contas/palacioassombra/charges/2fc02233fb14be6b.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-08T16:08:58+00:00"
+  "ultima_execucao": "2026-11-09T00:05:47+00:00"
 }
