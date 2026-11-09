@@ -475,14 +475,16 @@
     },
     {
       "id": "d6a19c230e625790",
-      "data": "2026-11-09T00:05:49+00:00",
+      "data": "2026-11-09T16:07:26+00:00",
       "categoria": "economia",
       "tema_chave": "dino-audiencia-conciliacao-fim-escala-6x1-cni-cnc",
       "titulo": "Dino inclui ação da CNI em audiência sobre transição da escala 6x1",
       "fonte_url": "https://www.migalhas.com.br/quentes/468003/dino-inclui-acao-da-cni-em-audiencia-sobre-transicao-da-escala-6x1",
       "cves": [],
       "texto": "Dino marcou para terça audiência no STF sobre a implementação do fim da 6x1, após ações da CNI e da CNC. O Congresso aprovou a emenda sem medir o custo; agora o ajuste fino sai da sala de um ministro. Quem emprega e gera vaga fica no fim da fila, como sempre.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2119824191323296233",
+      "issue": 148
     }
   ],
   "ultima_execucao": "2026-11-09T00:05:49+00:00"
