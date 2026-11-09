@@ -343,7 +343,20 @@
       "status": "publicado",
       "post_id": "2119824276358410749",
       "issue": 147
+    },
+    {
+      "id": "52cfdfefda3d6184",
+      "data": "2026-11-09T16:42:53+00:00",
+      "categoria": "republica-velha",
+      "tema_chave": "bandeira-provisoria-copia-eua-1889",
+      "titulo": "Saiba mais sobre a bandeira brasileira - Portal da Câmara dos Deputados",
+      "fonte_url": "https://www.camara.leg.br/noticias/91666-saiba-mais-sobre-a-bandeira-brasileira",
+      "cves": [],
+      "texto": "Notas de atualização, 19/11/1889\n\nv1.0 (15/11): bandeira da República, cópia das listras e estrelas dos EUA.\nv1.1: corrigido o bug de plágio. Adicionado \"Ordem e Progresso\".\n\nObs.: a v1.0 durou 4 dias. Foi o primeiro recall da República.",
+      "ano_evento": 1889,
+      "charge": "contas/palacioassombra/charges/52cfdfefda3d6184.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-09T00:05:47+00:00"
+  "ultima_execucao": "2026-11-09T16:42:53+00:00"
 }
