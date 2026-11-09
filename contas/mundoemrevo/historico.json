@@ -442,7 +442,18 @@
       "status": "publicado",
       "post_id": "2119547669706068272",
       "issue": 144
+    },
+    {
+      "id": "a22c6ee7ff4dc6eb",
+      "data": "2026-11-09T00:05:45+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "refinaria-saratov-oitavo-ataque-36-balisticos-kyiv-nov26",
+      "titulo": "Russian Offensive Campaign Assessment, November 7, 2026",
+      "fonte_url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-7-2026-6aefc4cc503e5",
+      "cves": [],
+      "texto": "Segundo o ISW, forças ucranianas atingiram a refinaria de Saratov na noite de 6 para 7/11, ao menos o 8º ataque à unidade em 2026. Na mesma noite, a Rússia disparou 36 mísseis balísticos contra Kyiv. Uma mira a máquina de guerra; a outra, a vida da cidade.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-08T20:39:56+00:00"
+  "ultima_execucao": "2026-11-09T00:05:45+00:00"
 }
