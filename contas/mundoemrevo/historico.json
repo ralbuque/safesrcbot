@@ -469,14 +469,16 @@
     },
     {
       "id": "2cfb60cb4d7dfe38",
-      "data": "2026-11-10T00:27:41+00:00",
+      "data": "2026-11-10T22:40:40+00:00",
       "categoria": "israel-oriente-medio",
       "tema_chave": "eisenkot-coalizao-unidade-netanyahu-liberman-nov26",
       "titulo": "Nov. 9: Republican US lawmaker moves to impeach defense secretary Hegseth over Iran war (Times of Israel liveblog, 9 Nov 2026)",
       "fonte_url": "https://www.timesofisrael.com/liveblog-november-9-2026/",
       "cves": [],
       "texto": "Eisenkot tem 28 dias, prorrogáveis por 14, para formar governo em Israel. Netanyahu diz estar aberto a liderar um governo de unidade com partidos sionistas e haredis; Liberman descarta minoria ou apoio árabe. Quem fechar a coalizão herdará a ameaça do Irã e do Hamas.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2120285540541149367",
+      "issue": 153
     },
     {
       "id": "8e3d5d86df9179a8",
