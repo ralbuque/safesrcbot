@@ -480,14 +480,16 @@
     },
     {
       "id": "8e3d5d86df9179a8",
-      "data": "2026-11-10T16:23:53+00:00",
+      "data": "2026-11-10T22:32:25+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "abu-dhabi-abertura-ataque-subestacoes-10-regioes-lavrov-nov26",
       "titulo": "Russia pounds Ukraine's power grid as talks open in Abu Dhabi",
       "fonte_url": "https://www.detroitnews.com/story/news/world/2026/11/10/russia-pounds-ukraines-power-grid-as-talks-open-in-abu-dhabi/92704752007/",
       "cves": [],
       "texto": "Enquanto as delegações se sentavam em Abu Dhabi, a Rússia atacou 10 regiões da Ucrânia, mirando cinco subestações: apagões e 2 mortos, segundo autoridades. Lavrov diz que Moscou não aceita cessar-fogo imediato. Quem quer paz não corta a luz de quem negocia.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2120283463102206259",
+      "issue": 156
     },
     {
       "id": "7120e3a4ca7b0a1a",
