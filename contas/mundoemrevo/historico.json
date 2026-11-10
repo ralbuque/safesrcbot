@@ -491,14 +491,16 @@
     },
     {
       "id": "7120e3a4ca7b0a1a",
-      "data": "2026-11-10T21:52:41+00:00",
+      "data": "2026-11-10T22:31:50+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "fabricas-a50-staraya-russa-iskander-combustivel-spb-nov26",
       "titulo": "Ukraine strikes Russian plant responsible for repairing A-50 spy planes, General Staff confirms",
       "fonte_url": "https://www.ukrinform.net/rubric-ato/4183386-ukraine-strikes-russian-plant-responsible-for-repairing-a50-spy-planes-general-staff-confirms.html",
       "cves": [],
       "texto": "Segundo o Estado-Maior ucraniano, drones atingiram na madrugada de 10/11 a fábrica de Staraya Russa que repara os aviões radar A-50. Um dia antes, a de São Petersburgo que faz combustível dos Iskander-M. Kiev mira a cadeia que alimenta os ataques às suas cidades.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2120283317996314626",
+      "issue": 159
     }
   ],
   "ultima_execucao": "2026-11-10T21:52:41+00:00"
