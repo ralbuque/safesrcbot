@@ -839,7 +839,21 @@
       "texto": "\"sshole\" (CVE-2026-123158): OpenSSH anterior à 10.6p2 em Linux com musl (Alpine) sem PAM permite login em contas sem senha. Exploração começou em menos de 9h após a divulgação. Usa sshd em imagens Alpine? Atualize para 10.6p2.\n\nhttps://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
       "status": "publicado",
       "post_id": "2118883988437963181"
+    },
+    {
+      "id": "d347e9d18200114f",
+      "data": "2026-11-10T21:52:39+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "gpustack-auth-bypass-cve-2026-102895-kev",
+      "titulo": "U.S. CISA adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog",
+      "fonte_url": "https://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "cves": [
+        "CVE-2026-102895"
+      ],
+      "texto": "CISA incluiu no KEV a CVE-2026-102895 (CVSS 9.8): autenticação imprópria no GPUStack, plataforma open source para clusters de GPU e deploy de modelos de IA. Há exploração ativa. Se você expõe o GPUStack, restrinja o acesso e aplique o patch.\n\nhttps://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "status": "publicado",
+      "post_id": "2120273626620367300"
     }
   ],
-  "ultima_execucao": "2026-11-10T16:23:46+00:00"
+  "ultima_execucao": "2026-11-10T21:52:39+00:00"
 }
