@@ -523,14 +523,16 @@
     },
     {
       "id": "4a4492cb4fd98452",
-      "data": "2026-11-10T21:52:38+00:00",
+      "data": "2026-11-10T22:31:30+00:00",
       "categoria": "eleicoes-partidos",
       "tema_chave": "edinho-silva-eclipse-stf-canal-livre",
       "titulo": "Denúncias contra o STF criaram um 'eclipse sobre a sociedade brasileira', diz Edinho Silva",
       "fonte_url": "https://paiquerefm.com.br/estadao/denuncias-contra-o-stf-criaram-um-eclipse-sobre-a-sociedade-brasileira-diz-edinho-silva/",
       "cves": [],
       "texto": "Edinho Silva, presidente do PT, disse ao Canal Livre que as denúncias e os ataques ao STF criaram \"um eclipse\" e ofuscaram as entregas de Lula. O PT admite que o Supremo virou assunto de campanha, mas culpa quem olhou, não o que foi visto.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2120283234223178149",
+      "issue": 158
     }
   ],
   "ultima_execucao": "2026-11-10T21:52:38+00:00"
