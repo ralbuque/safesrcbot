@@ -356,7 +356,20 @@
       "ano_evento": 1889,
       "charge": "contas/palacioassombra/charges/52cfdfefda3d6184.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "65594c488de2733e",
+      "data": "2026-11-10T00:27:38+00:00",
+      "categoria": "imperio",
+      "tema_chave": "noite-da-agonia-constituinte-1823",
+      "titulo": "Abertura da Assembleia Constituinte de 1823: as polêmicas (MultiRio)",
+      "fonte_url": "https://multi.rio/index.php/historia-do-brasil/brasil-monarquico/8898-abertura-da-constituinte-de-1823-as-pol%C3%AAmicas",
+      "cves": [],
+      "texto": "Maio de 1823: Pedro I promete defender a Constituição \"se fosse digna do Brasil e de mim\".\n\nNovembro: manda a tropa cercar a Assembleia Constituinte.\n\nO texto devia ter passado na parte do Brasil. Reprovou na parte do \"de mim\".",
+      "ano_evento": 1823,
+      "charge": "contas/palacioassombra/charges/65594c488de2733e.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-09T16:42:53+00:00"
+  "ultima_execucao": "2026-11-10T00:27:38+00:00"
 }
