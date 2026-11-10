@@ -369,7 +369,20 @@
       "ano_evento": 1823,
       "charge": "contas/palacioassombra/charges/65594c488de2733e.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "debcb029bff8301f",
+      "data": "2026-11-10T16:23:51+00:00",
+      "categoria": "era-vargas",
+      "tema_chave": "constituicao-polaca-plebiscito-1937",
+      "titulo": "Constituição dos Estados Unidos do Brasil (1937)",
+      "fonte_url": "https://ideg.com.br/constituicao-dos-estado-unidos-do-brasil-1937/",
+      "cves": [],
+      "texto": "10/11/1937: Vargas fecha o Congresso e outorga uma Constituição que \"entra em vigor hoje e será submetida a plebiscito\". Vigorou até 1945. O plebiscito nunca veio. Primeiro \"li e aceito\" sem a opção de ler nem de aceitar.",
+      "ano_evento": 1937,
+      "charge": "contas/palacioassombra/charges/debcb029bff8301f.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-10T00:27:38+00:00"
+  "ultima_execucao": "2026-11-10T16:23:51+00:00"
 }
