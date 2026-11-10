@@ -501,14 +501,16 @@
     },
     {
       "id": "c4f41bc0fd728203",
-      "data": "2026-11-10T00:27:44+00:00",
+      "data": "2026-11-10T22:40:58+00:00",
       "categoria": "seguranca-publica",
       "tema_chave": "tatto-pt-contra-maioridade-penal-lula-promessa",
       "titulo": "Vice-presidente do PT admite: maioria do partido é contra redução da maioridade penal",
       "fonte_url": "https://revistaoeste.com/politica/vice-presidente-do-pt-admite-maioria-do-partido-e-contra-reducao-da-maioridade-penal/",
       "cves": [],
       "texto": "Na campanha, Lula se disse favorável a reduzir a maioridade penal em crimes hediondos. Eleição ganha, Jilmar Tatto, vice do PT, diz à Veja que a maioria do partido é contra, e Wagner já chamara a fala de posição pessoal. Promessa de palanque tem prazo de validade.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2120285615132492009",
+      "issue": 152
     },
     {
       "id": "ba23ee77b0687af9",
