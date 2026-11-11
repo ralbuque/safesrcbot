@@ -877,7 +877,21 @@
       "texto": "Falha crítica no Xen Orchestra (VSA-2026-062) é explorada: um cookie de autenticação forjado, tratado em requisições da API REST, dá acesso Admin e permite assumir hosts XCP-ng como root. Atualize XO/XOA já ou isole a interface em rede de gestão.\n\nhttps://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
       "status": "publicado",
       "post_id": "2120567337904742774"
+    },
+    {
+      "id": "3f7cf41dc222a6e7",
+      "data": "2026-11-11T23:35:41+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "react-rsc-rce-cve-2026-126187",
+      "titulo": "React: Unauthenticated Remote Code Execution in React Server Components · CVE-2026-126187 · GitHub Advisory Database",
+      "fonte_url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
+      "cves": [
+        "CVE-2026-126187"
+      ],
+      "texto": "React Server Components: falha crítica de RCE sem autenticação em react-server-dom-webpack, -parcel e -turbopack, agora com CVE-2026-126187. Atualize para 19.0.9, 19.1.10, 19.2.9 ou 19.3.1 e revise o framework (ex.: Next.js) que embute esses pacotes.\n\nhttps://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
+      "status": "publicado",
+      "post_id": "2120661945153913145"
     }
   ],
-  "ultima_execucao": "2026-11-11T17:19:39+00:00"
+  "ultima_execucao": "2026-11-11T23:35:41+00:00"
 }
