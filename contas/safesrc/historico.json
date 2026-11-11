@@ -853,7 +853,19 @@
       "texto": "CISA incluiu no KEV a CVE-2026-102895 (CVSS 9.8): autenticação imprópria no GPUStack, plataforma open source para clusters de GPU e deploy de modelos de IA. Há exploração ativa. Se você expõe o GPUStack, restrinja o acesso e aplique o patch.\n\nhttps://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
       "status": "publicado",
       "post_id": "2120273626620367300"
+    },
+    {
+      "id": "653af1341cdbd865",
+      "data": "2026-11-11T01:52:58+00:00",
+      "categoria": "supply-chain",
+      "tema_chave": "ethersphere-bee-js-13-3-0-npm-compromise",
+      "titulo": "@ethersphere/bee-js 13.3.0 Compromised",
+      "fonte_url": "https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
+      "cves": [],
+      "texto": "bee-js 13.3.0 (escopo ethersphere no npm) foi comprometido: baixa e executa JS do atacante na instalação. Um commit direto sem assinatura disparou o workflow de publicação com trusted publishing. Quem instalou: remova a versão e rotacione segredos.\n\nhttps://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
+      "status": "publicado",
+      "post_id": "2120334091992125695"
     }
   ],
-  "ultima_execucao": "2026-11-10T21:52:39+00:00"
+  "ultima_execucao": "2026-11-11T01:52:58+00:00"
 }
