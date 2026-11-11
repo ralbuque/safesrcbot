@@ -399,7 +399,20 @@
       "ano_evento": 1966,
       "charge": "contas/palacioassombra/charges/e3b69223f0a2a497.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "1763b1e385f79183",
+      "data": "2026-11-11T23:35:41+00:00",
+      "categoria": "republica-velha",
+      "tema_chave": "corta-jaca-rui-barbosa-1914",
+      "titulo": "Escândalo político: o \"Corta-jaca\" no Catete",
+      "fonte_url": "https://chiquinhagonzaga.com/wp/escandalo-politico-o-corta-jaca-no-catete/",
+      "cves": [],
+      "texto": "1914: Rui Barbosa sobe ao Senado para cancelar a primeira-dama, que tocou Corta-Jaca ao violão no Catete. Resultado: o governo Hermes da Fonseca ficou apelidado de \"Corta-Jaca\". Cancelamento que vira nome de governo não é cancelamento, é divulgação.",
+      "ano_evento": 1914,
+      "charge": "contas/palacioassombra/charges/1763b1e385f79183.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-11T01:52:55+00:00"
+  "ultima_execucao": "2026-11-11T23:35:41+00:00"
 }
