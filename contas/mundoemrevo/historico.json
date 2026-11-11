@@ -529,7 +529,18 @@
       "status": "publicado",
       "post_id": "2120573519243182435",
       "issue": 163
+    },
+    {
+      "id": "48ac4b19a046a48e",
+      "data": "2026-11-11T23:35:39+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "isw-kremlin-abu-dhabi-arquitetura-seguranca-otan-nov26",
+      "titulo": "ISW Russian Offensive Campaign Assessment, November 10, 2026",
+      "fonte_url": "https://www.kyivpost.com/post/89747",
+      "cves": [],
+      "texto": "Segundo o ISW, o Kremlin tenta pautar as negociações de Abu Dhabi em torno de mudanças na segurança europeia, reciclando os ultimatos de 2021 à OTAN. É a velha desculpa para a invasão: Moscou quer discutir o recuo da Aliança, não só a Ucrânia.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-11T17:19:37+00:00"
+  "ultima_execucao": "2026-11-11T23:35:39+00:00"
 }
