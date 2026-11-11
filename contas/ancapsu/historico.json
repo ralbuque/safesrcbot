@@ -561,7 +561,18 @@
       "status": "publicado",
       "post_id": "2120572590636884135",
       "issue": 164
+    },
+    {
+      "id": "224bce085becfe94",
+      "data": "2026-11-11T23:35:38+00:00",
+      "categoria": "economia",
+      "tema_chave": "plp-299-ajuste-fiscal-60-bi-wagner-moretti",
+      "titulo": "Ministro do Planejamento anuncia na CMO ajuste fiscal de R$ 60 bi em 2027",
+      "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/ministro-do-planejamento-anuncia-na-cmo-ajuste-fiscal-de-r-60-bi-em-2027",
+      "cves": [],
+      "texto": "Passada a eleição, chegou a conta: Moretti anunciou ajuste de até R$ 60 bi para 2027 e Jaques Wagner protocolou o PLP 299/2026, com gatilhos de bloqueio e corte de benefícios tributários. Prometeram tudo na campanha; agora o remédio inclui ampliar a arrecadação.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-11T17:19:40+00:00"
+  "ultima_execucao": "2026-11-11T23:35:38+00:00"
 }
