@@ -505,7 +505,18 @@
       "status": "publicado",
       "post_id": "2120283317996314626",
       "issue": 159
+    },
+    {
+      "id": "c1cd7deec88f01f2",
+      "data": "2026-11-11T09:16:15+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "abu-dhabi-dia1-pauta-humanitaria-criancas-troca-nov26",
+      "titulo": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+      "fonte_url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi",
+      "cves": [],
+      "texto": "Abu Dhabi, 1º dia: após nove meses, Kyiv e Moscou voltaram a negociar por 4h. Segundo Zelensky, a pauta foi sobretudo humanitária: prisioneiros, civis cativos e crianças levadas pela Rússia. Moscou resiste à presença europeia. Devolver as crianças é o teste de boa-fé do Kremlin.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-10T21:52:41+00:00"
+  "ultima_execucao": "2026-11-11T09:16:15+00:00"
 }
