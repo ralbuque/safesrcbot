@@ -535,7 +535,18 @@
       "status": "publicado",
       "post_id": "2120283234223178149",
       "issue": 158
+    },
+    {
+      "id": "7645e8568ff2928b",
+      "data": "2026-11-11T01:52:53+00:00",
+      "categoria": "governo-federal",
+      "tema_chave": "posse-lula-roger-waters-500-mil-janja",
+      "titulo": "Governo Lula quer show de Roger Waters em posse de 4º mandato e estima recorde de público",
+      "fonte_url": "https://nsctotal.com.br/politica/governo-lula-quer-show-de-roger-waters-em-posse-de-4o-mandato-e-estima-recorde-de-publico",
+      "cves": [],
+      "texto": "Segundo a Folha, o governo quer show de Roger Waters na posse de Lula e prevê mais de 500 mil pessoas; o PT pretende pedir parques e escolas públicas para abrigar caravanas. Sustentabilidade fiscal no discurso, festival na prática.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-10T21:52:38+00:00"
+  "ultima_execucao": "2026-11-11T01:52:53+00:00"
 }
