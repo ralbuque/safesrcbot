@@ -865,7 +865,19 @@
       "texto": "bee-js 13.3.0 (escopo ethersphere no npm) foi comprometido: baixa e executa JS do atacante na instalação. Um commit direto sem assinatura disparou o workflow de publicação com trusted publishing. Quem instalou: remova a versão e rotacione segredos.\n\nhttps://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
       "status": "publicado",
       "post_id": "2120334091992125695"
+    },
+    {
+      "id": "5d73eb52bcf668c3",
+      "data": "2026-11-11T17:19:39+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "xen-orchestra-auth-bypass-vsa-2026-062",
+      "titulo": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "fonte_url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "cves": [],
+      "texto": "Falha crítica no Xen Orchestra (VSA-2026-062) é explorada: um cookie de autenticação forjado, tratado em requisições da API REST, dá acesso Admin e permite assumir hosts XCP-ng como root. Atualize XO/XOA já ou isole a interface em rede de gestão.\n\nhttps://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "status": "publicado",
+      "post_id": "2120567337904742774"
     }
   ],
-  "ultima_execucao": "2026-11-11T01:52:58+00:00"
+  "ultima_execucao": "2026-11-11T17:19:39+00:00"
 }
