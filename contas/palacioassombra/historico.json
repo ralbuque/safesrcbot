@@ -386,7 +386,20 @@
       "status": "publicado",
       "post_id": "2120283370995224913",
       "issue": 157
+    },
+    {
+      "id": "e3b69223f0a2a497",
+      "data": "2026-11-11T01:52:55+00:00",
+      "categoria": "regime-militar",
+      "tema_chave": "frente-ampla-lacerda-jk-jango-1966",
+      "titulo": "FRENTE AMPLA (CPDOC/FGV)",
+      "fonte_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/frente-ampla",
+      "cves": [],
+      "texto": "Status de relacionamento de Carlos Lacerda:\n\n1955: defende barrar a posse de JK e Jango.\n1966: Declaração de Lisboa com JK.\n1967: Pacto de Montevidéu com Jango.\n\nÉ complicado.",
+      "ano_evento": 1966,
+      "charge": "contas/palacioassombra/charges/e3b69223f0a2a497.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-10T16:23:51+00:00"
+  "ultima_execucao": "2026-11-11T01:52:55+00:00"
 }
