@@ -572,7 +572,18 @@
       "cves": [],
       "texto": "Passada a eleição, chegou a conta: Moretti anunciou ajuste de até R$ 60 bi para 2027 e Jaques Wagner protocolou o PLP 299/2026, com gatilhos de bloqueio e corte de benefícios tributários. Prometeram tudo na campanha; agora o remédio inclui ampliar a arrecadação.",
       "status": "rascunho"
+    },
+    {
+      "id": "c8d17d63bf28ad36",
+      "data": "2026-11-12T13:02:28+00:00",
+      "categoria": "congresso",
+      "tema_chave": "senado-retira-jabuti-vapes-mp-dividas-rurais",
+      "titulo": "Senado aprova MP que renegocia dívidas rurais sem 'jabuti' dos cigarros eletrônicos",
+      "fonte_url": "https://www.cartacapital.com.br/politica/senado-aprova-mp-que-renegocia-dividas-rurais-sem-jabuti-dos-cigarros-eletronicos/",
+      "cves": [],
+      "texto": "O Senado aprovou a MP das dívidas rurais no último dia de validade, e Alcolumbre retirou o jabuti dos vapes inserido pelo relator petista Paulo Pimenta. A pauta era socorrer o produtor; pegaram carona para outro assunto. Coube ao Senado fazer a faxina que o relator não fez.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-11T23:35:38+00:00"
+  "ultima_execucao": "2026-11-12T13:02:28+00:00"
 }
