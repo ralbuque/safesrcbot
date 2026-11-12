@@ -402,7 +402,7 @@
     },
     {
       "id": "1763b1e385f79183",
-      "data": "2026-11-11T23:35:41+00:00",
+      "data": "2026-11-12T22:22:47+00:00",
       "categoria": "republica-velha",
       "tema_chave": "corta-jaca-rui-barbosa-1914",
       "titulo": "Escândalo político: o \"Corta-jaca\" no Catete",
@@ -411,7 +411,9 @@
       "texto": "1914: Rui Barbosa sobe ao Senado para cancelar a primeira-dama, que tocou Corta-Jaca ao violão no Catete. Resultado: o governo Hermes da Fonseca ficou apelidado de \"Corta-Jaca\". Cancelamento que vira nome de governo não é cancelamento, é divulgação.",
       "ano_evento": 1914,
       "charge": "contas/palacioassombra/charges/1763b1e385f79183.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2121005812487225732",
+      "issue": 167
     },
     {
       "id": "791527c089969cf1",
