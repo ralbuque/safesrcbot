@@ -891,7 +891,19 @@
       "texto": "React Server Components: falha crítica de RCE sem autenticação em react-server-dom-webpack, -parcel e -turbopack, agora com CVE-2026-126187. Atualize para 19.0.9, 19.1.10, 19.2.9 ou 19.3.1 e revise o framework (ex.: Next.js) que embute esses pacotes.\n\nhttps://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
       "status": "publicado",
       "post_id": "2120661945153913145"
+    },
+    {
+      "id": "b1fc427f51ef7a02",
+      "data": "2026-11-12T13:02:23+00:00",
+      "categoria": "supply-chain",
+      "tema_chave": "github-4837-contas-ci-secret-stealer",
+      "titulo": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "fonte_url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "cves": [],
+      "texto": "4.837 contas do GitHub sequestradas plantaram um stealer de segredos em workflows de CI, que rodou em ao menos 1.806 repositórios. Revise commits \"ci: restore\" e \"ci: cleanup\" em workflows e rotacione os segredos de CI se houver rastro.\n\nhttps://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "status": "publicado",
+      "post_id": "2120864921558929644"
     }
   ],
-  "ultima_execucao": "2026-11-11T23:35:41+00:00"
+  "ultima_execucao": "2026-11-12T13:02:23+00:00"
 }
