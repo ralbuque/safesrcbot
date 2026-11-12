@@ -415,16 +415,18 @@
     },
     {
       "id": "791527c089969cf1",
-      "data": "2026-11-12T13:02:34+00:00",
+      "data": "2026-11-12T22:13:45+00:00",
       "categoria": "imperio",
       "tema_chave": "banco-do-brasil-dom-joao-vi-1821",
       "titulo": "Criado há 170 anos, Banco do Brasil era privado e financiou a Guerra do Paraguai — Senado Notícias",
       "fonte_url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/criado-ha-170-anos-banco-do-brasil-era-privado-e-financiou-a-guerra-do-paraguai",
       "cves": [],
-      "texto": "1808: Dom João cria o Banco do Brasil. 1821: volta pra Lisboa levando boa parte dos recursos do banco. 1829: liquidação.\n\nO fundador foi também o primeiro a pedir portabilidade. Da conta inteira, na mala, sem avisar o gerente.",
+      "texto": "1808: Dom João cria o Banco do Brasil. 1821: volta pra Lisboa levando boa parte dos recursos do banco. 1829: quebrou.\n\nA história do Banco do Brasil é de quebrar por governos incompetentes.",
       "ano_evento": 1821,
       "charge": "contas/palacioassombra/charges/791527c089969cf1.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2121003541552615594",
+      "issue": 170
     }
   ],
   "ultima_execucao": "2026-11-12T13:02:34+00:00"
