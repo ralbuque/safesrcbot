@@ -551,7 +551,18 @@
       "cves": [],
       "texto": "Kushner e Witkoff vão hoje a Moscou ver Putin e depois a Dublin ver Zelensky. Segundo Kushner, a ideia é tentar incluir os europeus no formato. Leitura: Ucrânia e Europa têm de estar à mesa; Moscou precisa provar com atos, não só com troca de prisioneiros, que quer a paz.",
       "status": "rascunho"
+    },
+    {
+      "id": "3725cf3ecf5b58de",
+      "data": "2026-11-12T20:45:49+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "zelensky-rejeita-donbas-russos-alegam-metade-nov26",
+      "titulo": "Zelensky says Russian delegation claimed to control parts of Donbas still held by Ukraine at Abu Dhabi talks",
+      "fonte_url": "https://meduza.io/en/news/2026/11/11/zelensky-says-russian-delegation-claimed-to-control-parts-of-donbas-still-held-by-ukraine-at-abu-dhabi-talks",
+      "cves": [],
+      "texto": "Segundo Zelensky, em Abu Dhabi militares russos insistiram já ocupar metade do Donbas que Kyiv ainda controla, e os EUA confirmaram a avaliação ucraniana. Com enviados de Trump em Moscou, ele rejeitou ceder território. Moscou tenta ganhar na mesa o que não obtém no campo.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-12T13:02:23+00:00"
+  "ultima_execucao": "2026-11-12T20:45:49+00:00"
 }
