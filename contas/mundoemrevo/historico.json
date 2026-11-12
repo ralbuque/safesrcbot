@@ -556,14 +556,16 @@
     },
     {
       "id": "3725cf3ecf5b58de",
-      "data": "2026-11-12T20:45:49+00:00",
+      "data": "2026-11-12T22:22:07+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "zelensky-rejeita-donbas-russos-alegam-metade-nov26",
       "titulo": "Zelensky says Russian delegation claimed to control parts of Donbas still held by Ukraine at Abu Dhabi talks",
       "fonte_url": "https://meduza.io/en/news/2026/11/11/zelensky-says-russian-delegation-claimed-to-control-parts-of-donbas-still-held-by-ukraine-at-abu-dhabi-talks",
       "cves": [],
       "texto": "Segundo Zelensky, em Abu Dhabi militares russos insistiram já ocupar metade do Donbas que Kyiv ainda controla, e os EUA confirmaram a avaliação ucraniana. Com enviados de Trump em Moscou, ele rejeitou ceder território. Moscou tenta ganhar na mesa o que não obtém no campo.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2121005649072975918",
+      "issue": 171
     }
   ],
   "ultima_execucao": "2026-11-12T20:45:49+00:00"
