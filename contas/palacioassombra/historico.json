@@ -429,7 +429,20 @@
       "status": "publicado",
       "post_id": "2121003541552615594",
       "issue": 170
+    },
+    {
+      "id": "7f96856a0a882085",
+      "data": "2026-11-13T01:31:50+00:00",
+      "categoria": "imperio",
+      "tema_chave": "dotacao-dom-pedro-ii-sem-aumento",
+      "titulo": "O testemunho de dom Pedro II, ou: que falta nos faz um estadista",
+      "fonte_url": "https://www.gazetadopovo.com.br/vozes/paulo-cruz/dom-pedro-ii-estadista/",
+      "cves": [],
+      "texto": "Século XIX: o Parlamento propõe aumentar os 800 contos anuais do imperador. Dom Pedro II recusa. Propõem de novo. Ele recusa de novo. Até hoje é o caso mais raro da política brasileira: reajuste barrado pelo próprio beneficiário. A Câmara segue sem entender o que deu errado.",
+      "ano_evento": 1840,
+      "charge": "contas/palacioassombra/charges/7f96856a0a882085.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-12T13:02:34+00:00"
+  "ultima_execucao": "2026-11-13T01:31:50+00:00"
 }
