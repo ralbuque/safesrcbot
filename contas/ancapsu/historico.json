@@ -611,7 +611,18 @@
       "cves": [],
       "texto": "Dino rejeitou adiar o fim da 6x1, como pediam CNI e CNC, liberou folgas por negociação coletiva e pediu que o Congresso regulamente regimes especiais em 180 dias. Tudo em liminar individual, com referendo no plenário virtual. A emenda é do Congresso; a calibragem, de um ministro.",
       "status": "rascunho"
+    },
+    {
+      "id": "968b109d48aff48b",
+      "data": "2026-11-13T17:08:38+00:00",
+      "categoria": "congresso",
+      "tema_chave": "senado-aprova-texto-base-ajuste-fiscal-45-31",
+      "titulo": "Senado aprova texto-base de projeto de ajuste fiscal com previsão de economia de até R$ 60 bilhões",
+      "fonte_url": "https://www12.senado.leg.br/institucional/presidencia/consultarnoticia?noticia_id=senado-aprova-texto-base-de-projeto-de-ajuste-fiscal-com-previsao-de-economia-de-ate-r-60-bilhoes",
+      "cves": [],
+      "texto": "O Senado aprovou por 45 a 31 o ajuste fiscal de Lula, com efeito de até R$ 56 bi em 2027. O pacote corta isenções, mexe no piso da saúde e amplia bloqueios. Marinho o chamou de aumento disfarçado de carga. Ajuste que depende de arrecadar mais é conta nova pro pagador.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-13T01:31:49+00:00"
+  "ultima_execucao": "2026-11-13T17:08:38+00:00"
 }
