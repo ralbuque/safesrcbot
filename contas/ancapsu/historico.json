@@ -600,7 +600,18 @@
       "status": "publicado",
       "post_id": "2121003220281541030",
       "issue": 172
+    },
+    {
+      "id": "7b51c4b0d654220a",
+      "data": "2026-11-13T01:31:49+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "dino-liminar-6x1-transicao-plenario-virtual",
+      "titulo": "6x1: Dino mantém cronograma e pede que Congresso discuta regimes especiais",
+      "fonte_url": "https://www.cadaminuto.com.br/noticia/2026/11/12/6x1-dino-mantem-cronograma-e-pede-que-congresso-discuta-regimes-especiais",
+      "cves": [],
+      "texto": "Dino rejeitou adiar o fim da 6x1, como pediam CNI e CNC, liberou folgas por negociação coletiva e pediu que o Congresso regulamente regimes especiais em 180 dias. Tudo em liminar individual, com referendo no plenário virtual. A emenda é do Congresso; a calibragem, de um ministro.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-12T20:45:56+00:00"
+  "ultima_execucao": "2026-11-13T01:31:49+00:00"
 }
