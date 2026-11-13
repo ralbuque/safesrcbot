@@ -903,7 +903,24 @@
       "texto": "4.837 contas do GitHub sequestradas plantaram um stealer de segredos em workflows de CI, que rodou em ao menos 1.806 repositórios. Revise commits \"ci: restore\" e \"ci: cleanup\" em workflows e rotacione os segredos de CI se houver rastro.\n\nhttps://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
       "status": "publicado",
       "post_id": "2120864921558929644"
+    },
+    {
+      "id": "f0fc30384fec2ecc",
+      "data": "2026-11-13T01:31:50+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "git-2-56-1-recursive-clone-cve-2026-111760",
+      "titulo": "Git security vulnerabilities announced",
+      "fonte_url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "cves": [
+        "CVE-2026-111760",
+        "CVE-2026-113408",
+        "CVE-2026-114469",
+        "CVE-2026-114466"
+      ],
+      "texto": "Git 2.56.1 corrige seis CVEs. O pior, CVE-2026-111760, permite execução de código em clone recursivo de repositório malicioso (symlink no .git de submódulo). Atualize Git e apps que embutem Git; evite clone recursivo de repos não confiáveis.\n\nhttps://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "status": "publicado",
+      "post_id": "2121053530920235294"
     }
   ],
-  "ultima_execucao": "2026-11-12T20:45:51+00:00"
+  "ultima_execucao": "2026-11-13T01:31:50+00:00"
 }
