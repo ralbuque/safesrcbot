@@ -579,7 +579,18 @@
       "cves": [],
       "texto": "Segundo o Estado-Maior ucraniano, nos 10 dias antes de Abu Dhabi a Rússia lançou 3.519 drones; 3.068 foram interceptados, 83% dos a jato, que já são cerca de metade do enxame. Moscou fala em paz e mantém o bombardeio das cidades. Kiev mira refinarias que financiam a guerra.",
       "status": "rascunho"
+    },
+    {
+      "id": "fb07a0b3de288a88",
+      "data": "2026-11-13T22:45:08+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "ue-cinco-paises-delegacao-europeia-proxima-rodada-nov26",
+      "titulo": "EU agrees on five countries to represent Europe in Ukraine peace talks",
+      "fonte_url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
+      "cves": [],
+      "texto": "Segundo Costa, do Conselho Europeu, a Europa irá à próxima rodada com a UE e cinco países: Reino Unido, França, Alemanha, Itália e Polônia. O Kremlin diz que nada foi decidido e cobra fim da ajuda militar. Quem sustenta a defesa da Ucrânia não pode ficar fora da mesa.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-13T17:08:38+00:00"
+  "ultima_execucao": "2026-11-13T22:45:08+00:00"
 }
