@@ -442,7 +442,20 @@
       "ano_evento": 1840,
       "charge": "contas/palacioassombra/charges/7f96856a0a882085.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "4632c8c9de9ca039",
+      "data": "2026-11-13T22:45:05+00:00",
+      "categoria": "imperio",
+      "tema_chave": "pedro-iv-abdicacao-portugal-1826",
+      "titulo": "D. Pedro IV - 2-Maio-1826 - D. Pedro abdica de coroa de Portugal em favor de sua filha D. Maria da Glória",
+      "fonte_url": "https://dpedroiv.parquesdesintra.pt/cronologia/1826/maio/2/d--pedro-abdica-de-coroa-de-portugal-em-favor-de-s/83",
+      "cves": [],
+      "texto": "1826: Dom Pedro I vira rei de Portugal. Outorga a Constituição de lá direto do Rio, em home office, e três dias depois abdica para a filha de 7 anos.\n\nMotivo da saída no LinkedIn: incompatibilidade com o outro emprego, o de imperador do Brasil.",
+      "ano_evento": 1826,
+      "charge": "contas/palacioassombra/charges/4632c8c9de9ca039.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-13T01:31:50+00:00"
+  "ultima_execucao": "2026-11-13T22:45:05+00:00"
 }
