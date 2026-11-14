@@ -582,14 +582,16 @@
     },
     {
       "id": "fb07a0b3de288a88",
-      "data": "2026-11-13T22:45:08+00:00",
+      "data": "2026-11-14T21:54:14+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "ue-cinco-paises-delegacao-europeia-proxima-rodada-nov26",
       "titulo": "EU agrees on five countries to represent Europe in Ukraine peace talks",
       "fonte_url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
       "cves": [],
       "texto": "Segundo Costa, do Conselho Europeu, a Europa irá à próxima rodada com a UE e cinco países: Reino Unido, França, Alemanha, Itália e Polônia. O Kremlin diz que nada foi decidido e cobra fim da ajuda militar. Quem sustenta a defesa da Ucrânia não pode ficar fora da mesa.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2121723405091451135",
+      "issue": 179
     },
     {
       "id": "e69501c1979292b9",
