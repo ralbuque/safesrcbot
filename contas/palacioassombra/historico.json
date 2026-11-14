@@ -455,7 +455,20 @@
       "ano_evento": 1826,
       "charge": "contas/palacioassombra/charges/4632c8c9de9ca039.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "37115a91f44d3fb4",
+      "data": "2026-11-14T16:09:11+00:00",
+      "categoria": "regime-militar",
+      "tema_chave": "saldanha-medici-dario-1970",
+      "titulo": "Os 100 anos de João Saldanha, o técnico que atormentou a ditadura militar",
+      "fonte_url": "https://ihu.unisinos.br/espiritualidade/78-noticias/569257-os-100-anos-de-joao-saldanha-o-tecnico-que-atormentou-a-ditadura-militar",
+      "cves": [],
+      "texto": "1970: Médici queria o Dadá Maravilha na Seleção. Saldanha disse que presidente não escala time. Duas semanas depois, Saldanha caiu e Dario foi convocado. Ditadura tem limite: deu pra mudar o técnico, não o banco. Dario fez zero minutos no tri.",
+      "ano_evento": 1970,
+      "charge": "contas/palacioassombra/charges/37115a91f44d3fb4.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-13T22:45:05+00:00"
+  "ultima_execucao": "2026-11-14T16:09:11+00:00"
 }
