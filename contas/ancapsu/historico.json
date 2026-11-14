@@ -646,7 +646,18 @@
       "status": "publicado",
       "post_id": "2121564483277799659",
       "issue": 180
+    },
+    {
+      "id": "4eaeed3a0fd45ab2",
+      "data": "2026-11-14T16:09:09+00:00",
+      "categoria": "congresso",
+      "tema_chave": "cop31-motta-alcolumbre-fora-comitiva-lula",
+      "titulo": "Focados na reeleição, Motta e Alcolumbre não vão à COP31",
+      "fonte_url": "https://sbtnews.sbt.com.br/noticia/politica/focados-na-reeleicao-motta-e-alcolumbre-nao-vao-a-cop-31",
+      "cves": [],
+      "texto": "Lula convidou Motta e Alcolumbre para a comitiva da COP31, na Turquia. Os dois preferiram ficar em Brasília, cuidando de votações e da própria reeleição. Interlocutores juram que a relação segue ótima, mas quem tem a chave das Mesas não precisa viajar para ser cortejado.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-14T02:44:18+00:00"
+  "ultima_execucao": "2026-11-14T16:09:09+00:00"
 }
