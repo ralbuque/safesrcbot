@@ -934,7 +934,21 @@
       "texto": "Chrome corrige o zero-day CVE-2026-125350 (CVSS 8.8), use-after-free no componente XML já explorado: uma página HTML maliciosa executa código no sandbox. Consta no CISA KEV. Atualize para a 157.0.8103.50 ou superior, inclusive em máquinas de dev.\n\nhttps://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
       "status": "publicado",
       "post_id": "2121289335244779966"
+    },
+    {
+      "id": "e577b898eca3316f",
+      "data": "2026-11-14T20:51:16+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "unrealircd-cmd-injection-cve-2026-114713-kev",
+      "titulo": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "fonte_url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "cves": [
+        "CVE-2026-114713"
+      ],
+      "texto": "CISA incluiu no KEV a CVE-2026-114713 (CVSS 8.6) do UnrealIRCd: injeção de comandos com privilégios de servidor/IRCOp. Corrigida na 6.2.7.1, lançada há quase uma semana. Quem mantém servidor IRC (inclusive interno) deve atualizar já.\n\nhttps://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "status": "publicado",
+      "post_id": "2121707725478375578"
     }
   ],
-  "ultima_execucao": "2026-11-14T16:09:03+00:00"
+  "ultima_execucao": "2026-11-14T20:51:16+00:00"
 }
