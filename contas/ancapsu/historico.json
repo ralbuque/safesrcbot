@@ -636,14 +636,16 @@
     },
     {
       "id": "5c3e4995371b61e6",
-      "data": "2026-11-14T02:44:18+00:00",
+      "data": "2026-11-14T11:22:44+00:00",
       "categoria": "eleicoes-partidos",
       "tema_chave": "flavio-rejeita-reeleicao-motta-anistia-pl-dividido",
       "titulo": "Dos EUA, Flávio Bolsonaro rejeita apoio à reeleição de Hugo Motta",
       "fonte_url": "https://www.em.com.br/politica/2026/11/7538111-dos-eua-flavio-bolsonaro-rejeita-apoio-a-reeleicao-de-hugo-motta.html",
       "cves": [],
-      "texto": "Flávio Bolsonaro disse que jamais apoiaria a reeleição de Hugo Motta na Câmara: \"Ele prometeu anistia, não entregou\". O PL está dividido e adiou a decisão. Voto da oposição não é cheque em branco: quem prometeu anistia e não entregou agora recebe a conta.",
-      "status": "rascunho"
+      "texto": "Flávio Bolsonaro disse que jamais apoiaria a reeleição de Hugo Motta na Câmara: \"Ele prometeu anistia, não entregou\". O PL está dividido e adiou a decisão. Entendo quem não quer Hugo Motta e acho o cara um palerma. Mas vamos ficar 2 anos sem comissões.",
+      "status": "publicado",
+      "post_id": "2121564483277799659",
+      "issue": 180
     }
   ],
   "ultima_execucao": "2026-11-14T02:44:18+00:00"
