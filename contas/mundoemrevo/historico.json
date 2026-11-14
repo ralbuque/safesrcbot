@@ -614,7 +614,18 @@
       "cves": [],
       "texto": "Putin propôs trégua local em Kostiantynivka, dizendo que a Rússia controla a cidade e que restam 400 a 500 civis. Kyiv nega o controle. Para o ISW, o Kremlin provavelmente quer a pausa para reforçar tropas e avançar rumo a Druzhkivka. Humanitário no discurso, militar na prática.",
       "status": "rascunho"
+    },
+    {
+      "id": "0d75700967f84f48",
+      "data": "2026-11-14T20:51:11+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "eua-donbas-por-otan-zelensky-seguranca-europa-nov26",
+      "titulo": "Zelenskyy says a new European security framework floated by US could benefit Putin (AP)",
+      "fonte_url": "https://www.click2houston.com/news/world/2026/11/14/zelenskyy-says-a-new-european-security-framework-floated-by-us-could-benefit-putin/",
+      "cves": [],
+      "texto": "Zelensky diz que os EUA perguntaram, pela primeira vez, se a Ucrânia deixaria partes do Donbas ainda sob seu controle em troca da Otan. Ele reafirma que Kiev não cede território e vê perigo em rediscutir a segurança europeia agora: isso pode favorecer Putin.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-14T16:09:00+00:00"
+  "ultima_execucao": "2026-11-14T20:51:11+00:00"
 }
