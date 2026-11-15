@@ -670,7 +670,18 @@
       "status": "publicado",
       "post_id": "2121722908984918274",
       "issue": 186
+    },
+    {
+      "id": "fc042162786af012",
+      "data": "2026-11-15T00:59:37+00:00",
+      "categoria": "eleicoes-partidos",
+      "tema_chave": "pp-republicanos-ministerios-lula-4-apoiaram-flavio",
+      "titulo": "Lula quer votos e o Centrão quer poder: a negociação por ministérios no novo governo",
+      "fonte_url": "https://www.cartacapital.com.br/politica/lula-quer-votos-e-o-centrao-quer-poder-a-negociacao-por-ministerios-no-novo-governo/",
+      "cves": [],
+      "texto": "Segundo a Folha, PP e Republicanos, que apoiaram Flávio no 2º turno, agora querem ministérios maiores no Lula 4, como Saúde e Educação, em troca de fidelidade no Congresso. Pediram voto contra o PT e cobram o preço em cargos. Fisiologismo não tem ideologia.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-14T20:51:10+00:00"
+  "ultima_execucao": "2026-11-15T00:59:37+00:00"
 }
