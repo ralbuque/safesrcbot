@@ -681,7 +681,18 @@
       "cves": [],
       "texto": "Segundo a Folha, PP e Republicanos, que apoiaram Flávio no 2º turno, agora querem ministérios maiores no Lula 4, como Saúde e Educação, em troca de fidelidade no Congresso. Pediram voto contra o PT e cobram o preço em cargos. Fisiologismo não tem ideologia.",
       "status": "rascunho"
+    },
+    {
+      "id": "b08e62fbf8990367",
+      "data": "2026-11-15T15:36:54+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "lula-reforma-judiciario-mandato-fixo-stf-2027",
+      "titulo": "Propostas de Lula para reformar Judiciário são centradas no STF",
+      "fonte_url": "https://conjur.com.br/2026-nov-02/reforma-do-judiciario-proposta-por-lula-nao-deve-ser-estruturante-avaliam-eleitoralistas/",
+      "cves": [],
+      "texto": "Lula quer reforma do Judiciário em 2027, com mandato fixo no STF. Passou a defender a ideia pressionado pelo caso Master, e o plano de governo nem a prometia, segundo a Conjur. Quem indicou parte do Supremo agora quer arrumá-lo, e em tese ainda pode nomear quatro ministros.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-15T00:59:37+00:00"
+  "ultima_execucao": "2026-11-15T15:36:54+00:00"
 }
