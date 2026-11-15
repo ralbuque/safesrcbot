@@ -470,7 +470,20 @@
       "status": "publicado",
       "post_id": "2121723178737373232",
       "issue": 183
+    },
+    {
+      "id": "44d53ddde5daf5aa",
+      "data": "2026-11-15T00:59:37+00:00",
+      "categoria": "republica-velha",
+      "tema_chave": "licenca-prudente-vitorino-1896",
+      "titulo": "MORAIS, Prudente de",
+      "fonte_url": "https://cpdoc.fgv.br/sites/default/files/verbetes/primeira-republica/MORAIS,%20Prudente%20de.pdf",
+      "cves": [],
+      "texto": "1896: Prudente de Morais, primeiro presidente civil, pede licença médica e entrega o governo ao vice, justamente quem fazia oposição a ele dentro do próprio governo. Voltou em março de 1897. Nada cura mais rápido que saber quem está sentado na sua cadeira.",
+      "ano_evento": 1896,
+      "charge": "contas/palacioassombra/charges/44d53ddde5daf5aa.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-14T16:09:11+00:00"
+  "ultima_execucao": "2026-11-15T00:59:37+00:00"
 }
