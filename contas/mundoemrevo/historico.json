@@ -640,7 +640,18 @@
       "cves": [],
       "texto": "Zelensky diz que o limite de 161 km/h no Starshield sobre áreas ocupadas atrapalha o abate de drones russos e implica tratá-las como \"não nossas\". A SpaceX nega ter imposto restrições. Washington ou Musk, alguém precisa responder: é a defesa aérea ucraniana que está em jogo.",
       "status": "rascunho"
+    },
+    {
+      "id": "5daf4dd84cd67da4",
+      "data": "2026-11-15T15:36:55+00:00",
+      "categoria": "israel-oriente-medio",
+      "tema_chave": "israel-mata-comandante-hamas-rafah-abu-younis-nov26",
+      "titulo": "Israel kills a top Hamas commander as Jordan sentences 3 in church attack, and other Mideast news (AP)",
+      "fonte_url": "https://www.ksat.com/news/world/2026/11/15/israel-kills-a-top-hamas-commander-as-jordan-sentences-3-in-church-attack-and-other-mideast-news/",
+      "cves": [],
+      "texto": "Israel diz ter matado, em ataque aéreo no sul de Gaza, Samir Abu Younis, apontado como comandante da Brigada de Rafah do Hamas. O Hamas confirmou a morte. Enquanto o grupo responsável pelo 7 de outubro seguir armado, Israel tem o direito de mirar seus comandantes.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-15T00:59:37+00:00"
+  "ultima_execucao": "2026-11-15T15:36:55+00:00"
 }
