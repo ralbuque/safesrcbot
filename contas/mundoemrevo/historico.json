@@ -629,7 +629,18 @@
       "cves": [],
       "texto": "Zelensky diz que os EUA perguntaram, pela primeira vez, se a Ucrânia deixaria partes do Donbas ainda sob seu controle em troca da Otan. Ele reafirma que Kiev não cede território e vê perigo em rediscutir a segurança europeia agora: isso pode favorecer Putin.",
       "status": "rascunho"
+    },
+    {
+      "id": "6b675bb5bcc31637",
+      "data": "2026-11-15T00:59:37+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "starshield-limite-161kmh-zelensky-spacex-nov26",
+      "titulo": "Zelensky says Starshield restrictions give Russia more room to attack, accuses SpaceX of treating occupied territories as 'not ours'",
+      "fonte_url": "https://kyivindependent.com/zelensky-says-starshield-restrictions-give-russia-more-room-to-attack-accuses-spacex-of-treating-occupied-territories-as-not-ours/",
+      "cves": [],
+      "texto": "Zelensky diz que o limite de 161 km/h no Starshield sobre áreas ocupadas atrapalha o abate de drones russos e implica tratá-las como \"não nossas\". A SpaceX nega ter imposto restrições. Washington ou Musk, alguém precisa responder: é a defesa aérea ucraniana que está em jogo.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-14T20:51:11+00:00"
+  "ultima_execucao": "2026-11-15T00:59:37+00:00"
 }
