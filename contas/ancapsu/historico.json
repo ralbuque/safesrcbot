@@ -692,7 +692,18 @@
       "cves": [],
       "texto": "Lula quer reforma do Judiciário em 2027, com mandato fixo no STF. Passou a defender a ideia pressionado pelo caso Master, e o plano de governo nem a prometia, segundo a Conjur. Quem indicou parte do Supremo agora quer arrumá-lo, e em tese ainda pode nomear quatro ministros.",
       "status": "rascunho"
+    },
+    {
+      "id": "c2b751f549bce66c",
+      "data": "2026-11-15T20:36:23+00:00",
+      "categoria": "liberdades",
+      "tema_chave": "moraes-passaporte-flavio-sete-minutos-pos-eleicao",
+      "titulo": "Moraes ordena cancelamento de passaporte de Flávio Bolsonaro após eleições",
+      "fonte_url": "https://www.gazetadopovo.com.br/republica/moraes-ordena-cancelamento-de-passaporte-de-flavio-bolsonaro-apos-eleicoes/",
+      "cves": [],
+      "texto": "Segundo a Gazeta do Povo, Moraes mandou reter os passaportes de Flávio Bolsonaro sete minutos após a proclamação do resultado. Ele é investigado por suposta lavagem e deve ser apurado, mas agir com essa pressa, logo após a eleição, tem cara de recado político.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-15T15:36:54+00:00"
+  "ultima_execucao": "2026-11-15T20:36:23+00:00"
 }
