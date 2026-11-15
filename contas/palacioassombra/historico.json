@@ -483,7 +483,20 @@
       "ano_evento": 1896,
       "charge": "contas/palacioassombra/charges/44d53ddde5daf5aa.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "326f7cf251b52167",
+      "data": "2026-11-15T15:37:00+00:00",
+      "categoria": "regime-militar",
+      "tema_chave": "reforma-partidaria-1979-mdb-pmdb",
+      "titulo": "PARTIDOS POLITICOS (EXTINCAO) - CPDOC/FGV",
+      "fonte_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/partidos-politicos-extincao",
+      "cves": [],
+      "texto": "1979: o regime extingue Arena e MDB para rachar a oposição. A nova lei só exigia a palavra \"Partido\" na sigla.\n\nO MDB resolveu o problema com a criatividade de sempre: acrescentou um P e seguiu a vida.\n\nMaior rebranding da política brasileira. Orçamento: uma letra.",
+      "ano_evento": 1979,
+      "charge": "contas/palacioassombra/charges/326f7cf251b52167.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-15T00:59:37+00:00"
+  "ultima_execucao": "2026-11-15T15:37:00+00:00"
 }
