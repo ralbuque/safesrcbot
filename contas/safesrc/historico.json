@@ -948,7 +948,19 @@
       "texto": "CISA incluiu no KEV a CVE-2026-114713 (CVSS 8.6) do UnrealIRCd: injeção de comandos com privilégios de servidor/IRCOp. Corrigida na 6.2.7.1, lançada há quase uma semana. Quem mantém servidor IRC (inclusive interno) deve atualizar já.\n\nhttps://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
       "status": "publicado",
       "post_id": "2121707725478375578"
+    },
+    {
+      "id": "9dcd72fc5fcb7680",
+      "data": "2026-11-15T20:36:30+00:00",
+      "categoria": "ia-llm",
+      "tema_chave": "artex-ai-agents-llm-key-theft",
+      "titulo": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
+      "fonte_url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
+      "cves": [],
+      "texto": "Agentes de IA do framework ARTEX caçam chaves de LLM em apps expostos, diz a Amazon: LiteLLM, Dify, Langflow, Open WebUI e Ollama estão entre os alvos. As chaves roubadas pagam o próprio ataque. Não exponha gateways de IA e rotacione as chaves.\n\nhttps://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
+      "status": "publicado",
+      "post_id": "2122066422071202247"
     }
   ],
-  "ultima_execucao": "2026-11-15T15:36:53+00:00"
+  "ultima_execucao": "2026-11-15T20:36:30+00:00"
 }
