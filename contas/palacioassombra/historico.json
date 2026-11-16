@@ -496,7 +496,20 @@
       "ano_evento": 1979,
       "charge": "contas/palacioassombra/charges/326f7cf251b52167.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "cf1131c675b6d364",
+      "data": "2026-11-16T00:24:48+00:00",
+      "categoria": "populismo-1946-1964",
+      "tema_chave": "jk-rompe-fmi-1959",
+      "titulo": "Projeto Memória - Juscelino Kubitschek: Rompimento com o FMI",
+      "fonte_url": "https://www.projetomemoria.art.br/JK/verbetes/fmi.html",
+      "cves": [],
+      "texto": "1958: o FMI condiciona o empréstimo a inflação de no máximo 6% ao ano. 1959: JK rompe com o Fundo e a multidão vai aplaudir no Catete.\n\nPrimeiro devedor da história a dar bloqueio no credor e sair de herói.",
+      "ano_evento": 1959,
+      "charge": "contas/palacioassombra/charges/cf1131c675b6d364.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-15T15:37:00+00:00"
+  "ultima_execucao": "2026-11-16T00:24:48+00:00"
 }
