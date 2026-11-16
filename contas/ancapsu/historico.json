@@ -703,7 +703,18 @@
       "cves": [],
       "texto": "Segundo a Gazeta do Povo, Moraes mandou reter os passaportes de Flávio Bolsonaro sete minutos após a proclamação do resultado. Ele é investigado por suposta lavagem e deve ser apurado, mas agir com essa pressa, logo após a eleição, tem cara de recado político.",
       "status": "rascunho"
+    },
+    {
+      "id": "94c299c23b58e87d",
+      "data": "2026-11-16T00:24:47+00:00",
+      "categoria": "seguranca-publica",
+      "tema_chave": "relatorio-pf-rejeitado-voto-moraes-vorcaro-adc81-medicina",
+      "titulo": "Relatório da PF aponta que Moraes teria antecipado voto a Vorcaro",
+      "fonte_url": "https://www.brasil247.com/poder/relatorio-da-pf-aponta-que-moraes-teria-antecipado-voto-a-vorcaro/",
+      "cves": [],
+      "texto": "Segundo o UOL, relatório da PF mandado refazer pela cúpula traz mensagens indicando que Vorcaro acreditava saber o voto de Moraes em ação sobre cursos de medicina. Não é conclusão oficial, mas relatório refeito e delegados afastados pedem explicação, não silêncio.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-15T20:36:23+00:00"
+  "ultima_execucao": "2026-11-16T00:24:47+00:00"
 }
