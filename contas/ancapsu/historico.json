@@ -714,7 +714,18 @@
       "cves": [],
       "texto": "Segundo o UOL, relatório da PF mandado refazer pela cúpula traz mensagens indicando que Vorcaro acreditava saber o voto de Moraes em ação sobre cursos de medicina. Não é conclusão oficial, mas relatório refeito e delegados afastados pedem explicação, não silêncio.",
       "status": "rascunho"
+    },
+    {
+      "id": "e5101df8845f0250",
+      "data": "2026-11-16T16:58:57+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "vorcaro-antecipou-voo-dubai-69-minutos-moraes",
+      "titulo": "Vorcaro antecipou voo a Dubai 69 minutos após perguntar a Moraes se deveria deixar o país",
+      "fonte_url": "https://timesbrasil.com.br/brasil/vorcaro-antecipou-voo-a-dubai-69-minutos-apos-perguntar-a-moraes-se-deveria-deixar-o-pais/",
+      "cves": [],
+      "texto": "Segundo o UOL, mensagens do celular de Vorcaro mostram que ele antecipou a viagem a Dubai 69 minutos após perguntar a Moraes se deveria \"estar fora\" no dia da prisão. O gabinete não se manifestou. Ministro do Supremo deve explicação pública, não silêncio.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-16T00:24:47+00:00"
+  "ultima_execucao": "2026-11-16T16:58:57+00:00"
 }
