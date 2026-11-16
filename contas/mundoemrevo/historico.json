@@ -662,7 +662,18 @@
       "cves": [],
       "texto": "Segundo a RFE/RL, com duas fontes, a licença para a Ucrânia produzir mísseis Patriot segue parada no Pentágono, embora Rubio e Hegseth tenham concordado em outubro. O Pentágono não comentou. Com a Rússia atacando com balísticos, burocracia não intercepta míssil.",
       "status": "rascunho"
+    },
+    {
+      "id": "9733cfa764fa511b",
+      "data": "2026-11-16T00:24:40+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "nizhnekamsk-tatarstao-monolit-bryansk-nov26",
+      "titulo": "Ukraine strikes two petrochemical plants in Tatarstan and Russian helicopter manufacturing facility",
+      "fonte_url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062944/",
+      "cves": [],
+      "texto": "Segundo o Estado-Maior ucraniano, forças do país atingiram na madrugada de 15/11 o complexo petroquímico e a refinaria de Nizhnekamsk (Tatarstão), a 800 km+ do front, e a fábrica Monolit, em Bryansk. Sem avanço na diplomacia, Kyiv eleva o custo da guerra para Moscou.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-15T20:36:37+00:00"
+  "ultima_execucao": "2026-11-16T00:24:40+00:00"
 }
