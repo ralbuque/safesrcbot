@@ -509,7 +509,20 @@
       "ano_evento": 1959,
       "charge": "contas/palacioassombra/charges/cf1131c675b6d364.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "3b8f9b93a78d5465",
+      "data": "2026-11-16T16:58:58+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "domingo-negro-collor-1992",
+      "titulo": "CARAS PINTADAS (CPDOC/FGV)",
+      "fonte_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/caras-pintadas",
+      "cves": [],
+      "texto": "Agosto de 1992: Collor convoca o povo a sair de verde e amarelo no domingo em apoio ao governo. O povo confirmou presença, mas avisou que o dress code era preto.\n\nPior taxa de aceitação de convite da história republicana.",
+      "ano_evento": 1992,
+      "charge": "contas/palacioassombra/charges/3b8f9b93a78d5465.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-16T00:24:48+00:00"
+  "ultima_execucao": "2026-11-16T16:58:58+00:00"
 }
