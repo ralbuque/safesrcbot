@@ -684,7 +684,18 @@
       "cves": [],
       "texto": "O Kremlin contradiz os EUA: o assessor Ushakov diz que a Rússia ainda não aceitou europeus na próxima rodada de negociações e quer antes um \"sinal claro\" da Europa. Moscou pretende escolher quem se senta à mesa numa guerra que ocorre em solo europeu.",
       "status": "rascunho"
+    },
+    {
+      "id": "449ec12a135e1316",
+      "data": "2026-11-17T00:46:36+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "ponte-crimeia-record-drones-2049-nov26",
+      "titulo": "Russia says Ukraine hit Crimea bridge in its largest drone attack",
+      "fonte_url": "https://www.upi.com/Top_News/World-News/2026/11/16/ukraine-drone-strike-kerch-bridge-crimea/3461794855027/",
+      "cves": [],
+      "texto": "Autoridades russas dizem que drones ucranianos atingiram a ponte da Crimeia e que 2.049 drones foram interceptados em 24h, cerca de 600 rumo a Moscou. Kiev não comentou. A ponte abastece tropas de ocupação: alvo legítimo, após semanas de ataques à rede elétrica ucraniana.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-16T16:58:51+00:00"
+  "ultima_execucao": "2026-11-17T00:46:36+00:00"
 }
