@@ -522,7 +522,20 @@
       "ano_evento": 1992,
       "charge": "contas/palacioassombra/charges/3b8f9b93a78d5465.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "b909152c3f735c6e",
+      "data": "2026-11-17T00:46:37+00:00",
+      "categoria": "populismo-1946-1964",
+      "tema_chave": "decretos-bilhetinhos-janio-1961",
+      "titulo": "Jânio, 65 anos depois",
+      "fonte_url": "https://www.metro1.com.br/artigos/629,janio-65-anos-depois",
+      "cves": [],
+      "texto": "Jânio Quadros, 1961: governava por bilhetinho. Proibiu rinha de galo, corrida de cavalo em dia útil e maiô cavado em desfile de miss. Só esqueceu de proibir a própria renúncia.",
+      "ano_evento": 1961,
+      "charge": "contas/palacioassombra/charges/b909152c3f735c6e.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-16T16:58:58+00:00"
+  "ultima_execucao": "2026-11-17T00:46:37+00:00"
 }
