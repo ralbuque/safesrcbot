@@ -695,7 +695,18 @@
       "cves": [],
       "texto": "Autoridades russas dizem que drones ucranianos atingiram a ponte da Crimeia e que 2.049 drones foram interceptados em 24h, cerca de 600 rumo a Moscou. Kiev não comentou. A ponte abastece tropas de ocupação: alvo legítimo, após semanas de ataques à rede elétrica ucraniana.",
       "status": "rascunho"
+    },
+    {
+      "id": "8666412b380f37b2",
+      "data": "2026-11-17T17:55:30+00:00",
+      "categoria": "ira",
+      "tema_chave": "ira-radar-bahrein-bessent-base-ameacas-nov26",
+      "titulo": "Live Updates: Iran claims new attack on U.S. radar system in Bahrain and says tanker hit near Strait of Hormuz",
+      "fonte_url": "https://cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz",
+      "cves": [],
+      "texto": "Irã alega ter atingido um radar dos EUA no Bahrein; EUA e Bahrein dizem que os ataques, o 3º em menos de uma semana, foram interceptados (CBS). Bessent foi morar em base militar por ameaças iranianas, diz alto funcionário. O regime de Teerã segue sendo uma ameaça real.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-17T00:46:36+00:00"
+  "ultima_execucao": "2026-11-17T17:55:30+00:00"
 }
