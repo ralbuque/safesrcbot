@@ -758,7 +758,18 @@
       "cves": [],
       "texto": "Lula recebeu o diretor da PF, Andrei Rodrigues, fora da agenda, no Alvorada, após a troca dos delegados do caso Master. Andrei nega crise e vai entregar a Fachin relatórios sobre ministros do STF. Conversa reservada sobre investigação que toca o Supremo: coincidência, claro.",
       "status": "rascunho"
+    },
+    {
+      "id": "099af9688dc2126e",
+      "data": "2026-11-18T23:37:06+00:00",
+      "categoria": "seguranca-publica",
+      "tema_chave": "andrei-senado-ccj-quebra-confianca-relatorios-fachin-vazamento",
+      "titulo": "Andrei Rodrigues diz que afastou delegados da PF do caso Master após quebra de confiança",
+      "fonte_url": "https://www.cartacapital.com.br/politica/andrei-rodrigues-diz-que-afastou-delegados-da-pf-do-caso-master-apos-quebra-de-confianca/",
+      "cves": [],
+      "texto": "Andrei Rodrigues disse ao Senado que afastou dois delegados do caso Master por \"quebra de confiança\": não entregaram a minuta dos relatórios que citam ministros do STF. Agora a PF apura o vazamento. Investigação que mira ministro só anda com o aval prévio do chefe?",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-18T17:37:07+00:00"
+  "ultima_execucao": "2026-11-18T23:37:06+00:00"
 }
