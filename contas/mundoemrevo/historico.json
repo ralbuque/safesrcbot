@@ -728,7 +728,18 @@
       "cves": [],
       "texto": "Estado-Maior ucraniano diz ter atingido as refinarias de Ilsky e Afipsky (Krasnodar), que juntas processam cerca de 13 mi de t/ano e abastecem tropas russas no sul. Segundo a AP, o Pentágono vê esses ataques como contraproducentes; europeus discordam. Combustível é logística.",
       "status": "rascunho"
+    },
+    {
+      "id": "2d42cedcdb6397eb",
+      "data": "2026-11-18T23:37:17+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "ponte-stanytsia-luhanska-oficina-kursk-nov26",
+      "titulo": "Ukraine strikes Russian bridge in occupied Luhansk Oblast, damages 3 military aircraft, General Staff says",
+      "fonte_url": "https://kyivindependent.com/ukraine-strikes-russian-bridge-in-occupied-luhansk-oblast-damages-3-military-aircraft-general-staff-says/",
+      "cves": [],
+      "texto": "Segundo o Estado-Maior ucraniano, a Ucrânia atingiu uma ponte sobre o rio Donets, perto de Stanytsia Luhanska, usada pela Rússia para levar munição e combustível ao front, e uma oficina de reparo em Kursk. Sem logística não há ofensiva: a pressão sobre a retaguarda russa segue.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-18T17:37:11+00:00"
+  "ultima_execucao": "2026-11-18T23:37:17+00:00"
 }
