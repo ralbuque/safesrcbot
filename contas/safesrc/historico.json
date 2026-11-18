@@ -988,7 +988,19 @@
       "texto": "Java4Shell (CVE-2026-114938): falha no decoder Base64 otimizado da JVM pode dar RCE sem autenticação. Afeta Java 17.0.6+ em x86-64 com AVX-512 VBMI, incluindo Jenkins e Keycloak. Atualize o JDK (Oracle, OpenJDK, Corretto, Zulu) e reinicie.\n\nhttps://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
       "status": "publicado",
       "post_id": "2123108366331281860"
+    },
+    {
+      "id": "533b590042a01508",
+      "data": "2026-11-18T23:37:09+00:00",
+      "categoria": "supply-chain",
+      "tema_chave": "microsoft-agent-framework-pypi-pth-stealer",
+      "titulo": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "fonte_url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "cves": [],
+      "texto": "agent-framework (Microsoft) no PyPI: as versões 1.26.1 e 1.26.2 trazem um stealer. Um arquivo .pth roda a cada início do Python, mesmo sem importar o pacote. Se instalou: remova e rotacione credenciais de Azure e CI/CD.\n\nhttps://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "status": "publicado",
+      "post_id": "2123198964799352921"
     }
   ],
-  "ultima_execucao": "2026-11-18T17:37:04+00:00"
+  "ultima_execucao": "2026-11-18T23:37:09+00:00"
 }
