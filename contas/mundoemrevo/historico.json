@@ -706,7 +706,18 @@
       "cves": [],
       "texto": "Irã alega ter atingido um radar dos EUA no Bahrein; EUA e Bahrein dizem que os ataques, o 3º em menos de uma semana, foram interceptados (CBS). Bessent foi morar em base militar por ameaças iranianas, diz alto funcionário. O regime de Teerã segue sendo uma ameaça real.",
       "status": "rascunho"
+    },
+    {
+      "id": "d91f66f5e88b7563",
+      "data": "2026-11-18T00:55:10+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "reguladores-nucleares-38-paises-risco-acidente-inverno-nov26",
+      "titulo": "Ukraine faces rising nuclear accident risk this winter, regulators warn",
+      "fonte_url": "https://kyivindependent.com/ukraine-faces-rising-nuclear-accident-risk-this-winter-regulators-warn/",
+      "cves": [],
+      "texto": "Reguladores nucleares de 38 países alertaram na segunda (16) que o risco de acidente nuclear na Ucrânia cresce neste inverno com os ataques russos à rede elétrica. Sem energia estável, fica mais difícil resfriar o material nuclear. O risco tem autor e endereço: o Kremlin.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-17T17:55:30+00:00"
+  "ultima_execucao": "2026-11-18T00:55:10+00:00"
 }
