@@ -548,7 +548,20 @@
       "ano_evento": 1891,
       "charge": "contas/palacioassombra/charges/f1e143cc93f9013f.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "2b50a5c14e0523e0",
+      "data": "2026-11-18T23:37:05+00:00",
+      "categoria": "regime-militar",
+      "tema_chave": "cofre-adhemar-de-barros-1969",
+      "titulo": "A verdadeira história do cofre do Dr. Rui",
+      "fonte_url": "https://revista.istoe.com.br/32795_averdadeirahistoriadocofredodrrui",
+      "cves": [],
+      "texto": "GTA VI chega nesta quinta. Em 1969 o Brasil já tinha missão secundária: o cofre do Adhemar, o do \"rouba, mas faz\". US$ 2,5 milhões, notas secando no varal. A dona jurou à polícia que só tinha documentos. Tudo emitido pelo Federal Reserve.",
+      "ano_evento": 1969,
+      "charge": "contas/palacioassombra/charges/2b50a5c14e0523e0.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-18T00:55:23+00:00"
+  "ultima_execucao": "2026-11-18T23:37:05+00:00"
 }
