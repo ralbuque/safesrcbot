@@ -974,7 +974,21 @@
       "texto": "CISA incluiu no KEV a CVE-2026-115731: deserialização de dados não confiáveis no Perforce Puppet Enterprise, com exploração ativa. Quem automatiza infra e pipelines com Puppet deve aplicar o patch do fabricante e revisar certificados de agentes.\n\nhttps://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
       "status": "publicado",
       "post_id": "2122856260999754093"
+    },
+    {
+      "id": "5966ac56e61b79d5",
+      "data": "2026-11-18T17:37:04+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "java4shell-cve-2026-114938-base64-avx512",
+      "titulo": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "fonte_url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "texto": "Java4Shell (CVE-2026-114938): falha no decoder Base64 otimizado da JVM pode dar RCE sem autenticação. Afeta Java 17.0.6+ em x86-64 com AVX-512 VBMI, incluindo Jenkins e Keycloak. Atualize o JDK (Oracle, OpenJDK, Corretto, Zulu) e reinicie.\n\nhttps://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "status": "publicado",
+      "post_id": "2123108366331281860"
     }
   ],
-  "ultima_execucao": "2026-11-18T00:55:06+00:00"
+  "ultima_execucao": "2026-11-18T17:37:04+00:00"
 }
