@@ -960,7 +960,21 @@
       "texto": "Agentes de IA do framework ARTEX caçam chaves de LLM em apps expostos, diz a Amazon: LiteLLM, Dify, Langflow, Open WebUI e Ollama estão entre os alvos. As chaves roubadas pagam o próprio ataque. Não exponha gateways de IA e rotacione as chaves.\n\nhttps://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
       "status": "publicado",
       "post_id": "2122066422071202247"
+    },
+    {
+      "id": "b3145b7236f4b2dd",
+      "data": "2026-11-18T00:55:06+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "puppet-enterprise-deserialization-cve-2026-115731-kev",
+      "titulo": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "fonte_url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "cves": [
+        "CVE-2026-115731"
+      ],
+      "texto": "CISA incluiu no KEV a CVE-2026-115731: deserialização de dados não confiáveis no Perforce Puppet Enterprise, com exploração ativa. Quem automatiza infra e pipelines com Puppet deve aplicar o patch do fabricante e revisar certificados de agentes.\n\nhttps://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "status": "publicado",
+      "post_id": "2122856260999754093"
     }
   ],
-  "ultima_execucao": "2026-11-17T17:55:18+00:00"
+  "ultima_execucao": "2026-11-18T00:55:06+00:00"
 }
