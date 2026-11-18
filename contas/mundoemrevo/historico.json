@@ -717,7 +717,18 @@
       "cves": [],
       "texto": "Reguladores nucleares de 38 países alertaram na segunda (16) que o risco de acidente nuclear na Ucrânia cresce neste inverno com os ataques russos à rede elétrica. Sem energia estável, fica mais difícil resfriar o material nuclear. O risco tem autor e endereço: o Kremlin.",
       "status": "rascunho"
+    },
+    {
+      "id": "58d7b6df6b87d1f6",
+      "data": "2026-11-18T17:37:11+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "refinarias-ilsky-afipsky-pentagono-contraproducente-nov26",
+      "titulo": "Ukraine says it hit 2 Russian oil refineries as Zelenskyy hails domestically made weapons (AP)",
+      "fonte_url": "https://www.washingtontimes.com/news/2026/nov/18/ukraine-says-hit-two-russian-oil-refineries-zelenskyy-hails/",
+      "cves": [],
+      "texto": "Estado-Maior ucraniano diz ter atingido as refinarias de Ilsky e Afipsky (Krasnodar), que juntas processam cerca de 13 mi de t/ano e abastecem tropas russas no sul. Segundo a AP, o Pentágono vê esses ataques como contraproducentes; europeus discordam. Combustível é logística.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-18T00:55:10+00:00"
+  "ultima_execucao": "2026-11-18T17:37:11+00:00"
 }
