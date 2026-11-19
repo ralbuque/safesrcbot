@@ -561,7 +561,20 @@
       "ano_evento": 1969,
       "charge": "contas/palacioassombra/charges/2b50a5c14e0523e0.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "50f07d8e79dfd54e",
+      "data": "2026-11-19T13:57:22+00:00",
+      "categoria": "era-vargas",
+      "tema_chave": "jornada-8h-vargas-1932",
+      "titulo": "Jornada de trabalho de 8 horas na indústria completa 75 anos — Senado Notícias",
+      "fonte_url": "https://www12.senado.leg.br/noticias/materias/2007/05/03/jornada-de-trabalho-de-8-horas-na-industria-completa-75-anos",
+      "cves": [],
+      "texto": "Notas de atualização do trabalhador brasileiro.\n1932: Vargas decreta 8h por dia e 48h por semana.\n1949: lei garante o repouso semanal remunerado.\nResultado: a escala 6x1, lançada como novidade.\nA v2.0 está em \"breve\" há 94 anos.",
+      "ano_evento": 1932,
+      "charge": "contas/palacioassombra/charges/50f07d8e79dfd54e.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-18T23:37:05+00:00"
+  "ultima_execucao": "2026-11-19T13:57:22+00:00"
 }
