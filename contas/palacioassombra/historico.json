@@ -574,7 +574,20 @@
       "ano_evento": 1932,
       "charge": "contas/palacioassombra/charges/50f07d8e79dfd54e.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "dd6ce2452181c014",
+      "data": "2026-11-19T22:07:00+00:00",
+      "categoria": "populismo-1946-1964",
+      "tema_chave": "cassacao-deputados-pcb-jorge-amado-1948",
+      "titulo": "Câmara anula cassação de mandatos de deputados do PCdoB ocorrida em 1948",
+      "fonte_url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2013-03-20/camara-anula-cassacao-de-mandatos-de-deputados-do-pcdob-ocorrida-em-1948",
+      "cves": [],
+      "texto": "1948: a Câmara cassa Jorge Amado e outros 13 deputados comunistas. 2013: a Câmara anula a cassação, “simbolicamente”. Levou 65 anos para devolver um mandato que não paga salário. Primeiro cargo público do Brasil sem custo para o contribuinte.",
+      "ano_evento": 1948,
+      "charge": "contas/palacioassombra/charges/dd6ce2452181c014.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-19T13:57:22+00:00"
+  "ultima_execucao": "2026-11-19T22:07:00+00:00"
 }
