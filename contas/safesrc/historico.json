@@ -1014,7 +1014,21 @@
       "texto": "Apache Axis 1.x, CVE-2026-90436 (CVSS 9.8): unsafe reflection permite RCE sem autenticação. Explorada no Confluence Data Center e no N-central, já está no CISA KEV. Axis costuma ser dependência transitiva: confira seu SBOM e aplique os patches.\n\nhttps://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited/",
       "status": "publicado",
       "post_id": "2123415466655826251"
+    },
+    {
+      "id": "dcfa8134ceac9ad3",
+      "data": "2026-11-19T22:06:54+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "php-nov-2026-release-cve-2026-115560-session-rce",
+      "titulo": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "fonte_url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "cves": [
+        "CVE-2026-115560"
+      ],
+      "texto": "PHP publicou correções para 7 falhas críticas, incluindo a CVE-2026-115560 (CVSS 9.2): validação de entrada em sessões pode levar a RCE. Corrigido nas versões 8.4.28 e 8.5.13, entre outras. Atualize o PHP e revise a configuração de session serializer.\n\nhttps://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "status": "publicado",
+      "post_id": "2123538682145812586"
     }
   ],
-  "ultima_execucao": "2026-11-19T13:57:21+00:00"
+  "ultima_execucao": "2026-11-19T22:06:54+00:00"
 }
