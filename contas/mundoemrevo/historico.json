@@ -739,7 +739,18 @@
       "cves": [],
       "texto": "Segundo o Estado-Maior ucraniano, a Ucrânia atingiu uma ponte sobre o rio Donets, perto de Stanytsia Luhanska, usada pela Rússia para levar munição e combustível ao front, e uma oficina de reparo em Kursk. Sem logística não há ofensiva: a pressão sobre a retaguarda russa segue.",
       "status": "rascunho"
+    },
+    {
+      "id": "6fe4052d6dbc082b",
+      "data": "2026-11-19T13:57:22+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "shenzhen-trilateral-zelensky-eua-china-podem-parar-putin-nov26",
+      "titulo": "Trump, Putin and Xi Begin Three-Way Talks Without Aides in Shenzhen",
+      "fonte_url": "https://www.kyivpost.com/post/90574",
+      "cves": [],
+      "texto": "Trump, Xi e Putin fizeram em Shenzhen uma reunião trilateral de cerca de 90 min, segundo a TV estatal chinesa. A Ucrânia ficou de fora. Zelensky diz à NBC que EUA e China têm força para deter Putin numa só reunião. Resta saber se querem usá-la ou só posar para a foto.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-18T23:37:17+00:00"
+  "ultima_execucao": "2026-11-19T13:57:22+00:00"
 }
