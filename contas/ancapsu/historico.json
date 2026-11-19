@@ -780,7 +780,18 @@
       "cves": [],
       "texto": "A PGR denunciou Flávio Bolsonaro ao STF por calúnia contra Lula, por um post no X de janeiro. Ele é denunciado, não réu. Mas senador processado por crítica política em rede social, com Moraes de relator, mostra o tamanho do problema de liberdade de expressão no país.",
       "status": "rascunho"
+    },
+    {
+      "id": "46970274f2f677b5",
+      "data": "2026-11-19T22:06:57+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "moraes-libera-lei-dosimetria-plenario-virtual-dezembro",
+      "titulo": "Moraes libera, e Lei da Dosimetria vai a julgamento entre 4 e 15 de dezembro no STF",
+      "fonte_url": "https://www.otempo.com.br/politica/judiciario/2026/11/19/moraes-libera-e-lei-da-dosimetria-vai-a-julgamento-em-4-de-dezembro",
+      "cves": [],
+      "texto": "Moraes liberou para julgamento no plenário virtual, de 4 a 15 de dezembro, a Lei da Dosimetria, após reunião com Alcolumbre e Motta. O Congresso a aprovou em dezembro de 2025; quase um ano depois, quem suspendeu a aplicação decide se ela vale. Legislar virou sugestão.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-19T13:57:23+00:00"
+  "ultima_execucao": "2026-11-19T22:06:57+00:00"
 }
