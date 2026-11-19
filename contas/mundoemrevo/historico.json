@@ -750,7 +750,18 @@
       "cves": [],
       "texto": "Trump, Xi e Putin fizeram em Shenzhen uma reunião trilateral de cerca de 90 min, segundo a TV estatal chinesa. A Ucrânia ficou de fora. Zelensky diz à NBC que EUA e China têm força para deter Putin numa só reunião. Resta saber se querem usá-la ou só posar para a foto.",
       "status": "rascunho"
+    },
+    {
+      "id": "abd4b35338d7c8dd",
+      "data": "2026-11-19T22:06:51+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "neptune-ponte-kerch-ferrovia-19nov26",
+      "titulo": "Neptune missile strike damages railway track on Crimean Bridge -- General Staff",
+      "fonte_url": "https://www.ukrinform.net/rubric-ato/4186350-neptune-missile-strike-damages-railway-track-on-crimean-bridge-general-staff.html",
+      "cves": [],
+      "texto": "Segundo o Estado-Maior ucraniano, mísseis Neptune atingiram a ponte de Kerch na madrugada de quinta: trilhos danificados e tráfego suspenso. Kyiv a descreve como principal rota de suprimento russa no sul. A logística da Crimeia vira problema do Kremlin.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-19T13:57:22+00:00"
+  "ultima_execucao": "2026-11-19T22:06:51+00:00"
 }
