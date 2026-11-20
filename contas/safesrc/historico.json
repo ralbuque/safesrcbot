@@ -1028,7 +1028,25 @@
       "texto": "PHP publicou correções para 7 falhas críticas, incluindo a CVE-2026-115560 (CVSS 9.2): validação de entrada em sessões pode levar a RCE. Corrigido nas versões 8.4.28 e 8.5.13, entre outras. Atualize o PHP e revise a configuração de session serializer.\n\nhttps://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
       "status": "publicado",
       "post_id": "2123538682145812586"
+    },
+    {
+      "id": "853630cfa180220e",
+      "data": "2026-11-20T11:58:56+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "nginx2root-cve-2026-123007",
+      "titulo": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
+      "fonte_url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
+      "cves": [
+        "CVE-2026-123007",
+        "CVE-2026-123633",
+        "CVE-2026-123634",
+        "CVE-2026-121810",
+        "CVE-2026-113425"
+      ],
+      "texto": "NGINX2Root: a F5 corrigiu 5 falhas críticas no NGINX. Há PoC público para a CVE-2026-123007 (HTTP/2, pode levar a RCE), sem exploração ativa confirmada. Atualize o NGINX, inclusive em imagens de contêiner.\n\nhttps://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
+      "status": "publicado",
+      "post_id": "2123748111289831640"
     }
   ],
-  "ultima_execucao": "2026-11-20T03:07:55+00:00"
+  "ultima_execucao": "2026-11-20T11:58:56+00:00"
 }
