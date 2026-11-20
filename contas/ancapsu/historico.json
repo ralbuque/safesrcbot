@@ -806,7 +806,18 @@
       "status": "publicado",
       "post_id": "2123787983535079845",
       "issue": 219
+    },
+    {
+      "id": "9945a7d7611cd6f1",
+      "data": "2026-11-20T20:02:23+00:00",
+      "categoria": "liberdades",
+      "tema_chave": "moraes-vota-manter-passaportes-flavio-primeira-turma-recurso",
+      "titulo": "Moraes mantém retenção de passaportes e proibições impostas a Flávio Bolsonaro",
+      "fonte_url": "https://www.gazetadopovo.com.br/republica/moraes-mantem-retencao-de-passaportes-e-proibicoes-impostas-a-flavio-bolsonaro/",
+      "cves": [],
+      "texto": "Moraes, relator, votou no plenário virtual da Primeira Turma para manter cancelados os passaportes de Flávio Bolsonaro e vetar contato com Willer Tomaz. O autor da medida julgando o recurso contra a própria medida: o devido processo, versão STF.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-20T11:58:56+00:00"
+  "ultima_execucao": "2026-11-20T20:02:23+00:00"
 }
