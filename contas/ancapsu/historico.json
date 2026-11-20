@@ -796,14 +796,16 @@
     },
     {
       "id": "305cd3b11e9b94a6",
-      "data": "2026-11-20T11:58:56+00:00",
+      "data": "2026-11-20T14:38:08+00:00",
       "categoria": "stf-judiciario",
       "tema_chave": "mendonca-pede-fim-sigilo-relatorio-pf-master-fachin",
       "titulo": "André Mendonça pede fim do sigilo de relatório da PF que cita seu nome",
       "fonte_url": "https://redeondadigital.com.br/destaque/andre-mendonca-pede-fim-do-sigilo-de-relatorio-da-pf-que-cita-seu-nome",
       "cves": [],
       "texto": "Mendonça pediu a Fachin que torne público o relatório da PF que o cita no caso Master, abrindo mão do sigilo (Metrópoles). Se um ministro topa a transparência, por que Moraes, Toffoli e Nunes Marques não fazem o mesmo? Citação não é condenação, mas sigilo alimenta dúvida.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2123787983535079845",
+      "issue": 219
     }
   ],
   "ultima_execucao": "2026-11-20T11:58:56+00:00"
