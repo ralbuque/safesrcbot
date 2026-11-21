@@ -1060,7 +1060,22 @@
       "texto": "CISA incluiu no KEV a CVE-2026-40217, do BerriAI LiteLLM, explorada em campanhas de LLMjacking. Quem usa LiteLLM como gateway de LLMs deve atualizar para a versão corrigida, restringir o acesso ao proxy e rotacionar as chaves de API dos provedores.\n\nhttps://scworld.com/brief/cisa-adds-four-critical-vulnerabilities-to-known-exploited-catalog",
       "status": "publicado",
       "post_id": "2124177521893855383"
+    },
+    {
+      "id": "6ec0dce548ff06fe",
+      "data": "2026-11-21T21:48:33+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "apache-roller-xmlrpc-deserialization-cve-2026-129448",
+      "titulo": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "fonte_url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "cves": [
+        "CVE-2026-129448",
+        "CVE-2026-82384"
+      ],
+      "texto": "Apache Roller (Java) tem RCE sem autenticação já explorada: CVE-2026-129448, CVSS 9.8. O endpoint XML-RPC desserializa dados não confiáveis antes de autenticar. Afeta 4.0.0 a 6.1.4. Atualize para a 6.1.6. Nunca desserialize entrada antes de autenticar.\n\nhttps://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "status": "publicado",
+      "post_id": "2124259301636354453"
     }
   ],
-  "ultima_execucao": "2026-11-21T16:25:25+00:00"
+  "ultima_execucao": "2026-11-21T21:48:33+00:00"
 }
