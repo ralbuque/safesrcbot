@@ -604,7 +604,20 @@
       "status": "publicado",
       "post_id": "2123990362955952624",
       "issue": 222
+    },
+    {
+      "id": "aa08e0a97886b577",
+      "data": "2026-11-21T16:25:16+00:00",
+      "categoria": "imperio",
+      "tema_chave": "questao-militar-deodoro-1886",
+      "titulo": "Questão Militar",
+      "fonte_url": "https://pt.wikipedia.org/wiki/Quest%C3%A3o_Militar",
+      "cves": [],
+      "texto": "Questão Militar, 1886: o governo pune militares por falarem na imprensa, Deodoro reúne 200 oficiais num teatro e em 1889 o Império acaba. 2026: um \"exército\" se reúne numa live de sábado. O máximo que pode cair é a conexão.",
+      "ano_evento": 1886,
+      "charge": "contas/palacioassombra/charges/aa08e0a97886b577.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-21T01:26:06+00:00"
+  "ultima_execucao": "2026-11-21T16:25:16+00:00"
 }
