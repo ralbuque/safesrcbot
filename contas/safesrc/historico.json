@@ -1046,7 +1046,21 @@
       "texto": "NGINX2Root: a F5 corrigiu 5 falhas críticas no NGINX. Há PoC público para a CVE-2026-123007 (HTTP/2, pode levar a RCE), sem exploração ativa confirmada. Atualize o NGINX, inclusive em imagens de contêiner.\n\nhttps://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
       "status": "publicado",
       "post_id": "2123748111289831640"
+    },
+    {
+      "id": "41ae958e33cefae6",
+      "data": "2026-11-21T16:25:25+00:00",
+      "categoria": "ia-llm",
+      "tema_chave": "litellm-cve-2026-40217-kev-llmjacking",
+      "titulo": "CISA adds four critical vulnerabilities to known exploited catalog",
+      "fonte_url": "https://scworld.com/brief/cisa-adds-four-critical-vulnerabilities-to-known-exploited-catalog",
+      "cves": [
+        "CVE-2026-40217"
+      ],
+      "texto": "CISA incluiu no KEV a CVE-2026-40217, do BerriAI LiteLLM, explorada em campanhas de LLMjacking. Quem usa LiteLLM como gateway de LLMs deve atualizar para a versão corrigida, restringir o acesso ao proxy e rotacionar as chaves de API dos provedores.\n\nhttps://scworld.com/brief/cisa-adds-four-critical-vulnerabilities-to-known-exploited-catalog",
+      "status": "publicado",
+      "post_id": "2124177521893855383"
     }
   ],
-  "ultima_execucao": "2026-11-21T01:26:08+00:00"
+  "ultima_execucao": "2026-11-21T16:25:25+00:00"
 }
