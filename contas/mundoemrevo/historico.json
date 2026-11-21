@@ -777,14 +777,16 @@
     },
     {
       "id": "8262f66056da3b80",
-      "data": "2026-11-21T16:25:50+00:00",
+      "data": "2026-11-21T19:09:18+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "bear-trap-kharkiv-cerco-russo-isw-nov26",
       "titulo": "ISW Russian Offensive Campaign Assessment, November 20, 2026",
       "fonte_url": "https://www.kyivpost.com/post/90767",
       "cves": [],
       "texto": "Segundo o ISW, a operação ucraniana Bear Trap barrou um plano russo de cercar tropas no norte de Kharkiv e libertou mais de 200 km² nos últimos meses. Militares russos alegaram, sem base, ter cercado milhares de ucranianos. No campo, a propaganda do Kremlin não se sustenta.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2124218613502459985",
+      "issue": 224
     }
   ],
   "ultima_execucao": "2026-11-21T16:25:50+00:00"
