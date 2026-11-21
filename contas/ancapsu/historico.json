@@ -822,14 +822,16 @@
     },
     {
       "id": "261ec2d2e77cf19c",
-      "data": "2026-11-21T01:25:59+00:00",
+      "data": "2026-11-21T04:02:49+00:00",
       "categoria": "liberdades",
       "tema_chave": "bolsonaro-internado-df-star-obstrucao-intestinal",
       "titulo": "Jair Bolsonaro tem obstrução intestinal e está sendo medicado, diz Carlos",
       "fonte_url": "https://www.dgabc.com.br/Noticia/4369965/jair-bolsonaro-tem-obstrucao-intestinal-e-esta-sendo-medicado-diz-carlos",
       "cves": [],
       "texto": "Bolsonaro, em prisão domiciliar, foi internado no DF Star com dor e distensão abdominal. Segundo Carlos, há obstrução intestinal quase completa. Aos 71 anos e com histórico de cirurgias desde a facada, o atendimento dele não pode depender de burocracia. Força, presidente.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2123990489800298652",
+      "issue": 221
     }
   ],
   "ultima_execucao": "2026-11-21T01:25:59+00:00"
