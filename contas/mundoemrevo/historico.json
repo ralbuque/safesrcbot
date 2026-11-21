@@ -787,7 +787,18 @@
       "status": "publicado",
       "post_id": "2124218613502459985",
       "issue": 224
+    },
+    {
+      "id": "a3d8f99dc907e0c7",
+      "data": "2026-11-21T21:48:36+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "sparta-ii-golfo-finlandia-drones-orpo-21nov26",
+      "titulo": "Crew evacuated amid battle to put out fire on Russian ship hit by drones",
+      "fonte_url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
+      "cves": [],
+      "texto": "Cargueiro russo Sparta II, ligado às Forças Armadas da Rússia segundo a Finlândia, foi atingido por drones no Golfo da Finlândia. As Forças de Defesa finlandesas veem autoria provável ucraniana. O premiê Orpo disse que a Ucrânia tem direito de reagir ao agressor. Concordamos.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-21T16:25:50+00:00"
+  "ultima_execucao": "2026-11-21T21:48:36+00:00"
 }
