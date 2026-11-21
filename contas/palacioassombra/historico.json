@@ -592,7 +592,7 @@
     },
     {
       "id": "a4c00d3ee111830f",
-      "data": "2026-11-21T01:26:06+00:00",
+      "data": "2026-11-21T04:02:19+00:00",
       "categoria": "nova-republica",
       "tema_chave": "segunda-bala-plano-collor-2-1991",
       "titulo": "Collor engatilha sua 'segunda bala'",
@@ -601,7 +601,9 @@
       "texto": "1990: Collor jura que só tem uma bala para matar o tigre da inflação.\n\nJaneiro de 1991: Plano Collor II.\n\nO tigre sobreviveu. A palavra \"única\" também não resistiu.",
       "ano_evento": 1991,
       "charge": "contas/palacioassombra/charges/a4c00d3ee111830f.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2123990362955952624",
+      "issue": 222
     }
   ],
   "ultima_execucao": "2026-11-21T01:26:06+00:00"
