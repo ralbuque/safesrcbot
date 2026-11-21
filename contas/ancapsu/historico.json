@@ -832,7 +832,18 @@
       "status": "publicado",
       "post_id": "2123990489800298652",
       "issue": 221
+    },
+    {
+      "id": "7d3fdd59cbf6750e",
+      "data": "2026-11-21T16:25:18+00:00",
+      "categoria": "economia",
+      "tema_chave": "lula-live-janones-faria-lima-yuppies-ajuste-fiscal",
+      "titulo": "Lula rebate críticas da esquerda a ajuste fiscal, ironiza Faria Lima e defende Moretti",
+      "fonte_url": "https://www.otempo.com.br/politica/governo/2026/11/21/lula-rebate-criticas-da-esquerda-a-ajuste-fiscal-ironiza-faria-lima-e-defende-moretti",
+      "cves": [],
+      "texto": "Em live com Janones, Lula chamou o mercado da Faria Lima de \"yuppies\" e defendeu o ajuste fiscal contra as críticas da própria esquerda. Ofender quem financia a dívida e brigar com a base às vésperas da votação prevista na Câmara: estratégia ou improviso?",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-21T01:25:59+00:00"
+  "ultima_execucao": "2026-11-21T16:25:18+00:00"
 }
