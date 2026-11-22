@@ -826,7 +826,18 @@
       "status": "publicado",
       "post_id": "2124586811871670326",
       "issue": 231
+    },
+    {
+      "id": "d15e26eb4c50a383",
+      "data": "2026-11-22T22:51:46+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "trump-yalta-montagem-putin-xi-shenzhen-22nov26",
+      "titulo": "Trump Shares Yalta Comparison Featuring Himself, Xi and Putin",
+      "fonte_url": "https://www.newsweek.com/trump-shares-yalta-comparison-featuring-himself-xi-and-putin-12752798",
+      "cves": [],
+      "texto": "No sábado, Trump postou uma montagem de Yalta 1945 ao lado de si, Xi e Putin: \"Grandes Potências 1945, 2026\". No Leste Europeu, Yalta lembra decisões sobre o destino de países sem eles na mesa. A declaração de Shenzhen não traz compromisso de encerrar a guerra na Ucrânia.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-22T17:46:32+00:00"
+  "ultima_execucao": "2026-11-22T22:51:46+00:00"
 }
