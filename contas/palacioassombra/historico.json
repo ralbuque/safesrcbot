@@ -620,7 +620,7 @@
     },
     {
       "id": "aa84e6089f7fac84",
-      "data": "2026-11-22T22:51:38+00:00",
+      "data": "2026-11-22T23:57:01+00:00",
       "categoria": "republica-velha",
       "tema_chave": "convenio-taubate-1906",
       "titulo": "CONVÊNIO DE TAUBATÉ (CPDOC/FGV)",
@@ -629,7 +629,9 @@
       "texto": "1906: safra recorde de café, preço despencando. O Convênio de Taubaté resolveu: o governo compra o excedente, com empréstimo lá de fora.\n\nEra o capitalismo mais corajoso do mundo: o lucro ficava com o cafezal e o risco com o Tesouro.",
       "ano_evento": 1906,
       "charge": "contas/palacioassombra/charges/aa84e6089f7fac84.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2124653407940358158",
+      "issue": 235
     }
   ],
   "ultima_execucao": "2026-11-22T22:51:38+00:00"
