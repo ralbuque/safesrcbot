@@ -887,14 +887,16 @@
     },
     {
       "id": "a775d523730291fe",
-      "data": "2026-11-22T17:46:30+00:00",
+      "data": "2026-11-22T19:32:08+00:00",
       "categoria": "congresso",
       "tema_chave": "camara-discute-ajuste-fiscal-plp-299-segunda-23",
       "titulo": "Câmara começa a discutir nesta segunda-feira 23 o ajuste fiscal aprovado no Senado por 69 a 2",
       "fonte_url": "https://agorarn.com.br/brasil/camara-discute-ajuste-fiscal-aprovado-senado/",
       "cves": [],
       "texto": "A Câmara discute nesta segunda o ajuste fiscal (PLP 299/2026), aprovado no Senado por 69 a 2. O pacote limita a compensação de créditos tributários das empresas. Governo que não encara o próprio gasto manda a conta ao setor produtivo, e ainda ouve reclamação da base.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2124586748563112112",
+      "issue": 232
     }
   ],
   "ultima_execucao": "2026-11-22T17:46:30+00:00"
