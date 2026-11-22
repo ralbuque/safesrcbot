@@ -861,14 +861,16 @@
     },
     {
       "id": "110510d4d11c4555",
-      "data": "2026-11-22T02:08:25+00:00",
+      "data": "2026-11-22T11:41:04+00:00",
       "categoria": "stf-judiciario",
       "tema_chave": "moraes-visitas-filhos-bolsonaro-uti-sem-celular",
       "titulo": "Bolsonaro está na UTI e tem quadro estável, diz novo boletim médico",
       "fonte_url": "https://www.gazetadopovo.com.br/republica/bolsonaro-uti-quadro-estavel-boletim/",
       "cves": [],
       "texto": "Bolsonaro, 71, está na UTI com abdômen agudo obstrutivo, estável e sem previsão de alta. Moraes autorizou visita de três filhos e da enteada, sem celular. Filho depender de despacho do STF para ver o pai na UTI diz muito. Que o cuidado médico venha antes da burocracia.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2124468198502285581",
+      "issue": 228
     },
     {
       "id": "c20a7108235dbfc6",
