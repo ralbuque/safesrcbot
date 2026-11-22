@@ -848,14 +848,16 @@
     },
     {
       "id": "a26db6b55afa4594",
-      "data": "2026-11-21T21:48:32+00:00",
+      "data": "2026-11-22T00:02:29+00:00",
       "categoria": "governo-federal",
       "tema_chave": "lula-insiste-messias-vaga-barroso-stf-alcolumbre",
       "titulo": "Apesar de pressões, Lula não dá sinais de que deve indicar uma mulher negra ao STF",
       "fonte_url": "https://www.otempo.com.br/politica/governo/2026/11/20/apesar-de-pressoes-lula-nao-da-sinais-de-que-deve-indicar-uma-mulher-negra-ao-stf",
       "cves": [],
-      "texto": "Lula segue sinalizando que quer insistir em Jorge Messias para a vaga de Barroso no STF, aberta há mais de um ano, mesmo com o Senado tendo rejeitado o nome em abril. Pelo regimento, nova votação só em 2027. Para o Planalto, o Senado é detalhe a ser contornado.",
-      "status": "rascunho"
+      "texto": "Lula segue sinalizando que quer insistir em Jorge Messias para a vaga de Barroso no STF, aberta há mais de um ano, mesmo com o Senado tendo rejeitado o nome em abril. Pelo regimento, nova votação só em 2027, já com o novo senado. Vai sobrar 4 vagas para 2030.",
+      "status": "publicado",
+      "post_id": "2124292396804386874",
+      "issue": 226
     }
   ],
   "ultima_execucao": "2026-11-21T21:48:32+00:00"
