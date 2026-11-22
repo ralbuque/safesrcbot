@@ -617,7 +617,20 @@
       "ano_evento": 1886,
       "charge": "contas/palacioassombra/charges/aa08e0a97886b577.jpg",
       "status": "rascunho"
+    },
+    {
+      "id": "aa84e6089f7fac84",
+      "data": "2026-11-22T22:51:38+00:00",
+      "categoria": "republica-velha",
+      "tema_chave": "convenio-taubate-1906",
+      "titulo": "CONVÊNIO DE TAUBATÉ (CPDOC/FGV)",
+      "fonte_url": "https://cpdoc.fgv.br/sites/default/files/verbetes/primeira-republica/CONV%C3%8ANIO%20DE%20TAUBAT%C3%89.pdf",
+      "cves": [],
+      "texto": "1906: safra recorde de café, preço despencando. O Convênio de Taubaté resolveu: o governo compra o excedente, com empréstimo lá de fora.\n\nEra o capitalismo mais corajoso do mundo: o lucro ficava com o cafezal e o risco com o Tesouro.",
+      "ano_evento": 1906,
+      "charge": "contas/palacioassombra/charges/aa84e6089f7fac84.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-21T16:25:16+00:00"
+  "ultima_execucao": "2026-11-22T22:51:38+00:00"
 }
