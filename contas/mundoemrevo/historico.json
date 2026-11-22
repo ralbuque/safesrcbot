@@ -816,14 +816,16 @@
     },
     {
       "id": "3a0b20ad25a13356",
-      "data": "2026-11-22T17:46:32+00:00",
+      "data": "2026-11-22T19:32:23+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "zelensky-semana-2700-drones-patriot-atraso-22nov26",
       "titulo": "Zelenskyy urges US to release Patriot missiles as Russia kills 5 in Ukraine",
       "fonte_url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles",
       "cves": [],
       "texto": "Zelensky diz que a Rússia lançou em uma semana cerca de 2.700 drones de ataque, 1.460 bombas guiadas e 165 mísseis, e cobra o atraso na entrega de antibalísticos já pagos pelos aliados via programa da OTAN. Sem Patriot, quem paga o atraso são as cidades ucranianas.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2124586811871670326",
+      "issue": 231
     }
   ],
   "ultima_execucao": "2026-11-22T17:46:32+00:00"
