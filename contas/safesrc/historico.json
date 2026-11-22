@@ -1075,7 +1075,21 @@
       "texto": "Apache Roller (Java) tem RCE sem autenticação já explorada: CVE-2026-129448, CVSS 9.8. O endpoint XML-RPC desserializa dados não confiáveis antes de autenticar. Afeta 4.0.0 a 6.1.4. Atualize para a 6.1.6. Nunca desserialize entrada antes de autenticar.\n\nhttps://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
       "status": "publicado",
       "post_id": "2124259301636354453"
+    },
+    {
+      "id": "09e623a73bc99aa5",
+      "data": "2026-11-22T02:08:24+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "vmware-vcenter-cve-2026-123890-vmsa-2026-0009",
+      "titulo": "VMware vCenter: Critical Vulnerability CVE-2026-123890 Actively Exploited Since September – Broadcom Releases Emergency Patches",
+      "fonte_url": "https://www.igorslab.de/en/vmware-vcenter-critical-vulnerability-cve-2026-123890-actively-exploited-since-september-broadcom-releases-emergency-patches/",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "texto": "VMware vCenter: a Broadcom publicou o VMSA-2026-0009 para a CVE-2026-123890 (CVSS 9.8), já explorada em ataques desde setembro. Se runners de CI e ambientes de dev rodam em VMs sob vCenter, aplique as atualizações e revise acessos administrativos.\n\nhttps://www.igorslab.de/en/vmware-vcenter-critical-vulnerability-cve-2026-123890-actively-exploited-since-september-broadcom-releases-emergency-patches/",
+      "status": "publicado",
+      "post_id": "2124324297112178891"
     }
   ],
-  "ultima_execucao": "2026-11-21T21:48:33+00:00"
+  "ultima_execucao": "2026-11-22T02:08:24+00:00"
 }
