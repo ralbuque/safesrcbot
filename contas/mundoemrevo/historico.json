@@ -803,14 +803,16 @@
     },
     {
       "id": "d72ab5cd90b92f2b",
-      "data": "2026-11-22T10:01:23+00:00",
+      "data": "2026-11-22T11:40:23+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "zelensky-tregua-humanitaria-15-localidades-dnipro-nov26",
       "titulo": "Russian Offensive Campaign Assessment, November 21, 2026",
       "fonte_url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-21-2026",
       "cves": [],
       "texto": "Zelensky propôs cessar-fogo local e temporário para retirar civis de 15 localidades junto ao Dnipro, em Kherson e Zaporíjia, nos moldes da missão de Oleshky em outubro, segundo o ISW. É só uma pausa para salvar gente. Resta saber se Moscou aceita de novo.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2124468026518954027",
+      "issue": 230
     }
   ],
   "ultima_execucao": "2026-11-22T10:01:23+00:00"
