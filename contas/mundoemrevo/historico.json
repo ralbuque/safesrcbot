@@ -839,7 +839,18 @@
       "status": "publicado",
       "post_id": "2124653894823501959",
       "issue": 234
+    },
+    {
+      "id": "a1cae58290c6a4b0",
+      "data": "2026-11-23T13:42:45+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "merkury-benghazi-libia-drones-navais-23nov26",
+      "titulo": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says (AP)",
+      "fonte_url": "https://www.ksat.com/news/world/2026/11/23/zelenskyy-confirms-ukraine-was-behind-drone-attack-that-struck-russian-warship-at-libya-naval-base/",
+      "cves": [],
+      "texto": "Zelensky diz que sete drones navais ucranianos afundaram a corveta russa Merkury no porto de Benghazi, na Líbia; autoridades líbias falam em danos severos (AP). Sem comentário oficial de Moscou até agora. Leitura: a frota russa já não tem porto seguro longe do Mar Negro.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-22T22:51:46+00:00"
+  "ultima_execucao": "2026-11-23T13:42:45+00:00"
 }
