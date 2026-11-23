@@ -632,7 +632,20 @@
       "status": "publicado",
       "post_id": "2124653407940358158",
       "issue": 235
+    },
+    {
+      "id": "b689c507fbbb6734",
+      "data": "2026-11-23T13:42:54+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "unitron-mac-512-reserva-informatica-1985",
+      "titulo": "Unitron Mac 512",
+      "fonte_url": "https://pt.wikipedia.org/wiki/Unitron_Mac_512",
+      "cves": [],
+      "texto": "1985: com o mercado fechado, a Unitron clonou o Macintosh, até no formato do gabinete e na cor bege. 1987: os EUA ameaçaram o suco de laranja e o sapato brasileiros. Talvez o primeiro Ctrl+C, Ctrl+V a virar crise diplomática.",
+      "ano_evento": 1985,
+      "charge": "contas/palacioassombra/charges/b689c507fbbb6734.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-22T22:51:38+00:00"
+  "ultima_execucao": "2026-11-23T13:42:54+00:00"
 }
