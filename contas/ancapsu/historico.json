@@ -900,14 +900,16 @@
     },
     {
       "id": "4cb283bf2594d082",
-      "data": "2026-11-22T22:51:35+00:00",
+      "data": "2026-11-23T00:00:00+00:00",
       "categoria": "congresso",
       "tema_chave": "lula-alcolumbre-pacote-vaga-stf-agencias-reguladoras",
       "titulo": "Por que Lula precisa de Alcolumbre para destravar o 4º mandato",
       "fonte_url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/18/por-que-lula-precisa-alcolumbre-4-mandato",
       "cves": [],
-      "texto": "Lula pretende negociar com Alcolumbre, num pacote só, a vaga de Barroso no STF, aberta há mais de um ano, e as diretorias de agências reguladoras, antes de o Senado mudar em fevereiro, diz o TV Sim Brasil. Cadeira no Supremo virou item de barganha.",
-      "status": "rascunho"
+      "texto": "Lula pretende negociar com Alcolumbre, num pacote só, a vaga de Barroso no STF, aberta há mais de um ano, e as diretorias de agências reguladoras, antes de o Senado mudar em fevereiro. Do jeito que está o humor do Senado, depois disso, não aprova mais nada.",
+      "status": "publicado",
+      "post_id": "2124654160545022157",
+      "issue": 233
     }
   ],
   "ultima_execucao": "2026-11-22T22:51:35+00:00"
