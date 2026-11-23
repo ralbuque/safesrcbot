@@ -910,7 +910,18 @@
       "status": "publicado",
       "post_id": "2124654160545022157",
       "issue": 233
+    },
+    {
+      "id": "c0eec3e291e682b9",
+      "data": "2026-11-23T13:42:40+00:00",
+      "categoria": "governo-federal",
+      "tema_chave": "lula-projeto-teto-supersalarios-penduricalhos-judiciario",
+      "titulo": "Governo Lula avalia enviar projeto próprio para limitar supersalários na administração pública",
+      "fonte_url": "https://www.faroldabahia.com.br/noticia/governo-lula-avalia-enviar-projeto-proprio-para-limitar-supersalarios-na-administracao-publica",
+      "cves": [],
+      "texto": "Segundo a Folha, o governo Lula avalia enviar projeto próprio para regulamentar o teto de R$ 46,3 mil e barrar supersalários acima de R$ 100 mil, concentrados no Judiciário e no Legislativo. Por ora é só estudo. Penduricalho não acaba com estudo: acaba com projeto e voto.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-22T22:51:35+00:00"
+  "ultima_execucao": "2026-11-23T13:42:40+00:00"
 }
