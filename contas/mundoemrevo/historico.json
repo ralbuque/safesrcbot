@@ -863,7 +863,18 @@
       "cves": [],
       "texto": "Segundo o Estado-Maior ucraniano, drones atingiram a refinaria da Lukoil em Perm, a cerca de 1.450 km da fronteira, e danificaram três unidades de processamento. Uma estação de bombeamento no Tatarstão também foi alvo. Moscou financia a guerra com petróleo, e Kiev mira a fonte.",
       "status": "rascunho"
+    },
+    {
+      "id": "5cf757eb0e3ca36c",
+      "data": "2026-11-24T21:26:34+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "zelensky-novo-congresso-sancoes-bloomberg-24nov26",
+      "titulo": "Zelenskyy Wants Congress to Pressure Putin If Trump Can't Win Deal",
+      "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-draws-close-work-with-us-congress-if-trump-peace-plan-fails",
+      "cves": [],
+      "texto": "Zelensky disse à Bloomberg que, se Trump não convencer Putin a encerrar a guerra até o fim do ano, pedirá ao novo Congresso dos EUA, de maioria democrata a partir de janeiro, mais ajuda militar e sanções. Kiev quer paz, mas não só à custa da Ucrânia. Moscou só reage a pressão.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-24T11:18:57+00:00"
+  "ultima_execucao": "2026-11-24T21:26:34+00:00"
 }
