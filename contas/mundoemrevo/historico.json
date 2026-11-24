@@ -866,14 +866,16 @@
     },
     {
       "id": "5cf757eb0e3ca36c",
-      "data": "2026-11-24T21:26:34+00:00",
+      "data": "2026-11-24T23:04:48+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "zelensky-novo-congresso-sancoes-bloomberg-24nov26",
       "titulo": "Zelenskyy Wants Congress to Pressure Putin If Trump Can't Win Deal",
       "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-draws-close-work-with-us-congress-if-trump-peace-plan-fails",
       "cves": [],
-      "texto": "Zelensky disse à Bloomberg que, se Trump não convencer Putin a encerrar a guerra até o fim do ano, pedirá ao novo Congresso dos EUA, de maioria democrata a partir de janeiro, mais ajuda militar e sanções. Kiev quer paz, mas não só à custa da Ucrânia. Moscou só reage a pressão.",
-      "status": "rascunho"
+      "texto": "Zelensky disse à Bloomberg que, se Trump não convencer Putin a encerrar a guerra até o fim do ano, pedirá ao novo Congresso dos EUA, de maioria democrata a partir de janeiro, mais ajuda militar e sanções. Kyiv quer paz, mas não só à custa da Ucrânia. Moscou só reage a pressão.",
+      "status": "publicado",
+      "post_id": "2125365045039104490",
+      "issue": 243
     }
   ],
   "ultima_execucao": "2026-11-24T21:26:34+00:00"
