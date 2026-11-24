@@ -647,7 +647,20 @@
       "status": "publicado",
       "post_id": "2124866752819671258",
       "issue": 238
+    },
+    {
+      "id": "874725821d6004fd",
+      "data": "2026-11-24T01:15:44+00:00",
+      "categoria": "era-vargas",
+      "tema_chave": "revolta-comunista-natal-1935",
+      "titulo": "REVOLTA COMUNISTA DE 1935",
+      "fonte_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/revolta-comunista-de-1935",
+      "cves": [],
+      "texto": "1935: sargentos instalam em Natal um Comitê Popular Revolucionário. Duração: 4 dias. Rendeu a Vargas estado de sítio, Tribunal de Segurança Nacional e, em 1937, o Estado Novo. Pior retorno sobre investimento da história: um lado deu o levante, o outro levou a ditadura.",
+      "ano_evento": 1935,
+      "charge": "contas/palacioassombra/charges/874725821d6004fd.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-23T13:42:54+00:00"
+  "ultima_execucao": "2026-11-24T01:15:44+00:00"
 }
