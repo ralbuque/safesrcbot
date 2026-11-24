@@ -1089,7 +1089,21 @@
       "texto": "VMware vCenter: a Broadcom publicou o VMSA-2026-0009 para a CVE-2026-123890 (CVSS 9.8), já explorada em ataques desde setembro. Se runners de CI e ambientes de dev rodam em VMs sob vCenter, aplique as atualizações e revise acessos administrativos.\n\nhttps://www.igorslab.de/en/vmware-vcenter-critical-vulnerability-cve-2026-123890-actively-exploited-since-september-broadcom-releases-emergency-patches/",
       "status": "publicado",
       "post_id": "2124324297112178891"
+    },
+    {
+      "id": "4f307b8ca0931b80",
+      "data": "2026-11-24T01:15:44+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "idunno-anticsrf-aspnet-deserialization-cve-2026-131914",
+      "titulo": "Hackers Actively Exploit Critical ASP.NET Vulnerability to Execute Remote Code and Compromise Web Servers",
+      "fonte_url": "https://gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability/",
+      "cves": [
+        "CVE-2026-131914"
+      ],
+      "texto": "Idunno.AntiCsrf 0.9.1.0, lib anti-CSRF legada de ASP.NET, tem deserialização insegura (CVE-2026-131914, CVSS 9.3) e já é explorada, diz a Mandiant. O campo do form vai direto ao ObjectStateFormatter. Procure a DLL nos seus apps e remova/substitua.\n\nhttps://gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability/",
+      "status": "publicado",
+      "post_id": "2125035778472587480"
     }
   ],
-  "ultima_execucao": "2026-11-23T13:42:42+00:00"
+  "ultima_execucao": "2026-11-24T01:15:44+00:00"
 }
