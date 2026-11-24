@@ -852,7 +852,18 @@
       "status": "publicado",
       "post_id": "2124866809723535763",
       "issue": 237
+    },
+    {
+      "id": "bc2210fb899587a6",
+      "data": "2026-11-24T11:18:57+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "refinaria-perm-lukoil-kaleykino-23nov26",
+      "titulo": "Novoshakhtinsk, Perm oil refineries hit, General Staff confirms, Tatarstan pumping station reportedly burning after Ukrainian drone attack",
+      "fonte_url": "https://kyivindependent.com/novoshakhtinsk-oil-refinery-reportedly-burning-after-ukrainian-drone-attack",
+      "cves": [],
+      "texto": "Segundo o Estado-Maior ucraniano, drones atingiram a refinaria da Lukoil em Perm, a cerca de 1.450 km da fronteira, e danificaram três unidades de processamento. Uma estação de bombeamento no Tatarstão também foi alvo. Moscou financia a guerra com petróleo, e Kiev mira a fonte.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-23T13:42:45+00:00"
+  "ultima_execucao": "2026-11-24T11:18:57+00:00"
 }
