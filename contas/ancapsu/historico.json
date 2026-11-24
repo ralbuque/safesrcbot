@@ -945,7 +945,18 @@
       "cves": [],
       "texto": "Câmara aprovou por 353 a 128 o ajuste fiscal de Lula, sem mudar uma vírgula do texto do Senado. O pacote corta benefícios fiscais e limita compensação de créditos tributários. Ajuste que passa pelo bolso do contribuinte, enquanto o corte de gasto de verdade fica para depois.",
       "status": "rascunho"
+    },
+    {
+      "id": "4086bafbedb12295",
+      "data": "2026-11-24T21:26:33+00:00",
+      "categoria": "eleicoes-partidos",
+      "tema_chave": "marinho-alcolumbre-senado-lula-stf-desertores-pl",
+      "titulo": "Lula e STF apoiam Davi Alcolumbre na disputa pela presidência do Senado",
+      "fonte_url": "https://www.gazetadopovo.com.br/vida-e-cidadania/governo-lula-e-ministros-do-stf-articulam-apoio-para-davi-alcolumbre-no-senado/",
+      "cves": [],
+      "texto": "Segundo a Gazeta do Povo, Lula condiciona cargos do 4º mandato ao apoio a Alcolumbre, e ministros do STF o veem à frente de Marinho, cujo PL terá a maior bancada. Planalto e Supremo de olho na eleição do Senado: separação de Poderes, versão 2027.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-24T11:18:44+00:00"
+  "ultima_execucao": "2026-11-24T21:26:33+00:00"
 }
