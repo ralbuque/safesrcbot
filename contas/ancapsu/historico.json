@@ -963,14 +963,16 @@
     },
     {
       "id": "a7f2609d37ab5028",
-      "data": "2026-11-25T15:00:26+00:00",
+      "data": "2026-11-25T23:07:26+00:00",
       "categoria": "seguranca-publica",
       "tema_chave": "toffoli-tayaya-relatorio-pf-omite-resort-vorcaro",
       "titulo": "PF deixa de fora elo entre Vorcaro e Toffoli em relatório sobre ministros do STF",
       "fonte_url": "https://www.bnews.com.br/noticias/politica/pf-deixa-de-fora-elo-entre-vorcaro-e-toffoli-em-relatorio-sobre-ministros-do-stf.html",
       "cves": [],
       "texto": "Segundo o Globo, o relatório da PF sobre Toffoli e Vorcaro omite o resort Tayayá, citado mais de 20 vezes nas conversas do banqueiro com o cunhado. O termo nem entrou nas buscas. A PF nega omissões. Investigar sem procurar a palavra que mais aparece é método novo.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2125728094283780189",
+      "issue": 245
     }
   ],
   "ultima_execucao": "2026-11-25T15:00:26+00:00"
