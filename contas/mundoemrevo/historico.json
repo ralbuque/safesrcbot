@@ -889,7 +889,18 @@
       "status": "publicado",
       "post_id": "2125728005389742082",
       "issue": 246
+    },
+    {
+      "id": "607fc949d4250533",
+      "data": "2026-11-25T23:35:36+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "savasleyka-mig31-su34-base-aerea-25nov26",
+      "titulo": "Ukraine says it struck a major Russian air base, damaging five planes",
+      "fonte_url": "https://www.arabnews.com/world/ukraine-says-it-struck-a-major-russian-air-base-damaging-five-planes-3014040",
+      "cves": [],
+      "texto": "Segundo o Estado-Maior ucraniano, a base aérea de Savasleyka, em Níjni Novgorod, a 650–700 km da fronteira, foi atingida: três MiG-31 e dois Su-34 danificados. Moscou não comentou. Alvo certo: aviões que lançam mísseis e bombas contra cidades ucranianas.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-25T15:00:32+00:00"
+  "ultima_execucao": "2026-11-25T23:35:36+00:00"
 }
