@@ -677,7 +677,20 @@
       "status": "publicado",
       "post_id": "2125727538135663006",
       "issue": 247
+    },
+    {
+      "id": "2f69e7ad1fffe698",
+      "data": "2026-11-25T23:35:30+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "lei-sarney-lei-rouanet-collor-1991",
+      "titulo": "Lei Sarney foi pioneira no incentivo à cultura",
+      "fonte_url": "https://www12.senado.leg.br/noticias/materias/2011/12/20/lei-sarney-foi-pioneira-no-incentivo-a-cultura",
+      "cves": [],
+      "texto": "1990: Collor acaba com a Lei Sarney. 1991: sanciona a Lei Rouanet, cuja ementa diz que ela “restabelece princípios da Lei 7.505”. A 7.505 é a Lei Sarney. Não revogaram nada: foi rebranding com um ano de atraso e secretário novo.",
+      "ano_evento": 1991,
+      "charge": "contas/palacioassombra/charges/2f69e7ad1fffe698.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-25T15:00:35+00:00"
+  "ultima_execucao": "2026-11-25T23:35:30+00:00"
 }
