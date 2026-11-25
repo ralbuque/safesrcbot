@@ -926,14 +926,16 @@
     },
     {
       "id": "b6f72291e65b100c",
-      "data": "2026-11-24T01:15:35+00:00",
+      "data": "2026-11-25T23:08:00+00:00",
       "categoria": "economia",
       "tema_chave": "agu-contesta-liminar-dino-folgas-escala-6x1",
       "titulo": "AGU se manifesta contra liminar de Dino sobre fim da escala 6x1",
       "fonte_url": "https://www.infomoney.com.br/politica/agu-se-manifesta-contra-liminar-de-dino-sobre-fim-da-escala-6x1/",
       "cves": [],
       "texto": "A AGU pediu ao STF que reveja a liminar de Dino que flexibilizou os prazos de folga no fim da 6x1 e deixou o tema para acordo coletivo. Decreto de um lado, liminar do outro: a regra do descanso virou disputa entre Planalto e Supremo, a três semanas da vigência, em 16/12.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2125728238353695228",
+      "issue": 239
     },
     {
       "id": "0ce2392164e0db66",
