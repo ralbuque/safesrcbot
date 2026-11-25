@@ -1103,7 +1103,21 @@
       "texto": "Idunno.AntiCsrf 0.9.1.0, lib anti-CSRF legada de ASP.NET, tem deserialização insegura (CVE-2026-131914, CVSS 9.3) e já é explorada, diz a Mandiant. O campo do form vai direto ao ObjectStateFormatter. Procure a DLL nos seus apps e remova/substitua.\n\nhttps://gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability/",
       "status": "publicado",
       "post_id": "2125035778472587480"
+    },
+    {
+      "id": "0a5f02602f74fed5",
+      "data": "2026-11-25T15:00:38+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "drupal-core-installer-rce-cve-2026-132165-kev",
+      "titulo": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "fonte_url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "texto": "Drupal core: a CVE-2026-132165, falha crítica no instalador que permite RCE, já é explorada e entrou no CISA KEV. Drupal elevou a gravidade para \"highly critical\". Foi achada pelo OSS Scanner da Anthropic. Atualize o core o quanto antes.\n\nhttps://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "status": "publicado",
+      "post_id": "2125605799720579579"
     }
   ],
-  "ultima_execucao": "2026-11-24T21:26:34+00:00"
+  "ultima_execucao": "2026-11-25T15:00:38+00:00"
 }
