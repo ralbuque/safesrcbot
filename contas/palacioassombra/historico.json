@@ -665,7 +665,7 @@
     },
     {
       "id": "c50ba06467c894ce",
-      "data": "2026-11-25T15:00:35+00:00",
+      "data": "2026-11-25T23:05:14+00:00",
       "categoria": "republica-velha",
       "tema_chave": "aperte-o-botao-chiquinha-floriano-1893",
       "titulo": "Chiquinha Gonzaga (Enciclopédia Itaú Cultural)",
@@ -674,7 +674,9 @@
       "texto": "1893, Revolta da Armada: esquadra rebelde na Baía de Guanabara e o Marechal de Ferro, preocupadíssimo, manda apreender uma partitura. Chiquinha Gonzaga fez a cançoneta \"Aperte o Botão\" e levou ordem de prisão. Maior ameaça ao governo Floriano: o piano.",
       "ano_evento": 1893,
       "charge": "contas/palacioassombra/charges/c50ba06467c894ce.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2125727538135663006",
+      "issue": 247
     }
   ],
   "ultima_execucao": "2026-11-25T15:00:35+00:00"
