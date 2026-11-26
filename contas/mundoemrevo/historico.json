@@ -902,7 +902,18 @@
       "status": "publicado",
       "post_id": "2125914301366260137",
       "issue": 248
+    },
+    {
+      "id": "9d100b39180726fd",
+      "data": "2026-11-26T15:50:29+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "ataque-balistico-kharkiv-kyiv-26nov26",
+      "titulo": "Russia launches ballistic missile and drone barrage on Ukraine, killing at least three",
+      "fonte_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three",
+      "cves": [],
+      "texto": "Na madrugada, a Rússia disparou mísseis Iskander-M, Zircon e S-400 e 113 drones, segundo a Ucrânia; 87 alvos foram abatidos. Em Kharkiv, prédios residenciais e uma escola foram atingidos, com ao menos 3 mortos; em Kyiv, 7 feridos. Atacar civis não é 'operação militar': é terror.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-25T23:35:36+00:00"
+  "ultima_execucao": "2026-11-26T15:50:29+00:00"
 }
