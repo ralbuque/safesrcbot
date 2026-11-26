@@ -978,14 +978,16 @@
     },
     {
       "id": "3b9feb6a28ac158b",
-      "data": "2026-11-26T15:50:19+00:00",
+      "data": "2026-11-26T21:21:17+00:00",
       "categoria": "governo-federal",
       "tema_chave": "cni-adi-decreto-portaria-5x2-governo-lula",
       "titulo": "CNI pede ao STF suspensão de regras do governo Lula para escala 5×2",
       "fonte_url": "https://www.gazetadopovo.com.br/economia/cni-pede-suspensao-de-regras-do-governo-lula-para-escala-5x2/",
       "cves": [],
       "texto": "A CNI pediu ao STF, na terça (24), a suspensão do decreto e da portaria do governo Lula sobre a escala 5x2. Diz que o Planalto extrapolou ao fixar por ato próprio o que cabe ao Congresso. Mudar a jornada de trabalho do país na canetada: o Legislativo virou figurante.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2126063769780634023",
+      "issue": 250
     }
   ],
   "ultima_execucao": "2026-11-26T15:50:19+00:00"
