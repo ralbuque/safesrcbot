@@ -692,7 +692,20 @@
       "status": "publicado",
       "post_id": "2125913906841329969",
       "issue": 249
+    },
+    {
+      "id": "98d6bf12e5379d2c",
+      "data": "2026-11-26T15:50:16+00:00",
+      "categoria": "populismo-1946-1964",
+      "tema_chave": "guerra-da-lagosta-1963",
+      "titulo": "Guerra da Lagosta",
+      "fonte_url": "https://pt.wikipedia.org/wiki/Guerra_da_Lagosta",
+      "cves": [],
+      "texto": "1963, Guerra da Lagosta: a França manda navio de guerra alegando que lagosta nada. O Brasil manda a Marinha alegando que ela anda. Em 1964, acordo: pescam juntos e dividem. Nadando ou andando, a lagosta chegou igual na panela.",
+      "ano_evento": 1963,
+      "charge": "contas/palacioassombra/charges/98d6bf12e5379d2c.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-25T23:35:30+00:00"
+  "ultima_execucao": "2026-11-26T15:50:16+00:00"
 }
