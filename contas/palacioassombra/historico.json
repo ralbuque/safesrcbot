@@ -707,7 +707,20 @@
       "status": "publicado",
       "post_id": "2126063613454717100",
       "issue": 252
+    },
+    {
+      "id": "2e3e45a5161c740c",
+      "data": "2026-11-27T00:32:07+00:00",
+      "categoria": "nova-republica",
+      "tema_chave": "levy-bradesco-fazenda-dilma-2014",
+      "titulo": "Joaquim Levy assume a Fazenda e Nelson Barbosa vai para o Planejamento",
+      "fonte_url": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-11/joaquim-levy-assume-fazenda-e-nelson-barbosa-o-planejamento",
+      "cves": [],
+      "texto": "Campanha 2014: propaganda de Dilma mostra banqueiros sorrindo e a mesa do brasileiro esvaziando. 27/11/2014: Dilma nomeia para a Fazenda o presidente da gestora do Bradesco. Banqueiro só tira comida da mesa quando trabalha pra oposição.",
+      "ano_evento": 2014,
+      "charge": "contas/palacioassombra/charges/2e3e45a5161c740c.jpg",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-26T15:50:16+00:00"
+  "ultima_execucao": "2026-11-27T00:32:07+00:00"
 }
