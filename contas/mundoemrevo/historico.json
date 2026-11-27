@@ -913,7 +913,18 @@
       "cves": [],
       "texto": "Na madrugada, a Rússia disparou mísseis Iskander-M, Zircon e S-400 e 113 drones, segundo a Ucrânia; 87 alvos foram abatidos. Em Kharkiv, prédios residenciais e uma escola foram atingidos, com ao menos 3 mortos; em Kyiv, 7 feridos. Atacar civis não é 'operação militar': é terror.",
       "status": "rascunho"
+    },
+    {
+      "id": "0a6c22422f3698ec",
+      "data": "2026-11-27T00:32:04+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "zelensky-alerta-ataque-rede-eletrica-kushner-contencao-26nov26",
+      "titulo": "Zelenskyy warns of imminent major Russian attack on Ukraine's power grid",
+      "fonte_url": "https://www.pbs.org/newshour/world/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid",
+      "cves": [],
+      "texto": "Zelensky diz, com base em inteligência ucraniana, que a Rússia finaliza novo ataque maciço à rede elétrica e à logística. No mesmo dia, Kushner disse que Putin mostrou contenção ao aceitar não usar armas nucleares. Em Kiev, o que há é a rede sob ataque na antessala do inverno.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-26T15:50:29+00:00"
+  "ultima_execucao": "2026-11-27T00:32:04+00:00"
 }
