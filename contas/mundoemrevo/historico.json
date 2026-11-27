@@ -927,14 +927,16 @@
     },
     {
       "id": "a6bde92ae99179b2",
-      "data": "2026-11-27T09:08:28+00:00",
+      "data": "2026-11-27T18:47:52+00:00",
       "categoria": "ucrania-russia",
       "tema_chave": "lukashenko-escolta-zelensky-moscou-mala-25nov26",
       "titulo": "'Am I a Suitcase?' Zelensky Ridicules Lukashenko's Offer to Personally Escort Him to Moscow",
       "fonte_url": "https://www.kyivpost.com/post/91100",
       "cves": [],
       "texto": "Lukashenko se ofereceu para levar Zelensky a Moscou e garantir sua segurança. Zelensky ironizou, perguntando se era uma mala, e ofereceu garantias a Putin e Lukashenko em Kyiv. Leitura: escolta de aliado do agressor não é diplomacia. Se Putin quer paz, que pare os ataques.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2126387547123360199",
+      "issue": 256
     }
   ],
   "ultima_execucao": "2026-11-27T09:08:28+00:00"
