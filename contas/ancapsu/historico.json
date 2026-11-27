@@ -991,14 +991,16 @@
     },
     {
       "id": "570ee26f4c64919f",
-      "data": "2026-11-27T00:32:11+00:00",
+      "data": "2026-11-27T18:49:29+00:00",
       "categoria": "economia",
       "tema_chave": "trabuco-bradesco-ministro-fazenda-lula-4",
       "titulo": "Trabuco, do Bradesco, aceita convite de Lula para assumir Ministério da Fazenda, diz Planalto",
       "fonte_url": "https://www.bemparana.com.br/noticias/politica/trabuco-do-bradesco-aceita-convite-de-lula-para-assumir-ministerio-da-fazenda-diz-planalto/",
       "cves": [],
       "texto": "Lula anunciou Trabuco, presidente do conselho do Bradesco, para a Fazenda em 2027. Ações do banco saltaram 13,9% na Bolsa. O PT que chamava a Faria Lima de inimigo entrega o cofre a um banqueiro, e o mercado comemora. Ajuste fiscal com cara de Lula 4.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2126387953538867604",
+      "issue": 253
     }
   ],
   "ultima_execucao": "2026-11-27T00:32:11+00:00"
