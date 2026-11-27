@@ -1001,7 +1001,18 @@
       "status": "publicado",
       "post_id": "2126387953538867604",
       "issue": 253
+    },
+    {
+      "id": "b5e66965d730429e",
+      "data": "2026-11-27T19:06:49+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "moraes-241-voos-fab-metropoles-lai",
+      "titulo": "Governo emprestou jato da FAB a Alexandre de Moraes 241 vezes desde 2023",
+      "fonte_url": "https://www.metropoles.com/colunas/tacio-lorran/alexandre-de-moraes-voos-fab",
+      "cves": [],
+      "texto": "Metrópoles, com dados da Aeronáutica: Moraes usou jatos da FAB 241 vezes desde 2023, um voo a cada cinco dias; 229 entre Brasília e São Paulo. O STF cita segurança. No site da FAB, o voo consta só como \"à disposição do ministro da Defesa\". Transparência é outra história.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-27T00:32:11+00:00"
+  "ultima_execucao": "2026-11-27T19:06:49+00:00"
 }
