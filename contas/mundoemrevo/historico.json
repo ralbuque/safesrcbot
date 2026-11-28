@@ -948,7 +948,18 @@
       "cves": [],
       "texto": "Segundo a inteligência militar ucraniana (HUR), a Coreia do Norte suspendeu o envio de mísseis KN-23 e munição de artilharia à Rússia e vetou voos militares russos em seu espaço aéreo. Fontes oficiais russas não citam o atrito. Se confirmado, é revés para a logística de Putin.",
       "status": "rascunho"
+    },
+    {
+      "id": "59087c4da88db51f",
+      "data": "2026-11-28T10:15:21+00:00",
+      "categoria": "ucrania-russia",
+      "tema_chave": "zelensky-bbc-amigo-putin-estranho-27nov26",
+      "titulo": "Trump defends Putin friendship that Zelensky calls 'strange'",
+      "fonte_url": "https://www.washingtonpost.com/world/2026/11/27/trump-defends-putin-friendship-that-zelensky-calls-strange/",
+      "cves": [],
+      "texto": "Zelensky disse à BBC que é \"estranho\" Trump chamar Putin de amigo e comparou a ser amigo de Hitler na 2ª Guerra. Trump culpou o \"ódio\" dos dois líderes. Pôr agressor e vítima no mesmo plano não traz paz: quem invadiu é quem pode encerrar a guerra.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-27T19:06:51+00:00"
+  "ultima_execucao": "2026-11-28T10:15:21+00:00"
 }
