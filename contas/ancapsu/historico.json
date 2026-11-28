@@ -1023,7 +1023,18 @@
       "cves": [],
       "texto": "Segundo reportagem, Lula pode criar os ministérios da Segurança Pública e do Idoso e ir de 38 para 40 pastas, superando o recorde de Dilma (39). Pede sacrifício com ajuste fiscal e infla a Esplanada. Ministério novo não prende bandido; a conta é do contribuinte.",
       "status": "rascunho"
+    },
+    {
+      "id": "f551225f909554ee",
+      "data": "2026-11-28T10:15:19+00:00",
+      "categoria": "stf-judiciario",
+      "tema_chave": "bolsonaro-uti-boletim-27nov-melhora-visita-tcu-moraes",
+      "titulo": "Bolsonaro tem melhora clínica, mas segue sem previsão de alta, diz boletim",
+      "fonte_url": "https://www.metropoles.com/brasil/bolsonaro-tem-melhora-clinica-mas-segue-sem-previsao-de-alta-diz-boletim",
+      "cves": [],
+      "texto": "Bolsonaro completa uma semana internado, ainda na UTI com suboclusão intestinal e broncopneumonia. O boletim de sexta aponta melhora, sem previsão de alta. Até a visita de um ministro do TCU ao hospital precisou do aval de Moraes. Que ele se recupere logo.",
+      "status": "rascunho"
     }
   ],
-  "ultima_execucao": "2026-11-28T01:57:05+00:00"
+  "ultima_execucao": "2026-11-28T10:15:19+00:00"
 }
