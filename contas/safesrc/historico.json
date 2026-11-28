@@ -1117,7 +1117,23 @@
       "texto": "Drupal core: a CVE-2026-132165, falha crítica no instalador que permite RCE, já é explorada e entrou no CISA KEV. Drupal elevou a gravidade para \"highly critical\". Foi achada pelo OSS Scanner da Anthropic. Atualize o core o quanto antes.\n\nhttps://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
       "status": "publicado",
       "post_id": "2125605799720579579"
+    },
+    {
+      "id": "3fee6348fd6fbfb2",
+      "data": "2026-11-28T18:19:59+00:00",
+      "categoria": "vulnerabilidade",
+      "tema_chave": "cisa-kev-geoserver-cve-2026-129243-drupal-cve-2026-136716",
+      "titulo": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "fonte_url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "cves": [
+        "CVE-2026-120705",
+        "CVE-2026-129243",
+        "CVE-2026-136716"
+      ],
+      "texto": "CISA incluiu no KEV três falhas exploradas: GeoServer CVE-2026-120705 (XML injection) e CVE-2026-129243 (autorização incorreta), e Drupal Core CVE-2026-136716. Quem mantém esses serviços deve aplicar as versões corrigidas e checar exposição à internet.\n\nhttps://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "status": "publicado",
+      "post_id": "2126743091982008610"
     }
   ],
-  "ultima_execucao": "2026-11-28T01:57:02+00:00"
+  "ultima_execucao": "2026-11-28T18:19:59+00:00"
 }
