@@ -1015,14 +1015,16 @@
     },
     {
       "id": "036c007425ef9765",
-      "data": "2026-11-28T01:57:05+00:00",
+      "data": "2026-11-28T19:32:22+00:00",
       "categoria": "governo-federal",
       "tema_chave": "lula4-40-ministerios-recorde-dilma",
       "titulo": "Haddad fica fora do ministério de Lula, diz jornal; quem são os cotados para a Casa Civil e a Fazenda",
       "fonte_url": "https://ndmais.com.br/politica/haddad-fora-ministerio-lula-cotados-casa-civil-fazenda/",
       "cves": [],
       "texto": "Segundo reportagem, Lula pode criar os ministérios da Segurança Pública e do Idoso e ir de 38 para 40 pastas, superando o recorde de Dilma (39). Pede sacrifício com ajuste fiscal e infla a Esplanada. Ministério novo não prende bandido; a conta é do contribuinte.",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2126761135483527171",
+      "issue": 259
     },
     {
       "id": "f551225f909554ee",
