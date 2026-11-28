@@ -725,7 +725,7 @@
     },
     {
       "id": "dfaac45810cceae9",
-      "data": "2026-11-28T01:57:03+00:00",
+      "data": "2026-11-28T19:32:00+00:00",
       "categoria": "imperio",
       "tema_chave": "coroacao-pedro-i-imperador-constitucional-1822",
       "titulo": "Há 200 anos, Dom Pedro I era coroado Imperador do Brasil",
@@ -734,7 +734,9 @@
       "texto": "1º/12/1822: Pedro I é coroado \"Imperador Constitucional\". Constituição mesmo só em 1824, outorgada por ele, com Poder Moderador. Primeiro caso de termos de uso que o cliente aceita sem ler e que só o vendedor pode alterar.",
       "ano_evento": 1822,
       "charge": "contas/palacioassombra/charges/dfaac45810cceae9.jpg",
-      "status": "rascunho"
+      "status": "publicado",
+      "post_id": "2126761042373984758",
+      "issue": 260
     }
   ],
   "ultima_execucao": "2026-11-28T01:57:03+00:00"
